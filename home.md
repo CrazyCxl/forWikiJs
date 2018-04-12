@@ -4,6 +4,11 @@
 # Technology
 
 Include:
-- Coding
+- Programming
 - Tools
 - Linux
+
+
+# Record
+
+waiting...
