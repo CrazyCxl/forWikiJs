@@ -37,7 +37,7 @@ PORT_TYPE:
 
 定时任务
 ---
-###命令`crontab`
+### 命令`crontab`
 ![crontab格式说明](http://img.blog.csdn.net/20160804170302727)
 参数：
 
@@ -71,7 +71,7 @@ PORT_TYPE:
 ===
 使用locate查询库位置
 ---
-###示例：
+### 示例：
 >locate xxx.so
 
 输出
