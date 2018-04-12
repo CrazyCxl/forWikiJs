@@ -4,6 +4,6 @@
 # Technology
 
 Include:
-- Coding notes
-- Tools's notes
-- Linux's notes
+- Coding
+- Tools
+- Linux
