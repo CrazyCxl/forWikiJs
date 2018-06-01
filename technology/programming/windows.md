@@ -1,6 +1,8 @@
 <!-- TITLE: Windows -->
 <!-- SUBTITLE: Windows 下的编程问题 -->
 
+# NSIS打包工具
+官网：http://nsis.sourceforge.net/Main_Page
 
 # 库相关
 ## DLL库信息与依赖查看
