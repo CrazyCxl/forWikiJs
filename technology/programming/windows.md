@@ -15,7 +15,7 @@ dependencywalker 工具：http://www.dependencywalker.com/
 
 ## Q&A
 
-vs运行qt程序时相对路径访问失败
+Q: vs运行qt程序时相对路径访问失败
 >vs 默认当前目录为工程目录，而不是可自行程序所在的目录
 
 [^dll_error]:https://stackoverflow.com/questions/22354639/loading-library-with-dependency-with-qlibrary
