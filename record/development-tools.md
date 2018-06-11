@@ -6,6 +6,7 @@
 
 - [Bandizip](https://www.bandisoft.com/bandizip/) 解压工具
 - [notpad++ ](https://notepad-plus-plus.org/) 文档编辑器*（带有比较插件）*
+- [putty](https://www.putty.org/) ssh连接
 
 ## 常见问题
 ### Wireshark 无法发现网卡[^wireshark]
