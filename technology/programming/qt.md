@@ -1,6 +1,14 @@
 <!-- TITLE: Qt -->
 <!-- SUBTITLE: A quick summary of Qt -->
 
+# 发布
+## Windows下的依赖
+参考：http://doc.qt.io/qt-5/windows-deployment.html
+
+使用QTDIR/bin/windeployqt 工具来自动打包dll文件
+
+如果为qml项目，则需要用--qmldir参数来指定qml目录
+
 # 常见问题
 ## 自定义控件的stylesheet未生效
 ### 解决方案一
