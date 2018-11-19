@@ -2,6 +2,13 @@
 <!-- SUBTITLE: for新环境搭建 -->
 
 # Windows
+## 激活专业版
+```
+slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX
+slmgr /skms zh.us.to
+slmgr /ato
+```
+
 ## 常用工具
 
 - [Bandizip](https://www.bandisoft.com/bandizip/) 解压工具
