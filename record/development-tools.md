@@ -16,6 +16,7 @@ slmgr /ato
 - [putty](https://www.putty.org/) ssh连接
 - [Qt](https://download.qt.io/archive/) qt各个版本的下载地址
 - [potplayer](https://potplayer.daum.net/) 视频播放器
+- [postman](https://www.getpostman.com/apps) REST调试工具
 
 ## 常见问题
 ### Wireshark 无法发现网卡[^wireshark]
