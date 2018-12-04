@@ -18,6 +18,9 @@ slmgr /ato
 - [potplayer](https://potplayer.daum.net/) 视频播放器
 - [postman](https://www.getpostman.com/apps) REST调试工具
 - [webtorrent](https://webtorrent.io/)
+- [天若OCR截图文字识别](https://pan.baidu.com/s/1IHn8G0ieIWVCH7qVvNdjoQ)
+- QuickLook
+
 
 ## 常见问题
 ### Wireshark 无法发现网卡[^wireshark]
