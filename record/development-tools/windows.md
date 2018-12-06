@@ -1,6 +1,13 @@
 <!-- TITLE: Windows -->
 <!-- SUBTITLE: Windows 下的编程问题 -->
 
+# VS 相关
+## 使用 **Microsoft Visual Studio 2017 Installer Projects** 打包时卡在正在准备安装这一步
+
+环境Win10 vs2017 vs2013
+
+通过事件日志可以看出缺少 **C:\Windows\Microsoft.NET\Framework\URTInstallPath_GAC** 目录，创建该目录即可
+
 # NSIS打包工具
 官网：http://nsis.sourceforge.net/Main_Page
 
