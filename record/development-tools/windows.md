@@ -6,7 +6,7 @@
 
 环境Win10 vs2017 vs2013
 
-通过事件日志可以看出缺少 **C:\Windows\Microsoft\.NET\Framework\URTInstallPath_GAC** 目录，创建该目录即可
+通过事件日志可以看出缺少 ```C:\Windows\Microsoft.NET\Framework\URTInstallPath_GAC``` 目录，创建该目录即可
 
 # NSIS打包工具
 官网：http://nsis.sourceforge.net/Main_Page
