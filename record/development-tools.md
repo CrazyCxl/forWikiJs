@@ -28,6 +28,10 @@ slmgr /ato
 以管理员运行命令行开启npf
 >net start npf
 
+#### 启动失败报错“发生系统错误 123 文件名、目录名或卷标语法不正确”
+
+重新安装 [npcap](https://nmap.org/npcap/#download)
+
 关闭npf
 >net stop npf
 
