@@ -9,7 +9,36 @@
 
 如果为qml项目，则需要用--qmldir参数来指定qml目录
 
-# 常见问题
+# QML
+## 编辑qml文件时提示错误 “module not found”
+在pro文件中加入QML_IMPORT_PATH地址，改地址为对应qt编译器下的qml目录地址[^qml_import]
+
+示例
+>QML_IMPORT_PATH = D:\Qt\5.10.1\msvc2017_64\qml
+
+## MouseArea事件向下层传递[^mouse_area]
+示例代码：
+```
+RowLayout {
+    TextEdit { text: "Hi" }
+    Slider {}
+    CheckBox { text: "CheckBox"}
+
+    MouseArea {
+        anchors.fill: parent
+        propagateComposedEvents: true
+
+        onClicked: mouse.accepted = false;
+        onPressed: mouse.accepted = false;
+        onReleased: mouse.accepted = false;
+        onDoubleClicked: mouse.accepted = false;
+        onPositionChanged: mouse.accepted = false;
+        onPressAndHold: mouse.accepted = false;
+    }
+}
+```
+
+# Widget
 ## 自定义控件的stylesheet未生效
 ### 解决方案一
 在控件类的内部调用setStylesheet方法
@@ -27,11 +56,6 @@
  }
  ```
 
-## 编辑qml文件时提示错误 “module not found”
-在pro文件中加入QML_IMPORT_PATH地址，改地址为对应qt编译器下的qml目录地址[^qml_import]
-
-示例
->QML_IMPORT_PATH = D:\Qt\5.10.1\msvc2017_64\qml
-
 [^paint_widget]:https://stackoverflow.com/questions/7276330/qt-stylesheet-for-custom-widget
- [^qml_import]:http://doc.qt.io/qtcreator/creator-qml-modules-with-plugins.html#importing-qml-modules
+[^qml_import]:http://doc.qt.io/qtcreator/creator-qml-modules-with-plugins.html#importing-qml-modules
+[^mouse_area]:https://stackoverflow.com/questions/16183408/mousearea-stole-qml-elements-mouse-events
