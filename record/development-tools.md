@@ -20,7 +20,7 @@ slmgr /ato
 - [webtorrent](https://webtorrent.io/)
 - [天若OCR截图文字识别](https://pan.baidu.com/s/1IHn8G0ieIWVCH7qVvNdjoQ)
 - QuickLook
-
+- [dependency](http://www.dependencywalker.com/) dll解析工具
 
 ## 常见问题
 ### Wireshark 无法发现网卡[^wireshark]
