@@ -1,6 +1,9 @@
 <!-- TITLE: Mac -->
 <!-- SUBTITLE: A quick summary of Mac -->
 
+# 使用nm命令解析符号表
+>nm path/xxx.a
+
 # 发布Qt程序
 参考：http://doc.qt.io/qt-5/osx-deployment.html
 
