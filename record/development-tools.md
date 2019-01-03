@@ -22,6 +22,8 @@ slmgr /ato
 - QuickLook
 - [dependency](http://www.dependencywalker.com/) dll解析工具
 
+System Or Office下载：https://msdn.itellyou.cn/
+
 ## 常见问题
 ### Wireshark 无法发现网卡[^wireshark]
 
