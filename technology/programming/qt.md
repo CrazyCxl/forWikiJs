@@ -9,6 +9,12 @@
 
 如果为qml项目，则需要用--qmldir参数来指定qml目录
 
+## 打包包含WebEngine项目后无法运行的问题
+解决方法：
+>将QtWebEngine的import放在最前
+
+参考：https://forum.qt.io/topic/81587/qt-5-9-5-9-1-qtwebengine-not-installed-after-qtwindeploy
+
 # QML
 ## 编辑qml文件时提示错误 “module not found”
 在pro文件中加入QML_IMPORT_PATH地址，改地址为对应qt编译器下的qml目录地址[^qml_import]
