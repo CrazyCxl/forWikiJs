@@ -6,6 +6,9 @@
 apt相关
 ---
 ### 查询类
+查找安装包
+>apt-cache search keyword
+
 列出包文件列表
 >apt-file list name
 dpkg -L name
