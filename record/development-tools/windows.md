@@ -16,6 +16,12 @@
 
 dependencywalker 工具：http://www.dependencywalker.com/
 
+或者使用vs自带的工具[^vs_dll_tool]
+```
+dumpbin   /LINKERMEMBER   *.lib   >   1.txt
+dumpbin   /EXPORTS  *.dll  >1.tx
+```
+
 ## Qt使用QLibary加载dll库失败[^dll_error]
 
 使用 `SetDllDirectory`[^dll_lib] 后再加载
@@ -30,3 +36,4 @@ Q: qt开启调试失败
 
 [^dll_error]:https://stackoverflow.com/questions/22354639/loading-library-with-dependency-with-qlibrary
 [^dll_lib]:https://msdn.microsoft.com/en-us/library/ms686203%28VS.85%29.aspx
+[^vs_dll_tool]:https://blog.csdn.net/linuxheik/article/details/80494846
