@@ -21,6 +21,7 @@ slmgr /ato
 - [天若OCR截图文字识别](https://pan.baidu.com/s/1IHn8G0ieIWVCH7qVvNdjoQ)
 - QuickLook
 - [dependency](http://www.dependencywalker.com/) dll解析工具
+- [matlab](https://blog.csdn.net/josslyn/article/details/79898261)
 
 System Or Office下载：https://msdn.itellyou.cn/
 
