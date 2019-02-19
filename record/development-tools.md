@@ -18,6 +18,7 @@ slmgr /ato
 - [potplayer](https://potplayer.daum.net/) 视频播放器
 - [postman](https://www.getpostman.com/apps) REST调试工具
 - [webtorrent](https://webtorrent.io/)
+- [FDM](http://www.freedownloadmanager.org/download.htm) 下载工具
 - [天若OCR截图文字识别](https://pan.baidu.com/s/1IHn8G0ieIWVCH7qVvNdjoQ)
 - QuickLook
 - [dependency](http://www.dependencywalker.com/) dll解析工具
