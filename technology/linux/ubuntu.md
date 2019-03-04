@@ -16,6 +16,9 @@ dpkg -L name
 列出已安装软件列表
 >dpkg -l
 
+搜索文件所在安装包
+>dpkg -S /path/to/file
+
 deb包与rpm包互转
 ---
 参考：https://www.tecmint.com/convert-from-rpm-to-deb-and-deb-to-rpm-package-using-alien/
