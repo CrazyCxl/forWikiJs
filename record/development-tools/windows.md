@@ -1,6 +1,11 @@
 <!-- TITLE: Windows -->
 <!-- SUBTITLE: Windows 下的编程问题 -->
 
+# Powershell
+## 查看历史
+>(Get-PSReadlineOption).HistorySavePath
+cat (Get-PSReadlineOption).HistorySavePath
+
 # VS 相关
 ## 使用 **Microsoft Visual Studio 2017 Installer Projects** 打包时卡在正在准备安装这一步
 
