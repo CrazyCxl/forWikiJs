@@ -23,8 +23,14 @@ dependencywalker 工具：http://www.dependencywalker.com/
 
 或者使用vs自带的工具[^vs_dll_tool]
 ```
+查看lib信息
 dumpbin   /LINKERMEMBER   *.lib   >   1.txt
+
+查看dll信息
 dumpbin   /EXPORTS  *.dll  >1.tx
+
+查看是32还是64位
+dumpbin   /HEADERS  filename
 ```
 
 ## Qt使用QLibary加载dll库失败[^dll_error]
