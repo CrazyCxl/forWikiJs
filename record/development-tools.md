@@ -25,7 +25,7 @@ slmgr /ato
 - [matlab](https://blog.csdn.net/josslyn/article/details/79898261)
 - [graphviz](http://www.graphviz.org/download/) 可视化工具
 - [everything](https://www.voidtools.com/zh-cn/) windows全盘搜索工具
-
+- [WinDirStat](https://windirstat.en.softonic.com/) 磁盘文件分析工具
 System Or Office下载：https://msdn.itellyou.cn/
 
 ## 常见问题
