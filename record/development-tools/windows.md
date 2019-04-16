@@ -45,6 +45,9 @@ Q: vs运行qt程序时相对路径访问失败
 Q: qt开启调试失败
 >下载[wdk](https://docs.microsoft.com/en-us/windows-hardware/drivers/download-the-wdk) *( Windows Driver Kit )* 
 
+Q: 调用dll中的函数后发生堆栈溢出或非法访问等错误
+>可以是dll是win api方式打包成的（用dumpbin工具查看dll中是否有@4类似的参数字节数提示），此时需要在头文件中声明函数为 **_stdcall** 调用协议
+
 [^dll_error]:https://stackoverflow.com/questions/22354639/loading-library-with-dependency-with-qlibrary
 [^dll_lib]:https://msdn.microsoft.com/en-us/library/ms686203%28VS.85%29.aspx
 [^vs_dll_tool]:https://blog.csdn.net/linuxheik/article/details/80494846
