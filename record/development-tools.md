@@ -26,6 +26,7 @@ slmgr /ato
 - [graphviz](http://www.graphviz.org/download/) 可视化工具
 - [everything](https://www.voidtools.com/zh-cn/) windows全盘搜索工具
 - [WinDirStat](https://windirstat.en.softonic.com/) 磁盘文件分析工具
+- [snipaste] 取色截图工具
 
 System Or Office下载：https://msdn.itellyou.cn/
 
