@@ -20,13 +20,14 @@ slmgr /ato
 - [webtorrent](https://webtorrent.io/)
 - [FDM](http://www.freedownloadmanager.org/download.htm) 下载工具
 - [天若OCR截图文字识别](https://pan.baidu.com/s/1IHn8G0ieIWVCH7qVvNdjoQ)
-- QuickLook
 - [dependency](http://www.dependencywalker.com/) dll解析工具
 - [matlab](https://blog.csdn.net/josslyn/article/details/79898261)
 - [graphviz](http://www.graphviz.org/download/) 可视化工具
 - [everything](https://www.voidtools.com/zh-cn/) windows全盘搜索工具
 - [WinDirStat](https://windirstat.en.softonic.com/) 磁盘文件分析工具
+- [geekuninstaller](https://geekuninstaller.com/download) 卸载工具
 - snipaste 取色截图工具
+- QuickLook
 
 System Or Office下载：https://msdn.itellyou.cn/
 
