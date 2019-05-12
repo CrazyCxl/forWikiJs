@@ -9,6 +9,12 @@ slmgr /skms zh.us.to
 slmgr /ato
 ```
 
+## 激活office 2015
+```
+cscript ospp.vbs /sethst:vpn.sibogao.cn
+cscript ospp.vbs /act
+```
+
 ## 常用工具
 
 - [Bandizip](https://www.bandisoft.com/bandizip/) 解压工具
