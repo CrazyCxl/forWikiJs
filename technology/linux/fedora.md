@@ -12,6 +12,8 @@ firewall-cmd --reload
 firewall-cmd --zone=public --remove-port=8085/tcp
 firewall-cmd --runtime-to-permanent
 firewall-cmd --reload
+firewall-cmd --list-all
+firewall-cmd --list-all-zones
 
 ### SELinux
 列出端口标签：
