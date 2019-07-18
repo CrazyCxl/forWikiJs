@@ -32,6 +32,7 @@ cscript ospp.vbs /act
 - [everything](https://www.voidtools.com/zh-cn/) windows全盘搜索工具
 - [WinDirStat](https://windirstat.en.softonic.com/) 磁盘文件分析工具
 - [geekuninstaller](https://geekuninstaller.com/download) 卸载工具
+- [Rufus](https://rufus.ie/) U盘引导盘制作工具
 - snipaste 取色截图工具
 - QuickLook
 
