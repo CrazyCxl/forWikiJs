@@ -8,6 +8,7 @@ cat (Get-PSReadlineOption).HistorySavePath
 
 ## 查看文件md5
 certutil -hashfile .\libtest.1.dylib md5
+Get-Filehash -Path .\libtest.a -Algorithm MD5
 
 # VS 相关
 ## 使用 **Microsoft Visual Studio 2017 Installer Projects** 打包时卡在正在准备安装这一步
