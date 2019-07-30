@@ -10,6 +10,9 @@ cat (Get-PSReadlineOption).HistorySavePath
 certutil -hashfile .\libtest.1.dylib md5
 Get-Filehash -Path .\libtest.a -Algorithm MD5
 
+## 转化为utf8编码的窗口
+chcp 65001
+
 # VS 相关
 ## 使用 **Microsoft Visual Studio 2017 Installer Projects** 打包时卡在正在准备安装这一步
 
