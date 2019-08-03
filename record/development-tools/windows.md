@@ -4,7 +4,7 @@
 # 快捷键
 ## Win + R
 ### 打开启动项目录
-shell:startup
+> shell:startup
 
 # Powershell
 ## 查看历史
