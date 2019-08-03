@@ -25,6 +25,7 @@ cscript ospp.vbs /act
 - [postman](https://www.getpostman.com/apps) REST调试工具
 - [webtorrent](https://webtorrent.io/)
 - [FDM](http://www.freedownloadmanager.org/download.htm) 下载工具
+- [EagleGet](http://www.eagleget.com/) 下载工具
 - [天若OCR截图文字识别](https://pan.baidu.com/s/1IHn8G0ieIWVCH7qVvNdjoQ)
 - [dependency](http://www.dependencywalker.com/) dll解析工具
 - [matlab](https://blog.csdn.net/josslyn/article/details/79898261)
