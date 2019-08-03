@@ -1,6 +1,11 @@
 <!-- TITLE: Windows -->
 <!-- SUBTITLE: Windows 下的编程问题 -->
 
+# 快捷键
+## Win + R
+### 打开启动项目录
+shell:startup
+
 # Powershell
 ## 查看历史
 >(Get-PSReadlineOption).HistorySavePath
