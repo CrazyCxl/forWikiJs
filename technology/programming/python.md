@@ -3,5 +3,25 @@
 
 # C++封装
 ## boost.python
+Build in windows
+
+```
+ ./bootstrap --with-python=python3.7
+./b2 stage --toolset=msvc-14.0 --build-type=complete --with-python address-mo
+del=32 link=static runtime-link=shared threading=multi debug release
+```
+
+add **boost_1_71_0** and **Python\include** path to INCLUDE_PATH
+
+```
+DEFINES += BOOST_PYTHON_STATIC_LIB
+
+INCLUDEPATH += "D:\data\zips\boost_1_71_0\boost_1_71_0" \
+               "C:\Users\chenx\AppData\Local\Programs\Python\Python37-32\include"
+							 
+LIBS += -LC:\Users\chenx\AppData\Local\Programs\Python\Python37-32\libs -lpython37
+LIBS += -L$$quote(D:\data\zips\boost_1_71_0\boost_1_71_0\stage\lib)
+```
+							 
 参考：https://www.cnblogs.com/hdtianfu/archive/2012/07/27/2611382.html
 使用静态库要加宏定义 **BOOST_PYTHON_STATIC_LIB**
