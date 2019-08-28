@@ -3,6 +3,7 @@
 
 # C++封装
 ## boost.python
+### Build
 Build in windows
 
 ```
@@ -11,8 +12,10 @@ Build in windows
 del=32 link=static runtime-link=shared threading=multi debug release
 ```
 
+### Use
 add **boost_1_71_0** and **Python\include** path to INCLUDE_PATH
 
+pro eg.
 ```
 DEFINES += BOOST_PYTHON_STATIC_LIB
 
@@ -22,6 +25,22 @@ INCLUDEPATH += "D:\data\zips\boost_1_71_0\boost_1_71_0" \
 LIBS += -LC:\Users\chenx\AppData\Local\Programs\Python\Python37-32\libs -lpython37
 LIBS += -L$$quote(D:\data\zips\boost_1_71_0\boost_1_71_0\stage\lib)
 ```
+
+cpp eg.
+```
+#include <boost/python/module.hpp>
+#include <boost/python/def.hpp>
+#include <boost/python/class.hpp>
+#include "xxx.h"
+
+using namespace boost::python;
+
+BOOST_PYTHON_MODULE(xxx)  // foo will be the name you import in python
+{
+    class_<xxx>("xxx")  // constructor args
+            .def("aaa", &xxx::aaa)  // member function
+    ;
+}
+```
 							 
 参考：https://www.cnblogs.com/hdtianfu/archive/2012/07/27/2611382.html
-使用静态库要加宏定义 **BOOST_PYTHON_STATIC_LIB**
