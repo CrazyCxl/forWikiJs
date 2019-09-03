@@ -21,6 +21,7 @@
 - [WinDirStat](https://windirstat.en.softonic.com/) 磁盘文件分析工具
 - [geekuninstaller](https://geekuninstaller.com/download) 卸载工具
 - [Rufus](https://rufus.ie/) U盘引导盘制作工具
+- [process-explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer) 进程资源管理工具
 - snipaste 取色截图工具
 - QuickLook
 
