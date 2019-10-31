@@ -1,5 +1,10 @@
-<!-- TITLE: Qt -->
-<!-- SUBTITLE: A quick summary of Qt -->
+---
+title: Qt
+description: A quick summary of Qt
+published: true
+date: 2019-10-31T04:13:03.317Z
+tags: 
+---
 
 # 发布
 ## Windows下的依赖
@@ -43,7 +48,10 @@ RowLayout {
     }
 }
 ```
-
+## 嵌入式控件
+```
+default property alias _contentChildren: content.data
+```
 # Widget
 ## 自定义控件的stylesheet未生效
 ### 解决方案一
