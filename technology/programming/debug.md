@@ -1,5 +1,10 @@
-<!-- TITLE: 调试 -->
-<!-- SUBTITLE: A quick summary of 调试 -->
+---
+title: 调试
+description: A quick summary of 调试
+published: true
+date: 2019-11-12T07:05:47.708Z
+tags: 
+---
 
 coredump
 ===
@@ -17,6 +22,8 @@ gdb
 ===
 查看
 ---
+查看多线程
+>info threads
 
 to list "All global and static variable names".
 >info variables 
