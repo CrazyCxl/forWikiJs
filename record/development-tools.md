@@ -1,5 +1,10 @@
-<!-- TITLE: Development Tools -->
-<!-- SUBTITLE: for新环境搭建 -->
+---
+title: Development Tools
+description: for新环境搭建
+published: true
+date: 2019-11-13T08:57:47.214Z
+tags: 
+---
 
 # Windows
 ## 常用工具
@@ -7,6 +12,8 @@
 - [Bandizip](https://www.bandisoft.com/bandizip/) 解压工具
 - [notpad++ ](https://notepad-plus-plus.org/) 文档编辑器*（带有比较插件）*
 - [putty](https://www.putty.org/) ssh连接
+- [tortoisesvn](https://tortoisesvn.net/downloads.html) SVN
+- [git](https://www.git-scm.com/download/) Git官网下载
 - [Qt](https://download.qt.io/archive/) qt各个版本的下载地址
 - [potplayer](https://potplayer.daum.net/) 视频播放器
 - [postman](https://www.getpostman.com/apps) REST调试工具
