@@ -2,7 +2,7 @@
 title: Development Tools
 description: for新环境搭建
 published: true
-date: 2019-11-13T09:37:43.729Z
+date: 2019-11-13T09:38:46.317Z
 tags: 
 ---
 
@@ -49,7 +49,7 @@ cscript ospp.vbs /act
 ```
 
 ### 激活office 2019
-```
+```bat
 @echo off
 (cd /d "%~dp0")&&(NET FILE||(powershell start-process -FilePath '%0' -verb runas)&&(exit /B)) >NUL 2>&1
 title Office 2019 Activator r/Piracy
@@ -64,7 +64,7 @@ cscript //nologo ospp.vbs /sethst:%KMS_Sev% >nul
 echo %KMS_Sev% & echo Activating...
 cscript //nologo ospp.vbs /act | find /i "successful" && (echo Complete) || (echo Trying another KMS Server & set /a i+=1 & goto server)
 pause >nul
-exi
+exit
 ```
 
 ## 常见问题
