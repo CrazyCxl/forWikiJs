@@ -2,7 +2,7 @@
 title: Development Tools
 description: for新环境搭建
 published: true
-date: 2019-11-13T08:57:47.214Z
+date: 2019-11-13T09:37:43.729Z
 tags: 
 ---
 
@@ -64,7 +64,7 @@ cscript //nologo ospp.vbs /sethst:%KMS_Sev% >nul
 echo %KMS_Sev% & echo Activating...
 cscript //nologo ospp.vbs /act | find /i "successful" && (echo Complete) || (echo Trying another KMS Server & set /a i+=1 & goto server)
 pause >nul
-exit
+exi
 ```
 
 ## 常见问题
