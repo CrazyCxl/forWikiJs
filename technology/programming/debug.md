@@ -2,7 +2,7 @@
 title: 调试
 description: A quick summary of 调试
 published: true
-date: 2019-11-30T01:44:51.339Z
+date: 2019-11-30T03:17:26.257Z
 tags: gdb
 ---
 
@@ -20,19 +20,31 @@ killall -9 systemd-journald
 
 gdb
 ===
-查看
+多线程
 ---
-查看多线程
->info threads
+- info threads
+- thread num
 
-to list "All global and static variable names".
->info variables 
+变量
+---
+- info variables 
+- info locals
+- info args
 
-to list "Local variables of current stack frame" (names and values), including static variables in that function.
->info locals
+追踪显示变量a
+display a
 
-to list "Arguments of the current stack frame" (names and values).
->info args
+设置自动输出地址值
+set print address on
+
+设置每个数组元素占一行
+set print array on
+
+设置数组显示长度
+set print elements
+
+按行显示结构体
+set print pretty on
 
 示例：
 ```
