@@ -2,8 +2,8 @@
 title: 调试
 description: A quick summary of 调试
 published: true
-date: 2019-11-12T07:05:47.708Z
-tags: 
+date: 2019-11-30T01:44:51.339Z
+tags: gdb
 ---
 
 coredump
