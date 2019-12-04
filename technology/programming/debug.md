@@ -2,7 +2,7 @@
 title: 调试
 description: A quick summary of 调试
 published: true
-date: 2019-11-30T03:17:26.257Z
+date: 2019-12-04T06:24:58.277Z
 tags: gdb
 ---
 
@@ -24,6 +24,31 @@ gdb
 ---
 - info threads
 - thread num
+
+查看内存
+---
+参考：https://blog.csdn.net/ztguang/article/details/51015760
+```
+x/ (n,f,u为可选参数)
+- n 需要显示的内存单元个数
+- f 显示格式
+               x(hex) 按十六进制格式显示变量。
+               d(decimal) 按十进制格式显示变量。
+               u(unsigned decimal) 按十进制格式显示无符号整型。
+               o(octal) 按八进制格式显示变量。
+               t(binary) 按二进制格式显示变量。
+               a(address) 按十六进制格式显示变量。
+               c(char) 按字符格式显示变量。
+               f(float) 按浮点数格式显示变量
+- u：每个单元的大小，按字节数来计算。默认是4 bytes。GDB会从指定内存地址开始读取指定字节，并把其当作一个值取出来，并使用格式f来显示
+               b:1 byte
+               h:2 bytes
+               w:4 bytes
+               g:8 bytes
+```
+
+以十六进制显示100个byte：
+>x/100xb address
 
 变量
 ---
