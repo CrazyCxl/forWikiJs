@@ -1,8 +1,8 @@
 ---
-title: 调试
+title: debug
 description: A quick summary of 调试
 published: true
-date: 2019-12-04T06:24:58.277Z
+date: 2019-12-19T08:37:58.750Z
 tags: gdb
 ---
 
