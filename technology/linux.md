@@ -2,7 +2,7 @@
 title: Linux
 description: A quick summary of Linux
 published: true
-date: 2020-02-17T08:02:33.835Z
+date: 2020-02-17T08:13:57.401Z
 tags: 
 ---
 
@@ -17,6 +17,12 @@ tags:
 >apt-get install build-essential module-assistant
 >m-a prepare
 >sh /media/cdrom/VBoxLinuxAdditions.run
+
+## 基础软件安装
+```
+apt install zsh git net-tools
+sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
 
 # 通用命令
 ## 时间戳
