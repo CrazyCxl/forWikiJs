@@ -2,13 +2,14 @@
 title: Development Tools
 description: for新环境搭建
 published: true
-date: 2019-11-13T09:38:46.317Z
+date: 2020-04-07T06:34:51.417Z
 tags: 
 ---
 
 # Windows
 ## 常用工具
 
+- [sqlitebrowser](https://sqlitebrowser.org/dl/) sql数据查看工具
 - [Bandizip](https://www.bandisoft.com/bandizip/) 解压工具
 - [notpad++ ](https://notepad-plus-plus.org/) 文档编辑器*（带有比较插件）*
 - [putty](https://www.putty.org/) ssh连接
