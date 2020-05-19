@@ -2,7 +2,7 @@
 title: Docker
 description: normal docker cmds
 published: true
-date: 2020-05-19T03:39:29.551Z
+date: 2020-05-19T03:54:35.897Z
 tags: docker, tool
 ---
 
@@ -13,6 +13,11 @@ docker ps -a
 ```
 
 # Image
+## 删除
+```
+docker rmi name
+```
+
 ## 提交container修改到image
 提交nginx_base container到一个未命名image
 ```
@@ -35,9 +40,10 @@ CONTAINER ID        IMAGE               COMMAND                  CREATED        
 docker commit --message 'this is version 2 of cxl nginx' 117494e7e7df hi_cxl_nginx
 ```
 
-## 导出
+## 导入导出
 ```
 docker save hi_cxl_nginx > hi_cxl_nginx.tar
+docker load < hi_cxl_nginx.tar
 ```
 
 # Container
@@ -50,6 +56,11 @@ docker create --name nginx_base -p 80:80 nginx:alpine
 docker start nginx_base
 docker cp index.html nginx_base:/user/share/ngix/html/index.html
 ```
-
+## 导入导出
+```
+docker export hi_cxl > hi_cxl_container.tar
+#导入为新的image
+docker import hi_cxl_container.tar hi_cxl_image
+```
 # 总结
 启动一个image后会创建一个container
