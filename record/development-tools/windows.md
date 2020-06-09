@@ -1,5 +1,10 @@
-<!-- TITLE: Windows -->
-<!-- SUBTITLE: Windows 下的编程问题 -->
+---
+title: Windows
+description: Windows 下的编程问题
+published: true
+date: 2020-06-09T06:36:25.305Z
+tags: 
+---
 
 # 快捷键
 ## Win + R
@@ -42,11 +47,19 @@ dependencywalker 工具：http://www.dependencywalker.com/
 dumpbin   /LINKERMEMBER   *.lib   >   1.txt
 
 查看dll信息
-dumpbin   /EXPORTS  *.dll  >1.tx
+dumpbin   /EXPORTS  *.dll  >1.txt
 
 查看是32还是64位
 dumpbin   /HEADERS  filename
 ```
+
+## 根据dll生成lib
+
+- dumpbin   /EXPORTS  *.dll  >1.txt
+- 复制1.txt中的函数名称到1.def
+- 添加EXPORTS到1.def第一行
+- lib /def:1.def /out:yourfile.lib
+
 
 ## Qt使用QLibary加载dll库失败[^dll_error]
 
