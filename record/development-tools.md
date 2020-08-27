@@ -2,7 +2,7 @@
 title: Development Tools
 description: for新环境搭建
 published: true
-date: 2020-04-07T06:34:51.417Z
+date: 2020-08-27T08:34:15.916Z
 tags: 
 ---
 
@@ -19,7 +19,7 @@ tags:
 - [potplayer](https://potplayer.daum.net/) 视频播放器
 - [postman](https://www.getpostman.com/apps) REST调试工具
 - [webtorrent](https://webtorrent.io/)
-- [FDM](http://www.freedownloadmanager.org/download.htm) 下载工具
+- [NDM](https://neatdownloadmanager.com/index.php/en/) 下载工具
 - [EagleGet](http://www.eagleget.com/) 下载工具
 - [天若OCR截图文字识别](https://pan.baidu.com/s/1IHn8G0ieIWVCH7qVvNdjoQ)
 - [dependency](http://www.dependencywalker.com/) dll解析工具
