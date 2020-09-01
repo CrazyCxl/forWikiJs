@@ -2,7 +2,7 @@
 title: Windows
 description: Windows 下的编程问题
 published: true
-date: 2020-06-09T06:36:25.305Z
+date: 2020-09-01T01:42:56.071Z
 tags: 
 ---
 
@@ -22,6 +22,9 @@ Get-Filehash -Path .\libtest.a -Algorithm MD5
 
 ## 转化为utf8编码的窗口
 chcp 65001
+
+# 创建FTP
+https://blog.csdn.net/qq_34610293/article/details/79210539
 
 # VS 相关
 ## 使用 **Microsoft Visual Studio 2017 Installer Projects** 打包时卡在正在准备安装这一步
