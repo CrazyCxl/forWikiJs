@@ -2,7 +2,7 @@
 title: Linux
 description: A quick summary of Linux
 published: true
-date: 2020-02-17T08:13:57.401Z
+date: 2020-10-27T07:20:37.061Z
 tags: 
 ---
 
@@ -31,4 +31,6 @@ date -d @\`date +%s`
 
 ## 查看符号表
 nm 命令
-```nm *.a```
+```
+nm -D libName.so | grep symbel symbolName
+```
