@@ -2,7 +2,7 @@
 title: Linux
 description: A quick summary of Linux
 published: true
-date: 2020-10-27T07:20:37.061Z
+date: 2020-10-27T08:14:37.943Z
 tags: 
 ---
 
