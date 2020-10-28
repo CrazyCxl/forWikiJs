@@ -2,7 +2,7 @@
 title: Poco
 description: poco used
 published: true
-date: 2020-10-28T06:32:04.319Z
+date: 2020-10-28T07:05:32.445Z
 tags: poco c++
 ---
 
@@ -17,4 +17,15 @@ tags: poco c++
     Poco::Latin1Encoding latin1;
     Poco::UTF8Encoding utf8;
     Poco::TextConverter converter(utf8, latin1);
+```
+
+```
+	Object::Ptr object = result.extract<Object::Ptr>();
+	Var test = object->get("test");
+
+	Poco::Latin1Encoding latin1;
+	Poco::UTF8Encoding utf8;
+	Poco::TextConverter converter(latin1, utf8);
+	std::string original;
+	converter.convert(text, original);
 ```
