@@ -2,7 +2,7 @@
 title: Windows
 description: Windows 下的编程问题
 published: true
-date: 2020-09-01T01:42:56.071Z
+date: 2020-11-04T08:37:54.212Z
 tags: 
 ---
 
@@ -54,6 +54,15 @@ dumpbin   /EXPORTS  *.dll  >1.txt
 
 查看是32还是64位
 dumpbin   /HEADERS  filename
+```
+
+查看函数声明
+```
+C:\>undname ?func1@a@@AAEXH@Z
+Microsoft (R) C++ Name Undecorator
+Copyright (C) Microsoft Corporation 1981-2000. All rights reserved.Undecoration
+of :- "?func1@a@@AAEXH@Z"
+is :- "private: void __thiscall a::func1(int)"
 ```
 
 ## 根据dll生成lib
