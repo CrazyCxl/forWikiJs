@@ -2,7 +2,7 @@
 title: Linux
 description: A quick summary of Linux
 published: true
-date: 2020-10-27T08:14:37.943Z
+date: 2020-11-20T08:49:41.167Z
 tags: 
 ---
 
@@ -29,8 +29,20 @@ sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools
 date +%s
 date -d @\`date +%s`
 
-## 查看符号表
+## 库相关
+### 查看符号表
 nm 命令
 ```
 nm -D libName.so | grep symbel symbolName
 ```
+### 查看和修改运行依赖
+查看
+```
+ldd path
+readelf -d <path-to-elf> 
+```
+[patchelf](https://github.com/NixOS/patchelf) 修改NEEDED
+```
+patchelf --replace-needed ../libsomething1.so /foo/bar/libsomething1.so mysharedobject.so
+```
+
