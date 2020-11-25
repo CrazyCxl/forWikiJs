@@ -2,7 +2,7 @@
 title: Qt
 description: A quick summary of Qt
 published: true
-date: 2019-10-31T04:13:03.317Z
+date: 2020-11-25T07:48:25.244Z
 tags: 
 ---
 
@@ -69,6 +69,10 @@ default property alias _contentChildren: content.data
      style()->drawPrimitive(QStyle::PE_Widget, &opt, &p, this);
  }
  ```
+
+# 常见问题
+qdatabase 驱动无法加载
+手动设置 QT_PLUGIN_PATH C:\Qt\4.8.6\plugins
 
 [^paint_widget]:https://stackoverflow.com/questions/7276330/qt-stylesheet-for-custom-widget
 [^qml_import]:http://doc.qt.io/qtcreator/creator-qml-modules-with-plugins.html#importing-qml-modules
