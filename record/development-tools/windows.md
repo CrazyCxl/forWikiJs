@@ -2,9 +2,12 @@
 title: Windows
 description: Windows 下的编程问题
 published: true
-date: 2020-11-04T08:37:54.212Z
+date: 2020-11-26T09:44:47.633Z
 tags: 
 ---
+
+# 右键菜单栏
+右键菜单栏添加vs code 打开 https://www.jianshu.com/p/e8c29211fba9
 
 # 快捷键
 ## Win + R
