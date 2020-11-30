@@ -2,11 +2,19 @@
 title: Qt
 description: A quick summary of Qt
 published: true
-date: 2020-11-25T07:48:25.244Z
+date: 2020-11-30T07:40:36.186Z
 tags: 
 ---
 
 # 发布
+## 库生成配置
+### disables the lib prefix
+没有lib前缀
+CONFIG += no_plugin_name_prefix
+### disable symlinks & versioning
+没有软连接
+CONFIG += plugin
+
 ## Windows下的依赖
 参考：http://doc.qt.io/qt-5/windows-deployment.html
 
