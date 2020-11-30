@@ -1,5 +1,10 @@
-<!-- TITLE: Fedora -->
-<!-- SUBTITLE: A quick summary of Fedora -->
+---
+title: Fedora
+description: A quick summary of Fedora
+published: true
+date: 2020-11-30T08:43:00.581Z
+tags: 
+---
 
 配置相关
 ===
@@ -15,6 +20,14 @@ firewall-cmd --reload
 firewall-cmd --list-all
 firewall-cmd --list-all-zones
 
+#### 新ssh端口
+https://serverfault.com/questions/746548/firewalld-if-i-change-the-ssh-service-port-is-it-enough-to-allow-the-new-port
+copy ```/usr/lib/firewalld/services/ssh.xml``` to ```/etc/firewalld/services/ssh.xml```
+and modify it for your purpose.
+You then need to relod the configuration
+```
+firewall-cmd --reload
+```
 ### SELinux
 列出端口标签：
 > semanage port -l
