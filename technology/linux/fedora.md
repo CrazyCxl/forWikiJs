@@ -2,7 +2,7 @@
 title: Fedora
 description: A quick summary of Fedora
 published: true
-date: 2020-12-02T08:13:07.021Z
+date: 2020-12-07T08:35:25.874Z
 tags: 
 ---
 
@@ -95,9 +95,26 @@ PORT_TYPE:
 /usr/lib/xxx.so.1.2.0
 /usr/lib64/xxx.so
 
+
+
+包管理
+===
+列出repos
+```
+yum repolist all
+yum repolist
+yum repolist enabled
+yum repolist disabled
+```
+管理repos
+```
+yum-config-manager --enable repository
+yum-config-manager --disable repository
+```
 查询包含的rpm包
----
+```
 sudo yum whatprovides "libmysqlclient*"
+```
 
 问题&解决
 ===
