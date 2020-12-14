@@ -2,7 +2,7 @@
 title: Development Tools
 description: for新环境搭建
 published: true
-date: 2020-08-27T08:34:15.916Z
+date: 2020-12-14T07:54:48.925Z
 tags: 
 ---
 
@@ -12,6 +12,7 @@ tags:
 - [sqlitebrowser](https://sqlitebrowser.org/dl/) sql数据查看工具
 - [Bandizip](https://www.bandisoft.com/bandizip/) 解压工具
 - [notpad++ ](https://notepad-plus-plus.org/) 文档编辑器*（带有比较插件）*
+- [understand](https://licensing.scitools.com/download) 代码分析工具
 - [putty](https://www.putty.org/) ssh连接
 - [tortoisesvn](https://tortoisesvn.net/downloads.html) SVN
 - [git](https://www.git-scm.com/download/) Git官网下载
