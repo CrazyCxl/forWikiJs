@@ -2,7 +2,7 @@
 title: Development Tools
 description: for新环境搭建
 published: true
-date: 2020-12-14T07:54:48.925Z
+date: 2020-12-14T08:15:54.863Z
 tags: 
 ---
 
@@ -11,7 +11,7 @@ tags:
 
 - [sqlitebrowser](https://sqlitebrowser.org/dl/) sql数据查看工具
 - [Bandizip](https://www.bandisoft.com/bandizip/) 解压工具
-- [notpad++ ](https://notepad-plus-plus.org/) 文档编辑器*（带有比较插件）*
+- [notpad3](https://www.rizonesoft.com/downloads/notepad3/) 文档编辑器
 - [understand](https://licensing.scitools.com/download) 代码分析工具
 - [putty](https://www.putty.org/) ssh连接
 - [tortoisesvn](https://tortoisesvn.net/downloads.html) SVN
@@ -68,6 +68,11 @@ cscript //nologo ospp.vbs /act | find /i "successful" && (echo Complete) || (ech
 pause >nul
 exit
 ```
+
+## chrome 配置
+### 开启并行下载支持
+打开`chrome://flags/`
+搜索`Parallel downloading`并设为`enabled`
 
 ## 常见问题
 ### Wireshark 无法发现网卡[^wireshark]
