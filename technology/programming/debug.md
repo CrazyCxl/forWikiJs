@@ -2,7 +2,7 @@
 title: debug
 description: A quick summary of 调试
 published: true
-date: 2019-12-19T08:37:58.750Z
+date: 2020-12-24T09:48:58.079Z
 tags: gdb
 ---
 
@@ -86,4 +86,10 @@ No symbol table info available.
 (gdb) info locals
 i = 28
 (gdb) 
+```
+
+查看segment fault地址
+---
+```
+(gdb) p $_siginfo._sifields._sigfault.si_addr
 ```
