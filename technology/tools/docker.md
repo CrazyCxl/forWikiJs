@@ -2,18 +2,19 @@
 title: Docker
 description: normal docker cmds
 published: true
-date: 2020-08-28T06:44:49.511Z
+date: 2021-01-12T03:48:33.302Z
 tags: docker, tool
 ---
 
 # 修改为国内源
+阿里云加速地址获取：
+https://cr.console.aliyun.com/cn-hangzhou/instances/mirrors
+
 修改或添加`/etc/docker/daemon.json `
 ```
 {
 "registry-mirrors": [
-"https://kfwkfulq.mirror.aliyuncs.com",
-"https://2lqq34jg.mirror.aliyuncs.com",
-"https://pee6w651.mirror.aliyuncs.com",
+“https://q151ft4n.mirror.aliyuncs.com”，
 "https://registry.docker-cn.com",
 "http://hub-mirror.c.163.com"
 ],
