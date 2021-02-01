@@ -2,7 +2,7 @@
 title: Development Tools
 description: for新环境搭建
 published: true
-date: 2021-02-01T11:30:13.956Z
+date: 2021-02-01T11:35:55.846Z
 tags: 
 ---
 
@@ -38,9 +38,12 @@ System Or Office下载：https://msdn.itellyou.cn/
 
 ## 激活
 ### 激活专业版
+参考：
+https://zhuanlan.zhihu.com/p/152269085
+https://msguides.com/microsoft-software-products/2-ways-activate-windows-10-free-without-software.html
 ```
 slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX
-slmgr /skms skms.ddns.net
+slmgr /skms  http://kms.03k.org
 slmgr /ato
 ```
 
