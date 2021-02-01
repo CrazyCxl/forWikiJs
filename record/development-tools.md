@@ -2,7 +2,7 @@
 title: Development Tools
 description: for新环境搭建
 published: true
-date: 2020-12-14T08:15:54.863Z
+date: 2021-02-01T11:30:13.956Z
 tags: 
 ---
 
@@ -40,7 +40,7 @@ System Or Office下载：https://msdn.itellyou.cn/
 ### 激活专业版
 ```
 slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX
-slmgr /skms zh.us.to
+slmgr /skms skms.ddns.net
 slmgr /ato
 ```
 
