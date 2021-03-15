@@ -2,7 +2,7 @@
 title: Development Tools
 description: for新环境搭建
 published: true
-date: 2021-02-01T11:36:22.575Z
+date: 2021-03-15T08:24:38.964Z
 tags: 
 ---
 
@@ -71,6 +71,11 @@ cscript //nologo ospp.vbs /act | find /i "successful" && (echo Complete) || (ech
 pause >nul
 exit
 ```
+## Qt 
+### Windows 安装
+先安装vs20xx,勾选通用Windows程序
+再安装[windbg](https://developer.microsoft.com/zh-cn/windows/downloads/windows-10-sdk/) (cdb) 
+再安装Qt
 
 ## chrome 配置
 ### 开启并行下载支持
