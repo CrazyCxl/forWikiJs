@@ -2,7 +2,7 @@
 title: Windows
 description: Windows 下的编程问题
 published: true
-date: 2020-11-26T09:44:47.633Z
+date: 2021-03-17T01:48:54.052Z
 tags: 
 ---
 
@@ -10,6 +10,14 @@ tags:
 右键菜单栏添加vs code 打开 https://www.jianshu.com/p/e8c29211fba9
 
 # 快捷键
+## 查看快捷键占用
+参考：
+https://www.zhihu.com/question/21020398/answer/1191762268
+
+使用spyxx.exe
+消息监听WM_HOTKEY
+然后查看属性
+
 ## Win + R
 ### 打开启动项目录
 > shell:startup
