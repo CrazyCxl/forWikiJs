@@ -2,7 +2,7 @@
 title: Qt
 description: A quick summary of Qt
 published: true
-date: 2021-01-28T03:44:24.898Z
+date: 2021-03-18T01:51:19.635Z
 tags: 
 ---
 
@@ -79,6 +79,10 @@ default property alias _contentChildren: content.data
  ```
 
 # 常见问题
+## cmake构建MSVC项目失败
+可能是jom命令找不到
+将jom目录添加到系统或项目path环境变量
+
 ## qdatabase 驱动无法加载
 手动设置 QT_PLUGIN_PATH C:\Qt\4.8.6\plugins
 
