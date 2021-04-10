@@ -2,7 +2,7 @@
 title: Development Tools
 description: for新环境搭建
 published: true
-date: 2021-03-15T08:24:38.964Z
+date: 2021-04-10T03:00:59.628Z
 tags: 
 ---
 
@@ -71,6 +71,20 @@ cscript //nologo ospp.vbs /act | find /i "successful" && (echo Complete) || (ech
 pause >nul
 exit
 ```
+
+### 激活Visio2016
+```
+# 进入Office安装目录，64位安装目录为：C:\Program Files\Microsoft Office\Office16，32位安装目录为：C:\Program Files (x86)\Microsoft Office\Office16
+# 与激活Office不同的是，在激活之前需要运行以下三条命令安装证书：
+cscript OSPP.VBS /inslic:"..\root\Licenses16\VisioProVL_KMS_Client-ppd.xrm-ms"
+cscript OSPP.VBS /inslic:"..\root\Licenses16\VisioProVL_KMS_Client-ul.xrm-ms"
+cscript OSPP.VBS /inslic:"..\root\Licenses16\VisioProVL_KMS_Client-ul-oob.xrm-ms"
+
+cscript ospp.vbs /inpkey:PD3PC-RHNGV-FXJ29-8JK7D-RJRJK
+cscript ospp.vbs /sethst:kms.03k.org
+cscript ospp.vbs /act
+```
+
 ## Qt 
 ### Windows 安装
 先安装vs20xx,勾选通用Windows程序
