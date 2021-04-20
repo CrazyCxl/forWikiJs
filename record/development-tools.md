@@ -2,7 +2,7 @@
 title: Development Tools
 description: for新环境搭建
 published: true
-date: 2021-04-10T03:00:59.628Z
+date: 2021-04-20T09:10:47.517Z
 tags: 
 ---
 
@@ -37,6 +37,23 @@ tags:
 System Or Office下载：https://msdn.itellyou.cn/
 
 ## 激活
+### 搭建kms服务器
+#### 直接下载运行
+参考：https://blog.csdn.net/xingyu97/article/details/89381018
+下载：https://github.com/Wind4/vlmcsd/releases
+```
+解压
+tar -zxvf binaries.tar.gz
+cd binaries/Linux/intel/static
+
+运行
+./vlmcsdmulti-x64-musl-static vlmcsd
+```
+运行后会占用端口1688
+
+#### docker安装
+docker run -d -p 1688:1688 --restart=always --name="vlmcsd" mikolatero/vlmcsd
+
 ### 激活专业版
 参考：
 https://zhuanlan.zhihu.com/p/152269085
