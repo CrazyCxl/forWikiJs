@@ -2,9 +2,9 @@
 title: License
 description: mit gpl apache
 published: true
-date: 2021-02-21T11:10:37.843Z
+date: 2021-04-26T08:28:01.509Z
 tags: 
 ---
 
 # License
-![License]("http://www.wbh-doc.com.s3.amazonaws.com/Python-OpenSource-Project-Developer-Guide/_images/choose-a-free-software-license.png")
+![License]("https://img.cxlljj.top/images/2021/04/26/SouthEast.md.jpg")
