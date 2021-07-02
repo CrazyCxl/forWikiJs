@@ -2,8 +2,10 @@
 title: Development Tools
 description: for新环境搭建
 published: true
-date: 2021-04-20T09:10:47.517Z
+date: 2021-07-02T07:31:05.240Z
 tags: 
+editor: markdown
+dateCreated: 2020-03-19T08:37:35.923Z
 ---
 
 # Windows
@@ -31,6 +33,7 @@ tags:
 - [geekuninstaller](https://geekuninstaller.com/download) 卸载工具
 - [Rufus](https://rufus.ie/) U盘引导盘制作工具
 - [process-explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer) 进程资源管理工具
+- [screentogif](https://www.screentogif.com/) GIF 制作工具
 - snipaste 取色截图工具
 - QuickLook
 
