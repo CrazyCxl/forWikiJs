@@ -2,8 +2,10 @@
 title: Windows
 description: Windows 下的编程问题
 published: true
-date: 2021-03-17T01:48:54.052Z
+date: 2021-11-16T08:39:20.786Z
 tags: 
+editor: markdown
+dateCreated: 2020-03-19T08:37:53.435Z
 ---
 
 # 右键菜单栏
@@ -43,6 +45,15 @@ https://blog.csdn.net/qq_34610293/article/details/79210539
 环境Win10 vs2017 vs2013
 
 通过事件日志可以看出缺少 ```C:\Windows\Microsoft.NET\Framework\URTInstallPath_GAC``` 目录，创建该目录即可
+
+## 远程调试win7程序时报错：“远程操作花费的时间比预期要长”
+参考：https://stackoverflow.com/questions/12252969/visual-studio-2012-a-remote-operation-is-taking-longer-than-expected
+管理员运行cmd
+```
+netsh winsock reset catalog
+netsh int ip reset reset.log hit
+```
+
 
 ## 创建CLR项目
 https://www.red-gate.com/simple-talk/dotnet/net-development/creating-ccli-wrapper/
