@@ -2,8 +2,8 @@
 title: Cmake
 description: cmake use record
 published: true
-date: 2022-01-18T07:00:42.232Z
-tags: cmake code
+date: 2022-01-18T08:06:11.989Z
+tags: cmake
 editor: markdown
 dateCreated: 2022-01-18T01:28:55.825Z
 ---
