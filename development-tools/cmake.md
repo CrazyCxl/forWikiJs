@@ -2,7 +2,7 @@
 title: Cmake
 description: cmake use record
 published: true
-date: 2022-01-18T01:28:55.825Z
+date: 2022-01-18T07:00:42.232Z
 tags: cmake code
 editor: markdown
 dateCreated: 2022-01-18T01:28:55.825Z
@@ -11,7 +11,7 @@ dateCreated: 2022-01-18T01:28:55.825Z
 # 语法
 ### 设置relwithdebinfo禁用优化
 ```
-SET(CMAKE_CXX_FLAGS_RELWITHDEBINFO "-Od -Ob0")
+SET(CMAKE_CXX_FLAGS_RELWITHDEBINFO "-Od -Ob0 -ZI")
 ```
 ### 设置vs分组
 参考：https://stackoverflow.com/questions/31422680/how-to-set-visual-studio-filters-for-nested-sub-directory-using-cmake
