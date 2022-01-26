@@ -2,7 +2,7 @@
 title: Windows
 description: Windows 下的编程问题
 published: true
-date: 2021-11-16T08:39:20.786Z
+date: 2022-01-26T09:17:51.718Z
 tags: 
 editor: markdown
 dateCreated: 2020-03-19T08:37:53.435Z
@@ -76,6 +76,9 @@ dumpbin   /EXPORTS  *.dll  >1.txt
 
 查看是32还是64位
 dumpbin   /HEADERS  filename
+
+查看编译器版本
+dumpbin /all xxx.lib | findstr _MSC_VER
 ```
 
 查看函数声明
