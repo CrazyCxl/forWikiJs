@@ -2,7 +2,7 @@
 title: Windows
 description: Windows 下的编程问题
 published: true
-date: 2022-01-26T09:17:51.718Z
+date: 2022-06-21T09:53:57.962Z
 tags: 
 editor: markdown
 dateCreated: 2020-03-19T08:37:53.435Z
@@ -54,9 +54,11 @@ netsh winsock reset catalog
 netsh int ip reset reset.log hit
 ```
 
-
 ## 创建CLR项目
 https://www.red-gate.com/simple-talk/dotnet/net-development/creating-ccli-wrapper/
+
+## 调试内存泄漏工具
+appverif
 
 # NSIS打包工具
 官网：http://nsis.sourceforge.net/Main_Page
