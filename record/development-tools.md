@@ -2,7 +2,7 @@
 title: Development Tools
 description: for新环境搭建
 published: true
-date: 2022-06-27T06:31:13.095Z
+date: 2022-06-27T06:32:00.826Z
 tags: 
 editor: markdown
 dateCreated: 2020-03-19T08:37:35.923Z
@@ -126,12 +126,6 @@ cscript ospp.vbs /inpkey:PD3PC-RHNGV-FXJ29-8JK7D-RJRJK
 cscript ospp.vbs /sethst:vps.cxlljj.top
 cscript ospp.vbs /act
 ```
-
-# Qt 
-## Windows 安装
-先安装vs20xx,勾选通用Windows程序
-再安装[windbg](https://developer.microsoft.com/zh-cn/windows/downloads/windows-10-sdk/) (cdb) 
-再安装Qt
 
 # chrome 配置
 ### 开启并行下载支持
