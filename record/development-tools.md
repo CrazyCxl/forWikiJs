@@ -2,7 +2,7 @@
 title: Development Tools
 description: for新环境搭建
 published: true
-date: 2022-04-16T09:47:02.998Z
+date: 2022-06-27T06:31:13.095Z
 tags: 
 editor: markdown
 dateCreated: 2020-03-19T08:37:35.923Z
@@ -127,18 +127,22 @@ cscript ospp.vbs /sethst:vps.cxlljj.top
 cscript ospp.vbs /act
 ```
 
-## Qt 
-### Windows 安装
+# Qt 
+## Windows 安装
 先安装vs20xx,勾选通用Windows程序
 再安装[windbg](https://developer.microsoft.com/zh-cn/windows/downloads/windows-10-sdk/) (cdb) 
 再安装Qt
 
-## chrome 配置
+# chrome 配置
 ### 开启并行下载支持
 打开`chrome://flags/`
 搜索`Parallel downloading`并设为`enabled`
 
-## 常见问题
+# Linux
+### 常用工具
+fail2ban 安全防护
+
+# 常见问题
 ### Wireshark 无法发现网卡[^wireshark]
 
 以管理员运行命令行开启npf
