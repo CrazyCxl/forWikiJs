@@ -2,7 +2,7 @@
 title: Development Tools
 description: for新环境搭建
 published: true
-date: 2022-06-27T06:32:00.826Z
+date: 2022-07-20T03:24:10.861Z
 tags: 
 editor: markdown
 dateCreated: 2020-03-19T08:37:35.923Z
@@ -23,7 +23,7 @@ dateCreated: 2020-03-19T08:37:35.923Z
 - [postman](https://www.getpostman.com/apps) REST调试工具
 - [webtorrent](https://webtorrent.io/)
 - [NDM](https://neatdownloadmanager.com/index.php/en/) 下载工具
-- [EagleGet](http://www.eagleget.com/) 下载工具
+- [autohotkey](https://www.autohotkey.com/) 快捷键脚本
 - [天若OCR截图文字识别](https://pan.baidu.com/s/1IHn8G0ieIWVCH7qVvNdjoQ)
 - [dependency](http://www.dependencywalker.com/) dll解析工具
 - [matlab](https://blog.csdn.net/josslyn/article/details/79898261)
