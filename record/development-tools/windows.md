@@ -2,7 +2,7 @@
 title: Windows
 description: Windows 下的编程问题
 published: true
-date: 2022-06-21T09:53:57.962Z
+date: 2022-08-05T02:24:43.304Z
 tags: 
 editor: markdown
 dateCreated: 2020-03-19T08:37:53.435Z
@@ -14,9 +14,13 @@ dateCreated: 2020-03-19T08:37:53.435Z
 # 快捷键
 ## 查看快捷键占用
 参考：
-https://www.zhihu.com/question/21020398/answer/1191762268
+https://stackoverflow.com/questions/829007/find-out-what-process-registered-a-global-hotkey-windows-api
 
 使用spyxx.exe
+选择`监视`-`日志消息`
+选中`系统中所有窗口`
+切换到`消息`界面
+点击`全部清除`
 消息监听WM_HOTKEY
 然后查看属性
 
