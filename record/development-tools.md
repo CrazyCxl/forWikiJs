@@ -2,7 +2,7 @@
 title: Development Tools
 description: for新环境搭建
 published: true
-date: 2022-07-20T03:24:10.861Z
+date: 2022-08-23T07:34:29.191Z
 tags: 
 editor: markdown
 dateCreated: 2020-03-19T08:37:35.923Z
@@ -24,7 +24,6 @@ dateCreated: 2020-03-19T08:37:35.923Z
 - [webtorrent](https://webtorrent.io/)
 - [NDM](https://neatdownloadmanager.com/index.php/en/) 下载工具
 - [autohotkey](https://www.autohotkey.com/) 快捷键脚本
-- [天若OCR截图文字识别](https://pan.baidu.com/s/1IHn8G0ieIWVCH7qVvNdjoQ)
 - [dependency](http://www.dependencywalker.com/) dll解析工具
 - [matlab](https://blog.csdn.net/josslyn/article/details/79898261)
 - [graphviz](http://www.graphviz.org/download/) 可视化工具
@@ -40,6 +39,10 @@ dateCreated: 2020-03-19T08:37:35.923Z
 System Or Office下载：https://msdn.itellyou.cn/
 
 ## 激活
+### 可能的问题
+告警```你可能是盗版软件受害者```
+>更换激活码
+
 ### 搭建kms服务器
 #### 直接下载运行
 参考：https://blog.csdn.net/xingyu97/article/details/89381018
