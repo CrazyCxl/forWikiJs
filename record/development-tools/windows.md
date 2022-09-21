@@ -2,7 +2,7 @@
 title: Windows
 description: Windows 下的编程问题
 published: true
-date: 2022-08-05T02:24:43.304Z
+date: 2022-09-21T01:09:51.939Z
 tags: 
 editor: markdown
 dateCreated: 2020-03-19T08:37:53.435Z
@@ -40,9 +40,12 @@ Get-Filehash -Path .\libtest.a -Algorithm MD5
 ## 转化为utf8编码的窗口
 chcp 65001
 
-# 创建FTP
-https://blog.csdn.net/qq_34610293/article/details/79210539
-
+# 睡眠模式
+https://www.zhihu.com/question/264893048
+查看阻止睡眠模式的程序
+```
+powercfg /requests
+```
 # VS 相关
 ## 使用 **Microsoft Visual Studio 2017 Installer Projects** 打包时卡在正在准备安装这一步
 
