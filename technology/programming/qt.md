@@ -2,8 +2,10 @@
 title: Qt
 description: A quick summary of Qt
 published: true
-date: 2021-03-18T01:51:19.635Z
+date: 2022-10-14T09:41:09.845Z
 tags: 
+editor: markdown
+dateCreated: 2020-03-19T08:38:31.630Z
 ---
 
 # 发布
@@ -68,7 +70,7 @@ default property alias _contentChildren: content.data
 ### 解决方案二[^paint_widget]
 重写绘制方法，加入以下内容：
 
-```
+```c++
  void CustomWidget::paintEvent(QPaintEvent *)
  {
      QStyleOption opt;
@@ -86,15 +88,29 @@ default property alias _contentChildren: content.data
 ## qdatabase 驱动无法加载
 手动设置 QT_PLUGIN_PATH C:\Qt\4.8.6\plugins
 
-## gcc c++11 支持
-参考：https://stackoverflow.com/questions/16948382/how-to-enable-c11-in-qt-creator
-qt5以上：
-```
-CONFIG += c++11
-```
-qt4：
-```
-QMAKE_CXXFLAGS += -std=c++11
+## 色表支持
+参考：https://stackoverflow.com/questions/41744654/is-there-a-default-color-table-colormap-available-in-qt
+色表下载：http://www.kennethmoreland.com/color-advice/
+初始化 QImage::Format_Indexed8 使用 QImage::setColorTable()
+```c++
+QVector<QRgb> ctable;
+
+QFile file("black-body-table-byte-0128.csv");
+if(!file.open(QIODevice::ReadOnly))
+{
+    QMessageBox::information(0, "error", file.errorString());
+}
+
+QTextStream in(&file);
+
+while(!in.atEnd())
+{
+    QString line = in.readLine();    
+    QStringList values = line.split(",");
+    ctable.append(qRgb(values[1].toInt(), values[2].toInt(), values[3].toInt()));
+}
+
+file.close();
 ```
 
 [^paint_widget]:https://stackoverflow.com/questions/7276330/qt-stylesheet-for-custom-widget
