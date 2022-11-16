@@ -2,8 +2,10 @@
 title: debug
 description: A quick summary of 调试
 published: true
-date: 2020-12-24T09:48:58.079Z
+date: 2022-11-16T01:54:07.208Z
 tags: gdb
+editor: markdown
+dateCreated: 2020-03-19T08:38:19.906Z
 ---
 
 coredump
@@ -20,6 +22,14 @@ killall -9 systemd-journald
 
 gdb
 ===
+常用
+---
+列出断点
+```info b```
+查看数组10个元素
+```p *arr@10```
+
+
 多线程
 ---
 - info threads
