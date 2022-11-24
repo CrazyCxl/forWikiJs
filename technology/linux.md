@@ -2,9 +2,19 @@
 title: Linux
 description: A quick summary of Linux
 published: true
-date: 2020-11-20T08:49:41.167Z
+date: 2022-11-24T02:32:30.059Z
 tags: 
+editor: markdown
+dateCreated: 2020-03-19T08:37:41.814Z
 ---
+
+# 环境搭建
+客户端免密ssh登录:https://blog.csdn.net/jeikerxiao/article/details/84105529
+
+```
+ssh-keygen -t rsa -b 2048 -C "chenxiaolong"
+ssh-copy-id -i ~/.ssh/id_rsa.pub root@192.168.235.22
+```
 
 # Debian
 ## 换源
