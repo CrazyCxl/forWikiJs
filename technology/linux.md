@@ -2,8 +2,8 @@
 title: Linux
 description: A quick summary of Linux
 published: true
-date: 2022-11-24T02:32:30.059Z
-tags: 
+date: 2022-11-24T02:38:37.936Z
+tags: ssh
 editor: markdown
 dateCreated: 2020-03-19T08:37:41.814Z
 ---
