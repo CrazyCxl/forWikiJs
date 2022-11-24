@@ -1,23 +1,36 @@
-<!-- TITLE: Vim -->
-<!-- SUBTITLE: A quick summary of Vim -->
+---
+title: Vim
+description: A quick summary of Vim
+published: true
+date: 2022-11-24T03:45:43.255Z
+tags: 
+editor: markdown
+dateCreated: 2020-03-19T08:38:40.460Z
+---
 
-常用命令
-===
+# 常用命令
+## 显示行号
+```
+:set number
+```
+
 sudo 保存
 ---
-\: w !sudo tee %
-
+```
+: w !sudo tee %
+```
 替换
 ---
-**：[addr]s/源字符串/目的字符串/[option]**
-### [addr] 表示检索范围，省略时表示当前行。
+```：[addr]s/源字符串/目的字符串/[option]```
+
+ ```[addr]``` 表示检索范围，省略时表示当前行。
 
  - “1，20” ：表示从第1行到20行
  - “%” ：表示整个文件，同“1,\$”
  -  “. ,\$” ：从当前行到文件尾
 
-### s : 表示替换操作
-### [option] : 表示操作类型
+```s``` : 表示替换操作
+```[option]``` : 表示操作类型
 
 - g 表示全局替换; 
 - c 表示进行确认
