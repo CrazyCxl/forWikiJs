@@ -2,7 +2,7 @@
 title: Linux
 description: A quick summary of Linux
 published: true
-date: 2022-11-24T02:38:37.936Z
+date: 2022-11-24T09:38:25.903Z
 tags: ssh
 editor: markdown
 dateCreated: 2020-03-19T08:37:41.814Z
@@ -15,7 +15,14 @@ dateCreated: 2020-03-19T08:37:41.814Z
 ssh-keygen -t rsa -b 2048 -C "chenxiaolong"
 ssh-copy-id -i ~/.ssh/id_rsa.pub root@192.168.235.22
 ```
-
+手动复制客户端id_rsa.pub到服务端authorized_keys中
+https://developers.redhat.com/blog/2018/11/02/how-to-manually-copy-ssh-keys-rhel
+```
+mkdir ~/.ssh/
+chmod 700 ~/.ssh  # this is important.
+touch ~/.ssh/authorized_keys
+chmod 600 ~/.ssh/authorized_keys  #this is important.
+```
 # Debian
 ## 换源
 - 打开界面software工具
