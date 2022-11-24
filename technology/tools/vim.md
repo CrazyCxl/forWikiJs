@@ -2,7 +2,7 @@
 title: Vim
 description: A quick summary of Vim
 published: true
-date: 2022-11-24T03:45:43.255Z
+date: 2022-11-24T07:12:57.874Z
 tags: 
 editor: markdown
 dateCreated: 2020-03-19T08:38:40.460Z
@@ -38,3 +38,10 @@ sudo 保存
 - 省略option时仅对每行第一个匹配串进行替换；
 - 如果在源字符串和目的字符串中出现特殊字符，需要用”\”转义
 
+# 配置
+在基础配置上添加行号```vim ~/.vimrc```
+```
+unlet! skip_defaults_vim
+source $VIMRUNTIME/defaults.vim
+set number
+```
