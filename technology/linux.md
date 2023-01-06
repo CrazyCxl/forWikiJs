@@ -2,7 +2,7 @@
 title: Linux
 description: A quick summary of Linux
 published: true
-date: 2022-11-24T09:38:25.903Z
+date: 2023-01-06T08:04:13.939Z
 tags: ssh
 editor: markdown
 dateCreated: 2020-03-19T08:37:41.814Z
@@ -23,6 +23,17 @@ chmod 700 ~/.ssh  # this is important.
 touch ~/.ssh/authorized_keys
 chmod 600 ~/.ssh/authorized_keys  #this is important.
 ```
+# shell
+## 管道过滤
+输出匹配字符串及之后的内容
+```
+grep -o "text.*$"
+```
+输出某一列的内容
+```
+awk '{ print $2 }'
+```
+
 # Debian
 ## 换源
 - 打开界面software工具
