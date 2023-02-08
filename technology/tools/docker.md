@@ -2,8 +2,10 @@
 title: Docker
 description: normal docker cmds
 published: true
-date: 2021-01-12T03:48:33.302Z
+date: 2023-02-08T09:19:07.980Z
 tags: docker, tool
+editor: markdown
+dateCreated: 2020-05-19T03:39:29.551Z
 ---
 
 # 修改为国内源
@@ -28,11 +30,16 @@ sudo systemctl restart docker
 ```
 
 # 常用命令
+查看
 ```
 docker images 
 docker ps -a
 ```
-
+进入容器
+```
+docker exec -it 69d1 bash
+exit
+```
 # Image
 ## 删除
 ```
