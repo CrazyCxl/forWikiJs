@@ -1,5 +1,25 @@
-<!-- TITLE: Python -->
-<!-- SUBTITLE: A quick summary of Python -->
+---
+title: Python
+description: A quick summary of Python
+published: true
+date: 2023-02-08T07:34:10.643Z
+tags: 
+editor: markdown
+dateCreated: 2020-03-19T08:38:28.707Z
+---
+
+# 环境相关
+## 国内源
+> http://pypi.douban.com/simple/  豆瓣
+http://mirrors.aliyun.com/pypi/simple/ 阿里
+http://pypi.hustunique.com/simple/ 华中理工大学
+http://pypi.sdutlinux.org/simple/ 山东理工大学
+http://pypi.mirrors.ustc.edu.cn/simple/  中国科学技术大学
+
+简单使用：
+```
+sudo pip install -i http://pypi.douban.com/simple/ flask
+```
 
 # C++封装
 ## boost.python
