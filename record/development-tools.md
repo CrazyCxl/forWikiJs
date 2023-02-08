@@ -2,7 +2,7 @@
 title: Development Tools
 description: for新环境搭建
 published: true
-date: 2022-10-25T13:38:36.903Z
+date: 2023-02-08T09:06:19.708Z
 tags: 
 editor: markdown
 dateCreated: 2020-03-19T08:37:35.923Z
@@ -33,6 +33,7 @@ dateCreated: 2020-03-19T08:37:35.923Z
 - [Rufus](https://rufus.ie/) U盘引导盘制作工具
 - [process-explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer) 进程资源管理工具
 - [screentogif](https://www.screentogif.com/) GIF 制作工具
+- [recuva](https://www.ccleaner.com/zh-cn/recuva) 恢复软件
 - snipaste 取色截图工具
 - QuickLook
 
