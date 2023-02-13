@@ -2,7 +2,7 @@
 title: Development Tools
 description: for新环境搭建
 published: true
-date: 2023-02-10T03:29:06.616Z
+date: 2023-02-13T05:40:22.504Z
 tags: 
 editor: markdown
 dateCreated: 2020-03-19T08:37:35.923Z
@@ -44,7 +44,7 @@ System Or Office下载：https://msdn.itellyou.cn/
 告警```你可能是盗版软件受害者```
 >更换激活码
 office2019 GRBR4-J4N3M-KTX9C-JM4PJ-J8HPT
-office2016 XNTT9-CWMM3-RM2YM-D7KB2-JB6DV
+
 
 
 ### 搭建kms服务器
