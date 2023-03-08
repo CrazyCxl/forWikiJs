@@ -2,7 +2,7 @@
 title: Python
 description: A quick summary of Python
 published: true
-date: 2023-03-08T02:26:03.631Z
+date: 2023-03-08T02:45:09.766Z
 tags: 
 editor: markdown
 dateCreated: 2020-03-19T08:38:28.707Z
@@ -27,6 +27,21 @@ sudo pip install -i http://pypi.douban.com/simple/ flask
 下载
 ```
 pip download -d ./path pyinstaller -i https://pypi.mirrors.ustc.edu.cn/simple/
+```
+安装1
+```
+pip install --no-index --find-links=C:\Users\path\ pyinstaller
+```
+安装2:复制安装包名到requirement.txt中
+```
+vim requirement.txt
+pip install -r requirement.txt
+```
+
+# 常用命令
+查看已安装
+```
+pip freeze
 ```
 
 # C++封装
