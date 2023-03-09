@@ -2,7 +2,7 @@
 title: Development Tools
 description: for新环境搭建
 published: true
-date: 2023-02-13T05:40:22.504Z
+date: 2023-03-09T07:59:40.212Z
 tags: 
 editor: markdown
 dateCreated: 2020-03-19T08:37:35.923Z
@@ -34,6 +34,7 @@ dateCreated: 2020-03-19T08:37:35.923Z
 - [process-explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer) 进程资源管理工具
 - [screentogif](https://www.screentogif.com/) GIF 制作工具
 - [recuva](https://www.ccleaner.com/zh-cn/recuva) 恢复软件
+- [goldendict](https://github.com/xiaoyifang/goldendict/releases) 翻译工具 词典[freemdict](https://forum.freemdict.com/)
 - snipaste 取色截图工具
 - QuickLook
 
