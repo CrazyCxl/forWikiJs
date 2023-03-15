@@ -2,7 +2,7 @@
 title: Nuget
 description: nuget in linux or windows
 published: true
-date: 2022-11-24T01:51:29.460Z
+date: 2023-03-15T02:22:44.318Z
 tags: nuget
 editor: markdown
 dateCreated: 2022-11-24T01:51:29.460Z
@@ -24,4 +24,15 @@ nuget sources disable -name cxl2
 ```
 nuget spec ./dir
 nuget pack ./dir.nuspec
+```
+
+## 缓存
+查看缓存
+```
+nuget locals all -list
+```
+配置缓存环境变量
+```
+NUGET_HTTP_CACHE_PATH
+NUGET_PAKCAGES
 ```
