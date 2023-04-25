@@ -2,7 +2,7 @@
 title: Python
 description: A quick summary of Python
 published: true
-date: 2023-04-25T06:42:25.256Z
+date: 2023-04-25T07:04:18.093Z
 tags: 
 editor: markdown
 dateCreated: 2020-03-19T08:38:28.707Z
@@ -34,12 +34,11 @@ pip download -r requirements.txt -d ./pip_reqs --extra-index-url https://pypi.mi
 ```
 安装1
 ```
-pip install --no-index --find-links=C:\Users\path\ pyinstaller
+pip install --no-index --find-links=C:\Users\path\ xxx
 ```
-安装2:复制安装包名到requirement.txt中
+安装2
 ```
-vim requirement.txt
-pip install -r requirement.txt
+pip install -r requirements.txt --no-index --find-links=/path/to/download/dir 
 ```
 
 # 常用命令
