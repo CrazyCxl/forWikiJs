@@ -1,8 +1,8 @@
 ---
-title: 版本控制
+title: git_svn
 description: A quick summary of 版本控制
 published: true
-date: 2023-02-23T08:32:00.935Z
+date: 2023-04-25T06:36:59.325Z
 tags: git, svn
 editor: markdown
 dateCreated: 2020-03-19T08:38:43.421Z
@@ -22,6 +22,12 @@ git config user.email 'xxx@xxx.com'
 >git difftool HEAD HEAD^1
 
 ## 常用命令
+### 使用 proxy clone
+```
+export https_proxy=http://127.0.0.1:28081
+git clone https://github.com/username/repo.git
+```
+
 ### windows上清空tag
 参考：https://stackoverflow.com/questions/1841341/remove-local-git-tags-that-are-no-longer-on-the-remote-repository
 
