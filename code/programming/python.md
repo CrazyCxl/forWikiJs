@@ -2,7 +2,7 @@
 title: Python
 description: A quick summary of Python
 published: true
-date: 2023-05-03T10:09:47.508Z
+date: 2023-05-03T10:30:05.627Z
 tags: 
 editor: markdown
 dateCreated: 2020-03-19T08:38:28.707Z
@@ -51,6 +51,20 @@ pip freeze
 界面用法：
 >初学 Python 者自学 Anaconda 的正确姿势是什么？ - 猴子的回答 - 知乎
 >https://www.zhihu.com/question/58033789/answer/254673663
+
+修改默认环境路径：
+https://stackoverflow.com/questions/37926940/how-to-specify-new-environment-location-for-conda-create
+
+File->Preferences->Configure Conda（.condarc）
+添加
+```
+envs_dirs:
+  - D:\envs
+```
+等同于
+```
+conda create --prefix=/users/.../yourEnvName python=x.x
+```
 
 # C++封装
 ## boost.python
