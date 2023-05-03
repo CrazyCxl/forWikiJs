@@ -2,7 +2,7 @@
 title: Python
 description: A quick summary of Python
 published: true
-date: 2023-04-25T07:04:18.093Z
+date: 2023-05-03T10:09:47.508Z
 tags: 
 editor: markdown
 dateCreated: 2020-03-19T08:38:28.707Z
@@ -46,6 +46,11 @@ pip install -r requirements.txt --no-index --find-links=/path/to/download/dir
 ```
 pip freeze
 ```
+
+# Anaconda
+界面用法：
+>初学 Python 者自学 Anaconda 的正确姿势是什么？ - 猴子的回答 - 知乎
+>https://www.zhihu.com/question/58033789/answer/254673663
 
 # C++封装
 ## boost.python
