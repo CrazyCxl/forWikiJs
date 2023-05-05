@@ -2,7 +2,7 @@
 title: git_svn
 description: A quick summary of 版本控制
 published: true
-date: 2023-04-25T06:36:59.325Z
+date: 2023-05-05T02:15:18.164Z
 tags: git, svn
 editor: markdown
 dateCreated: 2020-03-19T08:38:43.421Z
@@ -26,6 +26,11 @@ git config user.email 'xxx@xxx.com'
 ```
 export https_proxy=http://127.0.0.1:28081
 git clone https://github.com/username/repo.git
+```
+小技巧代理下载：
+```
+export https_proxy=http://127.0.0.1:28081
+curl -L -O  https://github.com/ultralytics/yolov5/releases/download/v5.0.0/arial.ttl
 ```
 
 ### windows上清空tag
