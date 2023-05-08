@@ -2,7 +2,7 @@
 title: Windbg
 description: windbg
 published: true
-date: 2022-06-22T09:35:41.192Z
+date: 2023-05-08T09:56:59.511Z
 tags: windows
 editor: markdown
 dateCreated: 2022-06-22T09:00:07.672Z
@@ -12,6 +12,9 @@ dateCreated: 2022-06-22T09:00:07.672Z
 分析还原被破坏的堆栈
 https://blog.csdn.net/swartz_lubel/article/details/77920782
 https://blog.csdn.net/CJF_iceKing/article/details/119488750
+
+microsoft教程
+https://learn.microsoft.com/zh-cn/windows-hardware/drivers/debugger/getting-started-with-windbg
 
 # 环境
  离线系统符号表下载到```c:\symbols```中
