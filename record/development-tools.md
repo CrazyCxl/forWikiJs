@@ -2,7 +2,7 @@
 title: Development Tools
 description: for新环境搭建
 published: true
-date: 2023-05-16T00:56:52.970Z
+date: 2023-05-16T08:42:26.908Z
 tags: 
 editor: markdown
 dateCreated: 2020-03-19T08:37:35.923Z
@@ -78,7 +78,10 @@ slmgr /ato
 ```
 cscript ospp.vbs /sethst:vpn.sibogao.cn
 cscript ospp.vbs /act
+cscript ospp.vbs /dstatus
 ```
+error code 0x80070005 权限不够，以管理员权限运行
+
 
 ### 激活office 2019
 ```bat
