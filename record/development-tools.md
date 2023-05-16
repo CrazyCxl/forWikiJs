@@ -2,7 +2,7 @@
 title: Development Tools
 description: for新环境搭建
 published: true
-date: 2023-03-09T07:59:40.212Z
+date: 2023-05-16T00:56:52.970Z
 tags: 
 editor: markdown
 dateCreated: 2020-03-19T08:37:35.923Z
@@ -21,11 +21,9 @@ dateCreated: 2020-03-19T08:37:35.923Z
 - [Qt](https://download.qt.io/archive/) qt各个版本的下载地址
 - [potplayer](https://potplayer.daum.net/) 视频播放器
 - [postman](https://www.getpostman.com/apps) REST调试工具
-- [webtorrent](https://webtorrent.io/)
 - [NDM](https://neatdownloadmanager.com/index.php/en/) 下载工具
 - [autohotkey](https://www.autohotkey.com/) 快捷键脚本
 - [dependency](http://www.dependencywalker.com/) dll解析工具
-- [matlab](https://blog.csdn.net/josslyn/article/details/79898261)
 - [graphviz](http://www.graphviz.org/download/) 可视化工具
 - [everything](https://www.voidtools.com/zh-cn/) windows全盘搜索工具
 - [WinDirStat](https://windirstat.en.softonic.com/) 磁盘文件分析工具
@@ -35,6 +33,7 @@ dateCreated: 2020-03-19T08:37:35.923Z
 - [screentogif](https://www.screentogif.com/) GIF 制作工具
 - [recuva](https://www.ccleaner.com/zh-cn/recuva) 恢复软件
 - [goldendict](https://github.com/xiaoyifang/goldendict/releases) 翻译工具 词典[freemdict](https://forum.freemdict.com/)
+- [LANDrop](https://landrop.app/#downloads) 局域网传输工具
 - snipaste 取色截图工具
 - QuickLook
 
