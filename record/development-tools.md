@@ -2,7 +2,7 @@
 title: Development Tools
 description: for新环境搭建
 published: true
-date: 2023-05-16T09:06:00.977Z
+date: 2023-05-16T09:12:42.769Z
 tags: 
 editor: markdown
 dateCreated: 2020-03-19T08:37:35.923Z
@@ -48,6 +48,8 @@ office2019 GRBR4-J4N3M-KTX9C-JM4PJ-J8HPT
 
 
 ### 搭建kms服务器
+不能在同一台设备上运行kms和激活
+
 #### 直接下载运行
 参考：https://blog.csdn.net/xingyu97/article/details/89381018
 参考：https://zhuanlan.zhihu.com/p/355184532
