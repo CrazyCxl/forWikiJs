@@ -2,7 +2,7 @@
 title: Windows
 description: Windows 下的编程问题
 published: true
-date: 2022-09-27T03:32:18.952Z
+date: 2023-05-16T06:14:59.641Z
 tags: 
 editor: markdown
 dateCreated: 2020-03-19T08:37:53.435Z
@@ -69,6 +69,31 @@ appverif
 2008 版下载：https://www.microsoft.com/en-us/download/details.aspx?id=8442
 # NSIS打包工具
 官网：http://nsis.sourceforge.net/Main_Page
+
+# NSSM 服务创建
+To hide the terminal window when running V2Ray on Windows, you can use a utility called "nssm" (Non-Sucking Service Manager) to create a Windows service for V2Ray. Here's how you can do it:
+
+- Download the nssm utility from the official website: https://nssm.cc/download
+- Extract the downloaded archive and locate the nssm.exe file.
+- Open Command Prompt or PowerShell as an ```administrator```
+- Navigate to the directory where nssm.exe is located.
+- Run the following command to create a new service:
+```
+nssm install V2RayService
+```
+In the nssm Service Installer window that appears, specify the following:
+
+>Path: Browse and select the V2Ray executable (e.g., v2ray.exe).
+>Startup directory: Specify the directory where V2Ray is installed.
+>Arguments: Enter any necessary command-line arguments for V2Ray.
+
+Click the "Install service" button to create the service.
+Once the service is created, you can start it by running the following command:
+```
+nssm start V2RayService
+```
+This will start V2Ray in the background without showing the terminal window.
+From now on, V2Ray will run as a service and will not display the terminal window. You can manage the service using the nssm utility, such as stopping or restarting it when needed.
 
 # 库相关
 ## DLL库信息与依赖查看
