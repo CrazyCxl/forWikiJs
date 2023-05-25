@@ -2,7 +2,7 @@
 title: Windows
 description: Windows 下的编程问题
 published: true
-date: 2023-05-16T06:14:59.641Z
+date: 2023-05-25T12:44:18.340Z
 tags: 
 editor: markdown
 dateCreated: 2020-03-19T08:37:53.435Z
@@ -37,8 +37,6 @@ cat (Get-PSReadlineOption).HistorySavePath
 certutil -hashfile .\libtest.1.dylib md5
 Get-Filehash -Path .\libtest.a -Algorithm MD5
 
-## 转化为utf8编码的窗口
-chcp 65001
 
 # 睡眠模式
 https://www.zhihu.com/question/264893048
