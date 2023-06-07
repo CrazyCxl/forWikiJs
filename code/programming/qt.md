@@ -2,13 +2,17 @@
 title: Qt
 description: A quick summary of Qt
 published: true
-date: 2023-05-03T11:06:59.424Z
+date: 2023-06-07T06:40:21.383Z
 tags: 
 editor: markdown
 dateCreated: 2020-03-19T08:38:31.630Z
 ---
 
 # 环境
+## 安装
+太慢使用其他源：
+./qt-unified-linux-x64-XXX-online.run --mirror https://mirrors.tuna.tsinghua.edu.cn/qt
+
 ## cdb 未找到
 - vs安装sdk
 - 在应用和功能中查找```Windows Software Development Kit```
