@@ -2,7 +2,7 @@
 title: git_svn
 description: A quick summary of 版本控制
 published: true
-date: 2023-05-05T02:15:18.164Z
+date: 2023-06-16T06:34:57.074Z
 tags: git, svn
 editor: markdown
 dateCreated: 2020-03-19T08:38:43.421Z
@@ -10,6 +10,12 @@ dateCreated: 2020-03-19T08:38:43.421Z
 
 # Git
 学习:https://learngitbranching.js.org
+
+## 使用镜像加速
+https://ghproxy.com/
+示例
+git clone https://ghproxy.com/https://github.com/stilleshan/ServerStatus
+
 ## 配置
 *~/.gitconfig*
 ### 添加用户和邮箱
