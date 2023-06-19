@@ -2,7 +2,7 @@
 title: Development Tools
 description: for新环境搭建
 published: true
-date: 2023-05-16T09:12:42.769Z
+date: 2023-06-19T09:51:06.157Z
 tags: 
 editor: markdown
 dateCreated: 2020-03-19T08:37:35.923Z
@@ -27,6 +27,7 @@ dateCreated: 2020-03-19T08:37:35.923Z
 - [graphviz](http://www.graphviz.org/download/) 可视化工具
 - [everything](https://www.voidtools.com/zh-cn/) windows全盘搜索工具
 - [WinDirStat](https://windirstat.en.softonic.com/) 磁盘文件分析工具
+- [crystaldiskinfo](https://crystalmark.info/en/software/crystaldiskinfo/) 硬盘状态查询
 - [geekuninstaller](https://geekuninstaller.com/download) 卸载工具
 - [Rufus](https://rufus.ie/) U盘引导盘制作工具
 - [process-explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer) 进程资源管理工具
