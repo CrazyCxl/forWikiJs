@@ -2,7 +2,7 @@
 title: Development Tools
 description: for新环境搭建
 published: true
-date: 2023-06-19T09:51:06.157Z
+date: 2023-07-17T09:15:16.453Z
 tags: 
 editor: markdown
 dateCreated: 2020-03-19T08:37:35.923Z
@@ -35,6 +35,7 @@ dateCreated: 2020-03-19T08:37:35.923Z
 - [recuva](https://www.ccleaner.com/zh-cn/recuva) 恢复软件
 - [goldendict](https://github.com/xiaoyifang/goldendict/releases) 翻译工具 词典[freemdict](https://forum.freemdict.com/)
 - [LANDrop](https://landrop.app/#downloads) 局域网传输工具
+- [CoreTemp](https://www.alcpu.com/CoreTemp/) cpu温度显示
 - snipaste 取色截图工具
 - QuickLook
 
