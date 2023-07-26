@@ -2,7 +2,7 @@
 title: git_svn
 description: A quick summary of 版本控制
 published: true
-date: 2023-06-16T06:34:57.074Z
+date: 2023-07-26T03:03:23.332Z
 tags: git, svn
 editor: markdown
 dateCreated: 2020-03-19T08:38:43.421Z
@@ -20,7 +20,13 @@ git clone https://ghproxy.com/https://github.com/stilleshan/ServerStatus
 *~/.gitconfig*
 ### 添加用户和邮箱
 >git config user.name "xxx"  
-git config user.email 'xxx@xxx.com'  
+git config user.email 'xxx@xxx.com' 
+
+### Windows配置取消换行告警
+```
+LF will be replaced by CRLF the next time Git touches it
+```
+>git config --global core.autocrlf false
 ### 使用meld作为比较工具
 >git config --global  diff.tool  meld
 
