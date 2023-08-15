@@ -2,7 +2,7 @@
 title: git_svn
 description: A quick summary of 版本控制
 published: true
-date: 2023-07-26T03:03:23.332Z
+date: 2023-08-15T06:18:51.930Z
 tags: git, svn
 editor: markdown
 dateCreated: 2020-03-19T08:38:43.421Z
@@ -55,9 +55,15 @@ curl -L -O  https://github.com/ultralytics/yolov5/releases/download/v5.0.0/arial
 > git commit --amend --author="Author Name <email@address.com>" --no-edit
 
 ### 同步分支
-参考：https://www.jianshu.com/p/c17472d704a0
-merge --ff-only 与 rebase 功能类似
 
+merge时保留冲突的一方
+```
+# keep remote files
+git merge --strategy-option theirs
+# keep local files
+git merge --strategy-option ours
+```
+  
 ## 远程仓库
 **git remote**
 
