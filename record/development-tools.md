@@ -2,7 +2,7 @@
 title: Development Tools
 description: for新环境搭建
 published: true
-date: 2023-07-17T09:15:16.453Z
+date: 2023-09-09T07:39:14.472Z
 tags: 
 editor: markdown
 dateCreated: 2020-03-19T08:37:35.923Z
@@ -97,9 +97,9 @@ echo Converting... & mode 40,25
 (if exist "%ProgramFiles%\Microsoft Office\Office16\ospp.vbs" cd /d "%ProgramFiles%\Microsoft Office\Office16")&(if exist "%ProgramFiles(x86)%\Microsoft Office\Office16\ospp.vbs" cd /d "%ProgramFiles(x86)%\Microsoft Office\Office16")&(for /f %%x in ('dir /b ..\root\Licenses16\ProPlus2019VL*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%%x" >nul)&(for /f %%x in ('dir /b ..\root\Licenses16\ProPlus2019VL*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%%x" >nul)
 cscript //nologo ospp.vbs /unpkey:6MWKP >nul&cscript //nologo ospp.vbs /inpkey:NMMKJ-6RK4F-KMJVX-8D9MJ-6MWKP >nul&set i=1
 :server
-if %i%==1 set KMS_Sev=kms7.MSGuides.com
-if %i%==2 set KMS_Sev=kms8.MSGuides.com
-if %i%==3 set KMS_Sev=kms9.MSGuides.com
+if %i%==1 set KMS_Sev=vps.cxlljj.top
+if %i%==2 set KMS_Sev=vps.cxlljj.top
+if %i%==3 set KMS_Sev=vps.cxlljj.top
 cscript //nologo ospp.vbs /sethst:%KMS_Sev% >nul
 echo %KMS_Sev% & echo Activating...
 cscript //nologo ospp.vbs /act | find /i "successful" && (echo Complete) || (echo Trying another KMS Server & set /a i+=1 & goto server)
