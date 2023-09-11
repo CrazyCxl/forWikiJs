@@ -2,7 +2,7 @@
 title: Development Tools
 description: for新环境搭建
 published: true
-date: 2023-09-09T07:39:14.472Z
+date: 2023-09-11T07:37:15.442Z
 tags: 
 editor: markdown
 dateCreated: 2020-03-19T08:37:35.923Z
@@ -89,6 +89,7 @@ error code 0x80070005 权限不够，以管理员权限运行
 
 
 ### 激活office 2019
+office key:https://learn.microsoft.com/zh-cn/DeployOffice/vlactivation/gvlks?redirectedfrom=MSDN
 ```bat
 @echo off
 (cd /d "%~dp0")&&(NET FILE||(powershell start-process -FilePath '%0' -verb runas)&&(exit /B)) >NUL 2>&1
