@@ -2,7 +2,7 @@
 title: Development Tools
 description: for新环境搭建
 published: true
-date: 2023-09-11T07:58:48.611Z
+date: 2023-09-17T10:02:41.699Z
 tags: 
 editor: markdown
 dateCreated: 2020-03-19T08:37:35.923Z
@@ -36,6 +36,7 @@ dateCreated: 2020-03-19T08:37:35.923Z
 - [goldendict](https://github.com/xiaoyifang/goldendict/releases) 翻译工具 词典[freemdict](https://forum.freemdict.com/)
 - [LANDrop](https://landrop.app/#downloads) 局域网传输工具
 - [CoreTemp](https://www.alcpu.com/CoreTemp/) cpu温度显示
+- [womic](https://wolicheng.com/womic/download.html) 手机麦克风
 - snipaste 取色截图工具
 - QuickLook
 
