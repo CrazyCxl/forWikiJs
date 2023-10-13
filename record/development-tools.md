@@ -2,7 +2,7 @@
 title: Development Tools
 description: for新环境搭建
 published: true
-date: 2023-09-17T10:02:41.699Z
+date: 2023-10-13T02:12:47.270Z
 tags: 
 editor: markdown
 dateCreated: 2020-03-19T08:37:35.923Z
@@ -12,7 +12,7 @@ dateCreated: 2020-03-19T08:37:35.923Z
 ## 常用工具
 
 - [sqlitebrowser](https://sqlitebrowser.org/dl/) sql数据查看工具
-- [Bandizip](https://www.bandisoft.com/bandizip/) 解压工具
+- [7zip](https://www.7-zip.org/) 解压工具
 - [notpad3](https://www.rizonesoft.com/downloads/notepad3/) 文档编辑器
 - [understand](https://licensing.scitools.com/download) 代码分析工具
 - [putty](https://www.putty.org/) ssh连接
