@@ -2,7 +2,7 @@
 title: Windbg
 description: windbg
 published: true
-date: 2023-10-20T08:27:01.935Z
+date: 2023-10-20T08:28:47.936Z
 tags: windows
 editor: markdown
 dateCreated: 2022-06-22T09:00:07.672Z
@@ -40,6 +40,7 @@ windbg加载离线pdb
 ```bm``` 针对符号下断点，支持匹配表达式。 很多时候你下好几个断点。 比如，把MyClass 所有的成员函数都下断点： bu MyApp!MyClass::*
 ```g``` 开始运行，```.restart``` 重新运行
 ```n10``` 以10进制显示值
+```bl```列出断点，```bc```删除指定断点
 
 eg.
 ```
