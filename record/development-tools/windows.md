@@ -2,7 +2,7 @@
 title: Windows
 description: Windows 下的编程问题
 published: true
-date: 2023-05-25T12:44:18.340Z
+date: 2023-11-01T02:19:10.152Z
 tags: 
 editor: markdown
 dateCreated: 2020-03-19T08:37:53.435Z
@@ -64,7 +64,7 @@ https://www.red-gate.com/simple-talk/dotnet/net-development/creating-ccli-wrappe
 
 ## 调试内存泄漏工具
 appverif
-2008 版下载：https://www.microsoft.com/en-us/download/details.aspx?id=8442
+win7、2008 版下载：https://www.microsoft.com/en-us/download/details.aspx?id=8442
 # NSIS打包工具
 官网：http://nsis.sourceforge.net/Main_Page
 
