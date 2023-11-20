@@ -2,7 +2,7 @@
 title: Development Tools
 description: for新环境搭建
 published: true
-date: 2023-10-13T02:12:47.270Z
+date: 2023-11-20T09:13:02.190Z
 tags: 
 editor: markdown
 dateCreated: 2020-03-19T08:37:35.923Z
@@ -37,6 +37,7 @@ dateCreated: 2020-03-19T08:37:35.923Z
 - [LANDrop](https://landrop.app/#downloads) 局域网传输工具
 - [CoreTemp](https://www.alcpu.com/CoreTemp/) cpu温度显示
 - [womic](https://wolicheng.com/womic/download.html) 手机麦克风
+- [Office Tool plus](https://otp.landian.vip/zh-cn/) office破解
 - snipaste 取色截图工具
 - QuickLook
 
@@ -45,29 +46,8 @@ System Or Office下载：https://msdn.itellyou.cn/
 ## 激活
 ### 可能的问题
 告警```你可能是盗版软件受害者```
-方法1：
->更换激活码
-office2019 GRBR4-J4N3M-KTX9C-JM4PJ-J8HPT
-
-方法2：
-使用官方升级为月度用户
-```
-@echo off
-
-reg add HKLM\SOFTWARE\Microsoft\Office\ClickToRun\Configuration /v CDNBaseUrl /t REG_SZ /d "http://officecdn.microsoft.com/pr/55336B82-A18D-4DD6-B5F6-9E5095C314A6" /f
-
-reg delete HKLM\SOFTWARE\Microsoft\Office\ClickToRun\Configuration /v UpdateUrl /f
-
-reg delete HKLM\SOFTWARE\Microsoft\Office\ClickToRun\Configuration /v UpdateToVersion /f
-
-reg delete HKLM\SOFTWARE\Microsoft\Office\ClickToRun\Updates /v UpdateToVersion /f
-
-reg delete HKLM\SOFTWARE\Policies\Microsoft\Office\16.0\Common\OfficeUpdate\ /f
-
-"%CommonProgramFiles%\microsoft shared\ClickToRun\OfficeC2RClient.exe" /update user
-
-exit
-```
+通过office Tool plus工具设置kms主机
+链接: https://pan.baidu.com/s/1ZENtawaMbC10fRiDLBtqHg 提取码: qydu 
 
 
 ### 搭建kms服务器
