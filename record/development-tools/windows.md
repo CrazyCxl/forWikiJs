@@ -2,7 +2,7 @@
 title: Windows
 description: Windows 下的编程问题
 published: true
-date: 2023-11-01T02:19:10.152Z
+date: 2023-11-21T01:51:26.266Z
 tags: 
 editor: markdown
 dateCreated: 2020-03-19T08:37:53.435Z
@@ -90,8 +90,12 @@ Once the service is created, you can start it by running the following command:
 ```
 nssm start V2RayService
 ```
-This will start V2Ray in the background without showing the terminal window.
-From now on, V2Ray will run as a service and will not display the terminal window. You can manage the service using the nssm utility, such as stopping or restarting it when needed.
+
+## 查看nssm创建的服务列表
+```
+Get-WmiObject win32_service | ?{$_.PathName -like '*nssm*'} | select Name, DisplayName, State, PathName
+```
+
 
 # 库相关
 ## DLL库信息与依赖查看
