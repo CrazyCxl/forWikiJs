@@ -2,7 +2,7 @@
 title: Development Tools
 description: for新环境搭建
 published: true
-date: 2023-11-20T09:13:02.190Z
+date: 2023-11-21T02:03:01.769Z
 tags: 
 editor: markdown
 dateCreated: 2020-03-19T08:37:35.923Z
@@ -57,6 +57,8 @@ System Or Office下载：https://msdn.itellyou.cn/
 参考：https://blog.csdn.net/xingyu97/article/details/89381018
 参考：https://zhuanlan.zhihu.com/p/355184532
 下载：https://github.com/Wind4/vlmcsd/releases
+
+Linux
 ```
 解压
 tar -zxvf binaries.tar.gz
@@ -64,6 +66,14 @@ cd binaries/Linux/intel/static
 
 运行
 ./vlmcsdmulti-x64-musl-static vlmcsd
+```
+
+Windows *(推荐做成 nssm服务)*
+```
+vlmcsdmulti-Windows-x64.exe vlmcsd
+
+测试连接
+vlmcs-Windows-x64 [IP]
 ```
 运行后会占用端口1688
 
