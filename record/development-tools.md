@@ -2,7 +2,7 @@
 title: Development Tools
 description: for新环境搭建
 published: true
-date: 2023-11-21T02:03:01.769Z
+date: 2023-11-21T03:13:53.179Z
 tags: 
 editor: markdown
 dateCreated: 2020-03-19T08:37:35.923Z
@@ -118,6 +118,12 @@ cscript //nologo ospp.vbs /act | find /i "successful" && (echo Complete) || (ech
 pause >nul
 exit
 ```
+离线安装后 office 提示“很抱歉，此功能看似已中断” 解决办法
+链接：https://zhuanlan.zhihu.com/p/324859213
+
+>打开注册表，找到以下键值：计算机\HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\Word\Options
+>右侧新建32位DWORD值，取名为NoReReg，并输入数值为1 并确认，关闭注册表编辑器，重新打开Word 即可。
+
 ### 激活Office2016
 ```
 cscript "%ProgramFiles(x86)%\Microsoft Office\Office16\ospp.vbs" /inslic:"%ProgramFiles(x86)%\Microsoft Office\root\Licenses16\ProPlusVL_KMS_Client-ul.xrm-ms"
