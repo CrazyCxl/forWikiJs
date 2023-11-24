@@ -2,13 +2,25 @@
 title: Book
 description: 书源编辑记录
 published: true
-date: 2023-11-24T03:49:20.998Z
+date: 2023-11-24T04:06:12.076Z
 tags: life
 editor: markdown
 dateCreated: 2023-11-24T03:49:20.998Z
 ---
 
 # 书源规则
+
+## 搜索
+列表规则：$
+作者规则：.author
+```
+[
+    { 
+        "url_list": "\/book\/105412\/", "url_img": "https:\/\/www.qmxs123.com\/bookimg\/105\/105390.jpg", "articlename": "\u6df1\u6d77\u4f59\u70ec", 
+        "author": "\u8fdc\u77b3", 
+        "intro": "\u5728\u90a3\u4e00\..." 
+    }, 
+```
 
 ## 详情
 
