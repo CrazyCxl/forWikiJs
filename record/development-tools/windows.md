@@ -2,7 +2,7 @@
 title: Windows
 description: Windows 下的编程问题
 published: true
-date: 2023-11-21T01:51:26.266Z
+date: 2023-12-13T06:16:06.169Z
 tags: 
 editor: markdown
 dateCreated: 2020-03-19T08:37:53.435Z
@@ -45,6 +45,9 @@ https://www.zhihu.com/question/264893048
 powercfg /requests
 ```
 # VS 相关
+## 插件推荐
+- [注释工具doxygen](https://marketplace.visualstudio.com/items?itemName=FinnGegenmantel.doxygenComments)
+
 ## 使用 **Microsoft Visual Studio 2017 Installer Projects** 打包时卡在正在准备安装这一步
 
 环境Win10 vs2017 vs2013
