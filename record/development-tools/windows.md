@@ -2,7 +2,7 @@
 title: Windows
 description: Windows 下的编程问题
 published: true
-date: 2023-12-13T06:16:06.169Z
+date: 2023-12-13T06:17:35.185Z
 tags: 
 editor: markdown
 dateCreated: 2020-03-19T08:37:53.435Z
@@ -47,6 +47,8 @@ powercfg /requests
 # VS 相关
 ## 插件推荐
 - [注释工具doxygen](https://marketplace.visualstudio.com/items?itemName=FinnGegenmantel.doxygenComments)
+
+双击或使用vs bin目录下的 VSIXInstaller.exe 安装下载好的插件文件
 
 ## 使用 **Microsoft Visual Studio 2017 Installer Projects** 打包时卡在正在准备安装这一步
 
