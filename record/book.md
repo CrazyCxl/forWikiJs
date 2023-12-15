@@ -2,7 +2,7 @@
 title: Book
 description: 书源编辑记录
 published: true
-date: 2023-11-24T04:06:12.076Z
+date: 2023-12-15T07:46:17.731Z
 tags: life
 editor: markdown
 dateCreated: 2023-11-24T03:49:20.998Z
@@ -69,6 +69,11 @@ dateCreated: 2023-11-24T03:49:20.998Z
 		<dd><a href ="/xs/120550/2.html">第2章 失乡号的船长</a></dd>
 		<dd><a href ="/xs/120550/3.html">第3章 边境迷航</a></dd>
 		<dd><a href ="/xs/120550/4.html">第4章 灵界飚船</a></dd>
+```
+
+列表规则：ul.2@li@a
+```
+取第二个ul元素对应的内容
 ```
 
 ## 正文
