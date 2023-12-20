@@ -2,7 +2,7 @@
 title: Development Tools
 description: for新环境搭建
 published: true
-date: 2023-11-21T03:13:53.179Z
+date: 2023-12-20T09:08:03.778Z
 tags: 
 editor: markdown
 dateCreated: 2020-03-19T08:37:35.923Z
@@ -34,7 +34,7 @@ dateCreated: 2020-03-19T08:37:35.923Z
 - [screentogif](https://www.screentogif.com/) GIF 制作工具
 - [recuva](https://www.ccleaner.com/zh-cn/recuva) 恢复软件
 - [goldendict](https://github.com/xiaoyifang/goldendict/releases) 翻译工具 词典[freemdict](https://forum.freemdict.com/)
-- [LANDrop](https://landrop.app/#downloads) 局域网传输工具
+- [localsend](https://github.com/localsend/localsend/releases) 局域网传输工具
 - [CoreTemp](https://www.alcpu.com/CoreTemp/) cpu温度显示
 - [womic](https://wolicheng.com/womic/download.html) 手机麦克风
 - [Office Tool plus](https://otp.landian.vip/zh-cn/) office破解
