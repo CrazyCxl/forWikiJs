@@ -2,7 +2,7 @@
 title: Andriod Studio
 description: Andriod Studio Ide
 published: true
-date: 2023-12-21T03:42:36.038Z
+date: 2023-12-22T06:19:52.655Z
 tags: ide
 editor: markdown
 dateCreated: 2023-06-26T07:47:36.653Z
@@ -19,6 +19,6 @@ dateCreated: 2023-06-26T07:47:36.653Z
 在项目的gradle/wrapper/gradle-wrapper.properties这个文件中可以看到下载地址
 可以将其修改为国内的一个源，如：
 ```
-distributionUrl=https\://code.aliyun.com/kar/gradle-all-zip/raw/master/gradle-6.5-all.zip
+distributionUrl=https\://mirrors.cloud.tencent.com/gradle/gradle-6.5-all.zip
 ```
 或者手动下载放到 $User/.gradle/wrapper/dists中创建一个对应版本的文件夹以及下面的一个SHA256签名的目录，直接将zip拷贝进去（无需解压缩）
