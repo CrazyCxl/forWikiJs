@@ -2,7 +2,7 @@
 title: Development Tools
 description: for新环境搭建
 published: true
-date: 2023-12-20T09:08:03.778Z
+date: 2023-12-27T07:43:23.708Z
 tags: 
 editor: markdown
 dateCreated: 2020-03-19T08:37:35.923Z
@@ -38,6 +38,7 @@ dateCreated: 2020-03-19T08:37:35.923Z
 - [CoreTemp](https://www.alcpu.com/CoreTemp/) cpu温度显示
 - [womic](https://wolicheng.com/womic/download.html) 手机麦克风
 - [Office Tool plus](https://otp.landian.vip/zh-cn/) office破解
+- [goodsync](https://www.goodsync.com/) 本地目录同步
 - snipaste 取色截图工具
 - QuickLook
 
