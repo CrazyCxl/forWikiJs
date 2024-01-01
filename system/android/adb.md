@@ -2,7 +2,7 @@
 title: adb
 description: adb doc
 published: true
-date: 2023-12-25T03:34:05.514Z
+date: 2024-01-01T03:13:07.968Z
 tags: adb android
 editor: markdown
 dateCreated: 2020-07-27T08:29:08.397Z
@@ -22,7 +22,12 @@ adb push  /Users/xxxx/xxx.txt   /sdcard/xxx
 ```
 adb shell uiautomator dump /sdcard/ui.xml
 ```
-
+## 查看软件名
+```
+adb shell pm list packages -f
+adb pull /data/app/com.leon.demo-ZMMnebZlBtlM_xwAxZyXPQ==/base.apk
+aapt d badging base.apk
+```
 # 无线调试
 ```
 adb tcpip 10555
