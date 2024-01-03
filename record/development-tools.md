@@ -2,11 +2,15 @@
 title: Development Tools
 description: for新环境搭建
 published: true
-date: 2023-12-27T07:43:23.708Z
+date: 2024-01-03T02:36:55.262Z
 tags: 
 editor: markdown
 dateCreated: 2020-03-19T08:37:35.923Z
 ---
+
+# Android
+## 常用apk
+- [指南针](https://pan.baidu.com/s/13gVS9bor5pjIQG2pZluS_Q?pwd=lwfy) 方位海拔查看
 
 # Windows
 ## 常用工具
