@@ -2,7 +2,7 @@
 title: Andriod Studio
 description: Andriod Studio Ide
 published: true
-date: 2023-12-22T06:19:52.655Z
+date: 2024-01-11T07:06:56.873Z
 tags: ide
 editor: markdown
 dateCreated: 2023-06-26T07:47:36.653Z
@@ -22,3 +22,9 @@ dateCreated: 2023-06-26T07:47:36.653Z
 distributionUrl=https\://mirrors.cloud.tencent.com/gradle/gradle-6.5-all.zip
 ```
 或者手动下载放到 $User/.gradle/wrapper/dists中创建一个对应版本的文件夹以及下面的一个SHA256签名的目录，直接将zip拷贝进去（无需解压缩）
+
+## 常见报错
+### The project uses Gradle 4.1 which is incompatible with Java 11 or newer.
+参考：https://blog.csdn.net/m0_65511195/article/details/122148195
+File->Settings->Build,Execution,Deployment->Gradle 
+里的Gradle JDK改为1.8
