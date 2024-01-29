@@ -2,7 +2,7 @@
 title: git_svn
 description: A quick summary of 版本控制
 published: true
-date: 2023-08-15T06:18:51.930Z
+date: 2024-01-29T01:24:43.502Z
 tags: git, svn
 editor: markdown
 dateCreated: 2020-03-19T08:38:43.421Z
@@ -52,7 +52,7 @@ curl -L -O  https://github.com/ultralytics/yolov5/releases/download/v5.0.0/arial
 
 
 ### 修改提交的用户名
-> git commit --amend --author="Author Name <email@address.com>" --no-edit
+> git commit --amend --author="Author Name \<email@address.com\>" --no-edit
 
 ### 同步分支
 
