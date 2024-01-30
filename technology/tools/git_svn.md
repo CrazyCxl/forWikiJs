@@ -2,7 +2,7 @@
 title: git_svn
 description: A quick summary of 版本控制
 published: true
-date: 2024-01-30T03:31:35.744Z
+date: 2024-01-30T03:31:59.420Z
 tags: git, svn
 editor: markdown
 dateCreated: 2020-03-19T08:38:43.421Z
@@ -65,10 +65,9 @@ git merge --strategy-option ours
 ```
 ### 子模块
 ```  
-#初始化  
-git submodule update --init --recursive
-  
-#更新
+#init
+git submodule update --init --recursive  
+#update
 git submodule update --recursive --remote  
 ```
   
