@@ -2,8 +2,10 @@
 title: Ubuntu
 description: A quick summary of Ubuntu
 published: true
-date: 2021-04-20T08:29:54.698Z
+date: 2024-01-30T08:22:43.193Z
 tags: 
+editor: markdown
+dateCreated: 2020-03-19T08:38:08.233Z
 ---
 
 常用命令
@@ -26,6 +28,13 @@ dpkg -l
 
 搜索文件所在安装包
 dpkg -S /path/to/file
+```
+
+### 包冲突导致的安装失败（unmet）
+使用aptitude工具来安装，过程中输入n来选择方案
+```
+$ sudo apt-get install aptitude
+$ sudo aptitude install package-name
 ```
 deb包与rpm包互转
 ---
