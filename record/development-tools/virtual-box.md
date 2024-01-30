@@ -1,5 +1,12 @@
-<!-- TITLE: Virtual Box -->
-<!-- SUBTITLE: A quick summary of Virtual Box -->
+---
+title: Virtual Box
+description: A quick summary of Virtual Box
+published: true
+date: 2024-01-30T08:41:11.664Z
+tags: 
+editor: markdown
+dateCreated: 2020-03-19T08:37:50.584Z
+---
 
 # 下载与安装
 https://www.virtualbox.org/wiki/Downloads
@@ -10,6 +17,8 @@ https://www.virtualbox.org/wiki/Downloads
 
 
 # 常见问题
+Q: 安装增强功能后启动虚拟机黑屏
+>显存开到最大
 
 Q: Win10安装虚拟机后无法ping通？
 >配置Win10防火墙允许ICMP [^ping]
