@@ -2,7 +2,7 @@
 title: Book
 description: 书源编辑记录
 published: true
-date: 2023-12-15T07:46:17.731Z
+date: 2024-02-04T06:50:04.975Z
 tags: life
 editor: markdown
 dateCreated: 2023-11-24T03:49:20.998Z
@@ -11,8 +11,8 @@ dateCreated: 2023-11-24T03:49:20.998Z
 # 书源规则
 
 ## 搜索
-列表规则：$
-作者规则：.author
+列表规则：```$.[*]```
+作者规则：```.author```
 ```
 [
     { 
