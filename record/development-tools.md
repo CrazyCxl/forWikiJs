@@ -2,7 +2,7 @@
 title: Development Tools
 description: for新环境搭建
 published: true
-date: 2024-02-19T06:59:28.832Z
+date: 2024-02-19T07:07:36.520Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-08T11:00:58.708Z
@@ -55,6 +55,7 @@ System Or Office下载：https://msdn.itellyou.cn/
 - [dependency](http://www.dependencywalker.com/) dll解析工具
 - [graphviz](http://www.graphviz.org/download/) 可视化工具
 - [insomnia](https://insomnia.rest/download) REST调试工具替换postman
+- [postman](https://www.postman.com/downloads/) REST调试工具
 
 # chrome 配置
 ### 开启并行下载支持
