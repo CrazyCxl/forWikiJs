@@ -2,7 +2,7 @@
 title: Development Tools
 description: for新环境搭建
 published: true
-date: 2024-02-19T06:59:02.687Z
+date: 2024-02-19T06:59:28.832Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-08T11:00:58.708Z
@@ -23,7 +23,6 @@ System Or Office下载：https://msdn.itellyou.cn/
 - [7zip](https://www.7-zip.org/) 解压工具
 - [notpad3](https://www.rizonesoft.com/downloads/notepad3/) 文档编辑器
 - [potplayer](https://potplayer.daum.net/) 视频播放器
-- [insomnia](https://insomnia.rest/download) REST调试工具
 - [NDM](https://neatdownloadmanager.com/index.php/en/) 下载工具
 - [autohotkey](https://www.autohotkey.com/) 快捷键脚本
 - [everything](https://www.voidtools.com/zh-cn/) windows全盘搜索工具
@@ -55,6 +54,7 @@ System Or Office下载：https://msdn.itellyou.cn/
 - [git](https://www.git-scm.com/download/) Git官网下载
 - [dependency](http://www.dependencywalker.com/) dll解析工具
 - [graphviz](http://www.graphviz.org/download/) 可视化工具
+- [insomnia](https://insomnia.rest/download) REST调试工具替换postman
 
 # chrome 配置
 ### 开启并行下载支持
