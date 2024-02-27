@@ -2,10 +2,10 @@
 title: Linux
 description: A quick summary of Linux
 published: true
-date: 2023-01-06T08:04:13.939Z
+date: 2024-02-27T02:40:33.283Z
 tags: ssh
 editor: markdown
-dateCreated: 2020-03-19T08:37:41.814Z
+dateCreated: 2024-02-08T11:01:12.705Z
 ---
 
 # 环境搭建
@@ -34,24 +34,6 @@ grep -o "text.*$"
 awk '{ print $2 }'
 ```
 
-# Debian
-## 换源
-- 打开界面software工具
-- 全部勾选从网络中下载
-- 切换为中国源
-- 命令行中运行apt update
-
-## 安装VirtualBox增强功能
->apt-get install build-essential module-assistant
->m-a prepare
->sh /media/cdrom/VBoxLinuxAdditions.run
-
-## 基础软件安装
-```
-apt install zsh git net-tools
-sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-```
-
 # 通用命令
 ## 时间戳
 date +%s
@@ -74,3 +56,45 @@ readelf -d <path-to-elf>
 patchelf --replace-needed ../libsomething1.so /foo/bar/libsomething1.so mysharedobject.so
 ```
 
+# 重定向
+- stdin 0
+- stdout 1
+- stderr 2
+- null /dev/null
+
+# 文件
+## 权限
+**r=4  w=2  x=1**
+
+- rwx 4+2+1=7
+- rw- 4+2=6
+- r-x 4+1=5
+
+**umask**
+
+- 跟3位或 `4位（第一位必须为0，表示八进制 ）`数字来设置默认权限
+- 不加参数表示获取默认权限
+
+创建并格式化分区
+===
+创建
+---
+>\$ fdisk -l
+>$ fdisk /dev/sdb
+命令(输入 m 获取帮助)：m
+
+输入n创建分区
+创建完成后输入w保存并退出
+
+格式化
+---
+创建成功后输入以下命令来格式化
+>$ mkfs.ext4 /dev/sdb1
+
+开机自动挂载
+---
+参考[arch wiki](https://wiki.archlinux.org/index.php/Fstab_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87))
+>$ vi /etc/fstab
+
+输入
+> /dev/sdb1 /dir ext4 defaults 1 2
