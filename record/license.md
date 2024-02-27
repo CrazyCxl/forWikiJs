@@ -2,9 +2,11 @@
 title: License
 description: mit gpl apache
 published: true
-date: 2021-04-26T08:35:25.014Z
+date: 2024-02-27T03:25:36.192Z
 tags: 
+editor: markdown
+dateCreated: 2024-02-08T11:01:06.265Z
 ---
 
 # License
-![License](https://img.cxlljj.top/images/2021/04/26/SouthEast.md.jpg)
+![License](https://i.imgur.com/Wp2amMk.png)
