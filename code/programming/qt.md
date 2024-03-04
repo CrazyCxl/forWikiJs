@@ -2,10 +2,10 @@
 title: Qt
 description: A quick summary of Qt
 published: true
-date: 2023-08-12T03:21:20.675Z
+date: 2024-03-04T01:19:10.698Z
 tags: 
 editor: markdown
-dateCreated: 2020-03-19T08:38:31.630Z
+dateCreated: 2024-02-08T11:01:51.252Z
 ---
 
 # 环境
@@ -54,7 +54,7 @@ CONFIG += plugin
 示例
 >QML_IMPORT_PATH = D:\Qt\5.10.1\msvc2017_64\qml
 
-## MouseArea事件向下层传递[^mouse_area]
+## MouseArea事件向父层传递[^mouse_area]
 示例代码：
 ```
 RowLayout {
