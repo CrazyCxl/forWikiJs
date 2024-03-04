@@ -2,7 +2,7 @@
 title: Msvc
 description: A quick summary of Msvc
 published: true
-date: 2024-02-27T03:06:03.233Z
+date: 2024-03-04T01:17:27.131Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-08T11:02:04.064Z
@@ -36,52 +36,4 @@ appverif
 win7、2008 版下载：https://www.microsoft.com/en-us/download/details.aspx?id=8442
 
 # 版本对应关系
-<table border="1" width="700" cellspacing="1" cellpadding="1" style="color:rgb(69,69,69);font-family:'PingFang SC', 'Microsoft YaHei', SimHei, Arial, SimSun;font-size:16px;"><tbody><tr><td>名字</td>
-<td>版本号</td>
-<td>简称</td>
-<td>全称</td>
-</tr><tr><td>msvc70</td>
-<td>VC7.0</td>
-<td>VS2002</td>
-<td>Microsoft Visual Studio <strong>2002</strong></td>
-</tr><tr><td>msvc71</td>
-<td>VC7.1</td>
-<td>VS2003</td>
-<td>Microsoft Visual Studio <strong>2003</strong></td>
-</tr><tr><td>msvc80</td>
-<td>VC8.0</td>
-<td>VS2005</td>
-<td>Microsoft Visual Studio <strong>2005</strong></td>
-</tr><tr><td>msvc90</td>
-<td>VC9.0</td>
-<td>VS2008</td>
-<td>Microsoft Visual Studio <strong>2008</strong></td>
-</tr><tr><td> </td>
-<td>VC10.0</td>
-<td>VS2010</td>
-<td>Microsoft Visual Studio <strong>2010</strong></td>
-</tr><tr><td> </td>
-<td>VC11.0</td>
-<td>VS2012</td>
-<td>Microsoft Visual Studio <strong>2012</strong></td>
-</tr><tr><td> </td>
-<td>VC12.0</td>
-<td>VS2013</td>
-<td>Microsoft Visual Studio <strong>2013</strong></td>
-</tr><tr><td> </td>
-<td>VC13.0</td>
-<td>VS2014</td>
-<td>Microsoft Visual Studio <strong>2014</strong></td>
-</tr><tr><td> </td>
-<td>VC14.0</td>
-<td>VS2015</td>
-<td>Microsoft Visual Studio <strong>2015</strong></td>
-</tr><tr><td> </td>
-<td> </td>
-<td> </td>
-<td> </td>
-</tr><tr><td> </td>
-<td> </td>
-<td> </td>
-<td> </td>
-</tr></tbody></table>
+![img](https://i.imgur.com/00GKVuO.png)
