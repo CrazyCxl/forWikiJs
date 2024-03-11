@@ -2,7 +2,7 @@
 title: Qt
 description: A quick summary of Qt
 published: true
-date: 2024-03-04T01:19:10.698Z
+date: 2024-03-11T05:45:00.434Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-08T11:01:51.252Z
@@ -25,6 +25,17 @@ cmake .. -G "Visual Studio 16 2019" -DCMAKE_PREFIX_PATH="H:\Qt\5.15.2\msvc2019_6
 - 在应用和功能中查找```Windows Software Development Kit```
 - 右键修改，然后勾选```Debugging Tools for Windows```
 
+## linguist
+### cmake中使用lupdate更新
+```
+set(TS_FILES resource/translations/infrared_zh_CN.ts)
+find_program(LUPDATE_EXECUTABLE lupdate)
+add_custom_target(update_ts
+    COMMAND ${LUPDATE_EXECUTABLE} ${QML_SOURCES} -ts ${CMAKE_SOURCE_DIR}/${TS_FILES}
+    COMMENT "Updating translation files"
+)
+add_dependencies(infrared update_ts)
+```
 # 发布
 ## 库生成配置
 ### disables the lib prefix
