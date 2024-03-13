@@ -2,7 +2,7 @@
 title: Development Tools
 description: for新环境搭建
 published: true
-date: 2024-02-19T07:07:36.520Z
+date: 2024-03-13T09:18:18.782Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-08T11:00:58.708Z
@@ -10,6 +10,7 @@ dateCreated: 2024-02-08T11:00:58.708Z
 
 # Android
 ## 常用apk
+- [分贝计](https://pan.baidu.com/s/11j1jni0AiXOgIY57npp45A?pwd=xf6u) 环境声音分贝计算
 - [指南针](https://pan.baidu.com/s/13gVS9bor5pjIQG2pZluS_Q?pwd=lwfy) 方位海拔查看
 - v2rayNG
 - tvbox
