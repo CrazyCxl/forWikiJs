@@ -2,11 +2,15 @@
 title: Book
 description: 书源编辑记录
 published: true
-date: 2024-02-04T06:50:33.513Z
+date: 2024-04-02T08:07:37.299Z
 tags: life
 editor: markdown
-dateCreated: 2023-11-24T03:49:20.998Z
+dateCreated: 2024-02-08T11:00:52.660Z
 ---
+
+# 介绍
+github地址：https://github.com/gedoor/legado
+规则：https://mgz0227.github.io/The-tutorial-of-Legado/
 
 # 书源规则
 json格式参考：https://blog.csdn.net/koflance/article/details/63262484
