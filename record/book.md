@@ -2,7 +2,7 @@
 title: Book
 description: 书源编辑记录
 published: true
-date: 2024-04-02T08:07:37.299Z
+date: 2024-04-08T03:10:10.074Z
 tags: life
 editor: markdown
 dateCreated: 2024-02-08T11:00:52.660Z
@@ -81,6 +81,18 @@ json格式参考：https://blog.csdn.net/koflance/article/details/63262484
 取第二个ul元素对应的内容
 ```
 
+### css规则
+测试：https://try.jsoup.org/
+介绍：https://blog.csdn.net/hou_angela/article/details/80519718
+
+示例：
+@css:dl>dd>a
+```
+                <dl class="panel-body panel-chapterlist panel-body-34e68100">
+                    <dd class="col-sm-6 col-md-3 chapter-34e68100">
+                        <a href="/read/6644/3007932.html">第一章 那天，起了很大的雾</a>
+                    </dd>
+```
 ## 正文
 正文规则：id.chaptercontent@html
 
