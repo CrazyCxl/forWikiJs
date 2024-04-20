@@ -2,7 +2,7 @@
 title: Development Tools
 description: for新环境搭建
 published: true
-date: 2024-03-14T03:06:56.072Z
+date: 2024-04-20T03:53:24.433Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-08T11:00:58.708Z
@@ -28,6 +28,7 @@ kvm激活码地址：https://learn.microsoft.com/zh-cn/deployoffice/vlactivation
 - [notpad3](https://www.rizonesoft.com/downloads/notepad3/) 文档编辑器
 - [potplayer](https://potplayer.daum.net/) 视频播放器
 - [NDM](https://neatdownloadmanager.com/index.php/en/) 下载工具
+- [aria2](https://aria2.github.io/) 命令行下载工具
 - [autohotkey](https://www.autohotkey.com/) 快捷键脚本
 - [everything](https://www.voidtools.com/zh-cn/) windows全盘搜索工具
 - [geekuninstaller](https://geekuninstaller.com/download) 卸载工具
