@@ -2,7 +2,7 @@
 title: Development Tools
 description: for新环境搭建
 published: true
-date: 2024-04-20T04:10:32.098Z
+date: 2024-04-20T04:22:59.345Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-08T11:00:58.708Z
@@ -39,7 +39,7 @@ kvm激活码地址：https://learn.microsoft.com/zh-cn/deployoffice/vlactivation
 - [localsend](https://github.com/localsend/localsend/releases) 局域网传输工具
 - [womic](https://wolicheng.com/womic/download.html) 手机麦克风
 - [Office Tool plus](https://otp.landian.vip/zh-cn/) office破解
-- [goodsync](https://www.goodsync.com/) 本地目录同步
+- [freefilesync](https://freefilesync.org/download.php) 本地目录同步
 - [musicTag](https://www.cnblogs.com/vinlxc/p/11347744.html) 音乐刮削 百度云有备份
 - snipaste 取色截图工具
 - QuickLook
