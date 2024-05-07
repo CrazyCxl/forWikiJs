@@ -2,7 +2,7 @@
 title: Linux
 description: A quick summary of Linux
 published: true
-date: 2024-02-27T02:40:33.283Z
+date: 2024-05-07T09:17:16.369Z
 tags: ssh
 editor: markdown
 dateCreated: 2024-02-08T11:01:12.705Z
@@ -44,6 +44,8 @@ date -d @\`date +%s`
 nm 命令
 ```
 nm -D libName.so | grep symbel symbolName
+#使用c++filt查看函数名称
+echo "_ZN3Ice60Object12ice_dispatchERNS_7RequestESt8functionIFbvEES3_IFb..." | c++filt
 ```
 ### 查看和修改运行依赖
 查看
