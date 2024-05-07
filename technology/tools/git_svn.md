@@ -2,14 +2,19 @@
 title: git_svn
 description: A quick summary of 版本控制
 published: true
-date: 2024-01-30T03:31:59.420Z
+date: 2024-05-07T03:09:58.819Z
 tags: git, svn
 editor: markdown
-dateCreated: 2020-03-19T08:38:43.421Z
+dateCreated: 2024-02-08T11:03:59.252Z
 ---
 
 # Git
 学习:https://learngitbranching.js.org
+
+## 生成ssh key
+```
+ssh-keygen -t rsa -b 4096 -C "chenxiaolong0001@foxmail.com"
+```
 
 ## 使用镜像加速
 https://ghproxy.com/
@@ -67,6 +72,8 @@ git merge --strategy-option ours
 ```  
 #init
 git submodule update --init --recursive  
+git submodule update --init third_party/re2
+  
 #update
 git submodule update --recursive --remote  
 ```
