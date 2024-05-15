@@ -2,7 +2,7 @@
 title: Linux
 description: A quick summary of Linux
 published: true
-date: 2024-05-07T09:17:16.369Z
+date: 2024-05-15T07:56:22.411Z
 tags: ssh
 editor: markdown
 dateCreated: 2024-02-08T11:01:12.705Z
@@ -35,6 +35,11 @@ awk '{ print $2 }'
 ```
 
 # 通用命令
+## 计算磁盘速度
+```
+time dd if=/dev/sda1 of=/dev/null bs=800M count=10
+```
+
 ## 时间戳
 date +%s
 date -d @\`date +%s`
