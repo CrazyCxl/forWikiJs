@@ -2,10 +2,10 @@
 title: debug
 description: A quick summary of 调试
 published: true
-date: 2022-11-16T01:54:07.208Z
+date: 2024-05-20T01:51:46.030Z
 tags: gdb
 editor: markdown
-dateCreated: 2020-03-19T08:38:19.906Z
+dateCreated: 2024-02-08T11:03:09.056Z
 ---
 
 coredump
@@ -20,15 +20,17 @@ killall -9 systemd-journald
 设置自动清除期限
 >journalctl --vacuum-time=2d
 
-gdb
-===
-常用
----
+# gdb
+# 常用
+```
+获取进程的内存映射信息
+info proc mappings
 列出断点
-```info b```
-查看数组10个元素
-```p *arr@10```
-
+info b
+查看数组20个元素
+p *arr@20
+x/20x 0x7f7e00000000
+```
 
 多线程
 ---
