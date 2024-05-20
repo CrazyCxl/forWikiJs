@@ -2,7 +2,7 @@
 title: debug
 description: A quick summary of 调试
 published: true
-date: 2024-05-20T01:51:46.030Z
+date: 2024-05-20T02:00:59.648Z
 tags: gdb
 editor: markdown
 dateCreated: 2024-02-08T11:03:09.056Z
@@ -23,8 +23,16 @@ killall -9 systemd-journald
 # gdb
 # 常用
 ```
-获取进程的内存映射信息
+# 启用日志记录并指定日志文件名
+set logging on
+set logging file mappings.log
+
+# 获取进程的内存映射信息
 info proc mappings
+
+# 关闭日志记录
+set logging off
+
 列出断点
 info b
 查看数组20个元素
