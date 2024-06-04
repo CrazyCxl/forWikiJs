@@ -2,7 +2,7 @@
 title: Qt
 description: A quick summary of Qt
 published: true
-date: 2024-03-11T05:45:00.434Z
+date: 2024-06-04T01:33:28.791Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-08T11:01:51.252Z
@@ -13,17 +13,15 @@ dateCreated: 2024-02-08T11:01:51.252Z
 太慢使用其他源：
 ./qt-unified-linux-x64-XXX-online.run --mirror https://mirrors.tuna.tsinghua.edu.cn/qt
 
-## 转vs项目
-### cmake
-```
-mkdir build
-cd build
-cmake .. -G "Visual Studio 16 2019" -DCMAKE_PREFIX_PATH="H:\Qt\5.15.2\msvc2019_64"
-```
-## cdb 未找到
+### 常见问题
+#### cdb 未找到
 - vs安装sdk
 - 在应用和功能中查找```Windows Software Development Kit```
 - 右键修改，然后勾选```Debugging Tools for Windows```
+
+#### windows cmake编译时Ninja报错
+改变生成器 
+>Select your Kit. Go to "CMake Generator" -> "Change...". Change the "Generator" entry there.
 
 ## linguist
 ### cmake中使用lupdate更新
@@ -36,6 +34,15 @@ add_custom_target(update_ts
 )
 add_dependencies(infrared update_ts)
 ```
+
+## 转vs项目
+### cmake
+```
+mkdir build
+cd build
+cmake .. -G "Visual Studio 16 2019" -DCMAKE_PREFIX_PATH="H:\Qt\5.15.2\msvc2019_64"
+```
+
 # 发布
 ## 库生成配置
 ### disables the lib prefix
