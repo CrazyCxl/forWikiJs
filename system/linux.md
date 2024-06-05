@@ -2,7 +2,7 @@
 title: Linux
 description: A quick summary of Linux
 published: true
-date: 2024-05-30T09:49:18.693Z
+date: 2024-06-05T07:52:00.320Z
 tags: ssh
 editor: markdown
 dateCreated: 2024-02-08T11:01:12.705Z
@@ -46,6 +46,7 @@ date -d @\`date +%s`
 
 ## 库相关
 ### 查看符号表
+
 nm 命令
 ```
 nm -D libName.so | grep symbel symbolName
@@ -61,6 +62,21 @@ readelf -d <path-to-elf>
 [patchelf](https://github.com/NixOS/patchelf) 修改NEEDED
 ```
 patchelf --replace-needed ../libsomething1.so /foo/bar/libsomething1.so mysharedobject.so
+```
+
+### 修改静态库中的函数名称
+```
+#分解为.o文件
+ar x ../libcustom.a
+
+#修改.o文件中的函数名称
+objcopy --redefine-sym custom_function=new_custom_function custom_lib.o
+
+#重新打包为静态库
+ar rcs libcustom_modified.a *.o
+
+#测试使用
+c++ main.cpp -L. -lcustom_modified
 ```
 
 # 重定向
