@@ -2,7 +2,7 @@
 title: Flutter
 description: 
 published: true
-date: 2024-05-28T07:17:26.853Z
+date: 2024-06-07T08:29:27.361Z
 tags: 
 editor: markdown
 dateCreated: 2024-05-28T06:53:51.914Z
@@ -23,3 +23,8 @@ HTTP Host Availability
 
 ## 注意
 - 在vscode 中启动并连接Android虚拟机
+
+# 翻译
+参考1：https://docs.flutter.dev/ui/accessibility-and-internationalization/internationalization
+参考2：https://zhuanlan.zhihu.com/p/688095179
+（cxl）参考3：https://zhuanlan.zhihu.com/p/702234616
