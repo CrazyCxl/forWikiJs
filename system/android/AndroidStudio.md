@@ -2,11 +2,14 @@
 title: Andriod Studio
 description: Andriod Studio Ide
 published: true
-date: 2024-01-11T07:18:55.546Z
+date: 2024-06-07T01:50:29.364Z
 tags: ide
 editor: markdown
-dateCreated: 2023-06-26T07:47:36.653Z
+dateCreated: 2024-02-08T11:02:50.492Z
 ---
+
+# AVD
+主机IP:10.0.2.2
 
 # build
 ## 常见报错
