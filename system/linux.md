@@ -2,7 +2,7 @@
 title: Linux
 description: A quick summary of Linux
 published: true
-date: 2024-06-06T02:45:17.885Z
+date: 2024-06-07T03:17:03.172Z
 tags: ssh
 editor: markdown
 dateCreated: 2024-02-08T11:01:12.705Z
@@ -23,6 +23,22 @@ chmod 700 ~/.ssh  # this is important.
 touch ~/.ssh/authorized_keys
 chmod 600 ~/.ssh/authorized_keys  #this is important.
 ```
+
+## 创建用户
+```
+useradd cxl
+#密码无效也继续
+passwd cxl
+/etc/sudoers 文件里添加cxl管理员权限
+	cxl ALL=(ALL) ALL
+```
+
+更改目录所有者
+```
+chown cxl -R dir
+chgrp cxl -R dir
+```
+
 # shell
 ## 管道过滤
 输出匹配字符串及之后的内容
