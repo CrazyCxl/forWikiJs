@@ -2,7 +2,7 @@
 title: debug
 description: A quick summary of 调试
 published: true
-date: 2024-05-20T02:00:59.648Z
+date: 2024-06-13T06:14:30.281Z
 tags: gdb
 editor: markdown
 dateCreated: 2024-02-08T11:03:09.056Z
@@ -32,6 +32,11 @@ info proc mappings
 
 # 关闭日志记录
 set logging off
+
+# 启用历史
+set history save
+set history filename ~/.gdb_history
+set history size 1000
 
 列出断点
 info b
