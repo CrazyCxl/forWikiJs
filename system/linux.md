@@ -2,7 +2,7 @@
 title: Linux
 description: A quick summary of Linux
 published: true
-date: 2024-06-12T02:37:34.514Z
+date: 2024-06-17T09:41:23.144Z
 tags: ssh
 editor: markdown
 dateCreated: 2024-02-08T11:01:12.705Z
@@ -35,6 +35,7 @@ passwd cxl
 
 更改目录所有者
 ```
+chown cxl:cxl -R dir
 chown cxl -R dir
 chgrp cxl -R dir
 ```
