@@ -2,7 +2,7 @@
 title: Qt
 description: A quick summary of Qt
 published: true
-date: 2024-06-04T01:33:28.791Z
+date: 2024-06-18T14:23:28.255Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-08T11:01:51.252Z
@@ -64,6 +64,13 @@ CONFIG += plugin
 >将QtWebEngine的import放在最前
 
 参考：https://forum.qt.io/topic/81587/qt-5-9-5-9-1-qtwebengine-not-installed-after-qtwindeploy
+
+## anaconda3 影响windeployqt工具
+报错
+```
+Unable to find dependent libraries of C:\ProgramData\anaconda3\Library\bin\Qt5Quickd.dll :Cannot open 'C:/ProgramData/anaconda3/Library/bin/Qt5Quickd.dll':
+```
+在qtcreator的terminal中运行windeployqt命令
 
 # QML
 ## 编辑qml文件时提示错误 “module not found”
