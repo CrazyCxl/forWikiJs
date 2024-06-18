@@ -2,7 +2,7 @@
 title: VsCode
 description: for ide vscode
 published: true
-date: 2024-05-23T01:19:38.099Z
+date: 2024-06-18T08:35:38.381Z
 tags: ide, json
 editor: markdown
 dateCreated: 2024-02-08T11:01:25.815Z
@@ -23,3 +23,16 @@ dateCreated: 2024-02-08T11:01:25.815Z
 # 快捷键
 ### 快速format json 格式
 先```Ctrl+A```,``` Ctrl+K+F```后
+
+# 配置
+设置缩进4字符(可以试下不设plaintext)
+```
+{
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "[plaintext]": {
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true
+    }
+}
+```
