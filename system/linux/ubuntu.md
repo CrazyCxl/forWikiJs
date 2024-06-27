@@ -2,10 +2,10 @@
 title: Ubuntu
 description: A quick summary of Ubuntu
 published: true
-date: 2024-01-30T08:22:43.193Z
+date: 2024-06-27T01:54:31.881Z
 tags: 
 editor: markdown
-dateCreated: 2020-03-19T08:38:08.233Z
+dateCreated: 2024-02-08T11:03:27.534Z
 ---
 
 常用命令
@@ -28,6 +28,10 @@ dpkg -l
 
 搜索文件所在安装包
 dpkg -S /path/to/file
+
+强制安装
+apt download xxx
+dpkg -i --force-depends ./xxx.deb
 ```
 
 ### 包冲突导致的安装失败（unmet）
