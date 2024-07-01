@@ -2,7 +2,7 @@
 title: Linux
 description: A quick summary of Linux
 published: true
-date: 2024-06-17T09:41:23.144Z
+date: 2024-07-01T02:24:48.064Z
 tags: ssh
 editor: markdown
 dateCreated: 2024-02-08T11:01:12.705Z
@@ -128,7 +128,7 @@ c++ main.cpp -L. -lcustom_modified
 >$ fdisk /dev/sdb
 命令(输入 m 获取帮助)：m
 
-输入n创建分区
+输入n创建分区（一直默认，选primary）
 创建完成后输入w保存并退出
 
 格式化
