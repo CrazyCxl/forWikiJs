@@ -2,7 +2,7 @@
 title: Linux
 description: A quick summary of Linux
 published: true
-date: 2024-07-01T02:24:48.064Z
+date: 2024-07-01T02:30:47.299Z
 tags: ssh
 editor: markdown
 dateCreated: 2024-02-08T11:01:12.705Z
@@ -142,4 +142,4 @@ c++ main.cpp -L. -lcustom_modified
 >$ vi /etc/fstab
 
 输入
-> /dev/sdb1 /dir ext4 defaults 1 2
+> /dev/sdb1 /dir ext4 defaults 0 2
