@@ -2,14 +2,18 @@
 title: Vim
 description: A quick summary of Vim
 published: true
-date: 2022-11-24T07:12:57.874Z
+date: 2024-07-02T09:41:09.458Z
 tags: 
 editor: markdown
-dateCreated: 2020-03-19T08:38:40.460Z
+dateCreated: 2024-02-08T11:04:24.005Z
 ---
 
 # 常用命令
-## 显示行号
+重复
+```
+.
+```
+显示行号
 ```
 :set number
 ```
