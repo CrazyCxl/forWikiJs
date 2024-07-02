@@ -2,11 +2,15 @@
 title: Ubuntu
 description: A quick summary of Ubuntu
 published: true
-date: 2024-06-27T01:54:31.881Z
+date: 2024-07-02T09:20:21.822Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-08T11:03:27.534Z
 ---
+
+# 安装
+安装过程卡
+>禁用网络后再安装
 
 常用命令
 ===
