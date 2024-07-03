@@ -2,7 +2,7 @@
 title: Linux
 description: A quick summary of Linux
 published: true
-date: 2024-07-01T02:30:47.299Z
+date: 2024-07-03T03:36:42.353Z
 tags: ssh
 editor: markdown
 dateCreated: 2024-02-08T11:01:12.705Z
@@ -13,6 +13,7 @@ dateCreated: 2024-02-08T11:01:12.705Z
 
 ```
 ssh-keygen -t rsa -b 2048 -C "chenxiaolong"
+ssh-copy-id  root@192.168.235.22
 ssh-copy-id -i ~/.ssh/id_rsa.pub root@192.168.235.22
 ```
 手动复制客户端id_rsa.pub到服务端authorized_keys中
