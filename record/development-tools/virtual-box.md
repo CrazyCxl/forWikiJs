@@ -2,15 +2,19 @@
 title: Virtual Box
 description: A quick summary of Virtual Box
 published: true
-date: 2024-01-30T08:41:11.664Z
+date: 2024-07-03T03:19:02.615Z
 tags: 
 editor: markdown
-dateCreated: 2020-03-19T08:37:50.584Z
+dateCreated: 2024-02-08T11:02:23.993Z
 ---
 
 # 下载与安装
 https://www.virtualbox.org/wiki/Downloads
-
+## 增强功能
+Ubuntu 准备
+```
+sudo apt install build-essential dkms linux-headers-$(uname -r)
+```
 # 虚拟机
 
 - Windows 下创建 Mac 虚拟机：https://blog.csdn.net/chy555chy/article/details/51407410
