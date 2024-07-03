@@ -2,17 +2,25 @@
 title: Vim
 description: A quick summary of Vim
 published: true
-date: 2024-07-02T09:41:09.458Z
+date: 2024-07-03T02:14:43.963Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-08T11:04:24.005Z
 ---
 
-# 常用命令
+# 常用快捷键
 重复
 ```
 .
 ```
+
+在行尾输入
+```
+shift+a
+```
+
+# 常用命令
+
 显示行号
 ```
 :set number
