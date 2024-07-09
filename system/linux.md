@@ -2,7 +2,7 @@
 title: Linux
 description: A quick summary of Linux
 published: true
-date: 2024-07-03T03:36:42.353Z
+date: 2024-07-09T09:48:32.252Z
 tags: ssh
 editor: markdown
 dateCreated: 2024-02-08T11:01:12.705Z
@@ -52,7 +52,51 @@ grep -o "text.*$"
 awk '{ print $2 }'
 ```
 
+# 库与依赖
+## RUNPATH 与RPATH
+- RUNPATH 是直接运行依赖库路径
+- RPATH   是所有依赖路径
+
+ldd 有依赖，但 readelf -d 查看NEEDED没有包含代表不是直接依赖，需要设置RPATH（```-Wl,--disable-new-dtags```）
+
+## 查看和修改运行依赖
+查看
+```
+ldd path
+readelf -d <path-to-elf> 
+```
+[patchelf](https://github.com/NixOS/patchelf) 修改NEEDED
+```
+patchelf --replace-needed ../libsomething1.so /foo/bar/libsomething1.so mysharedobject.so
+```
+
+重设rpath
+```
+patchelf --set-rpath '/home/gpsdk/newlib/:/home/gpsdk/threads/lib/' app
+```
+
+## 修改静态库中的函数名称
+```
+#分解为.o文件
+ar x ../libcustom.a
+
+#修改.o文件中的函数名称
+objcopy --redefine-sym custom_function=new_custom_function custom_lib.o
+
+#重新打包为静态库
+ar rcs libcustom_modified.a *.o
+
+#测试使用
+c++ main.cpp -L. -lcustom_modified
+```
+
 # 通用命令
+## 重定向
+- stdin 0
+- stdout 1
+- stderr 2
+- null /dev/null
+
 ## 计算磁盘速度
 ```
 dd if=/dev/sda1 of=/dev/null bs=800M count=10
@@ -71,42 +115,6 @@ nm -D libName.so | grep symbel symbolName
 #使用c++filt查看函数名称
 echo "_ZN3Ice60Object12ice_dispatchERNS_7RequestESt8functionIFbvEES3_IFb..." | c++filt
 ```
-### 查看和修改运行依赖
-查看
-```
-ldd path
-readelf -d <path-to-elf> 
-```
-[patchelf](https://github.com/NixOS/patchelf) 修改NEEDED
-```
-patchelf --replace-needed ../libsomething1.so /foo/bar/libsomething1.so mysharedobject.so
-```
-
-重设rpath
-```
-patchelf --set-rpath '/home/gpsdk/newlib/:/home/gpsdk/threads/lib/' app
-```
-
-### 修改静态库中的函数名称
-```
-#分解为.o文件
-ar x ../libcustom.a
-
-#修改.o文件中的函数名称
-objcopy --redefine-sym custom_function=new_custom_function custom_lib.o
-
-#重新打包为静态库
-ar rcs libcustom_modified.a *.o
-
-#测试使用
-c++ main.cpp -L. -lcustom_modified
-```
-
-# 重定向
-- stdin 0
-- stdout 1
-- stderr 2
-- null /dev/null
 
 # 文件
 ## 权限
