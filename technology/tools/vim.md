@@ -2,7 +2,7 @@
 title: Vim
 description: A quick summary of Vim
 published: true
-date: 2024-07-03T02:14:43.963Z
+date: 2024-07-19T09:38:50.440Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-08T11:04:24.005Z
@@ -56,4 +56,6 @@ sudo 保存
 unlet! skip_defaults_vim
 source $VIMRUNTIME/defaults.vim
 set number
+set encoding=utf-8       " 设置 Vim 的内部编码
+set fileencodings=utf-8  " 尝试以 utf-8 编码读取文件
 ```
