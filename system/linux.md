@@ -2,7 +2,7 @@
 title: Linux
 description: A quick summary of Linux
 published: true
-date: 2024-07-09T09:48:32.252Z
+date: 2024-07-26T01:28:12.420Z
 tags: ssh
 editor: markdown
 dateCreated: 2024-02-08T11:01:12.705Z
@@ -152,3 +152,16 @@ echo "_ZN3Ice60Object12ice_dispatchERNS_7RequestESt8functionIFbvEES3_IFb..." | c
 
 输入
 > /dev/sdb1 /dir ext4 defaults 0 2
+
+# 性能分析
+```
+#录所有cpu调用
+sudo perf record -e cycles -g -- xxx
+sudo perf report
+```
+使用+号展开堆栈
+perf record -e cycles -g 是用来记录程序运行期间 CPU cycles 事件的性能数据，并生成调用图（call graph）。下面是对每个参数的解释：
+
+- perf record: 启动 perf 记录程序的性能事件。
+- -e cycles: 指定要记录的性能事件为 CPU cycles。cycles 事件表示 CPU 执行的时钟周期数，这是一个通用的性能计数器，用于衡量程序的 CPU 使用情况。
+- -g: 启用调用图记录。这会捕获程序执行时的调用栈信息，帮助你分析函数调用关系，找出性能瓶颈。
