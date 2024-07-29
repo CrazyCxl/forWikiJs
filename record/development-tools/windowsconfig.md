@@ -2,7 +2,7 @@
 title: Windows配置
 description: 新装系统后的常用配置
 published: true
-date: 2024-06-07T02:04:02.050Z
+date: 2024-07-29T07:15:35.533Z
 tags: win
 editor: markdown
 dateCreated: 2024-02-28T01:45:52.116Z
@@ -28,3 +28,13 @@ Get-WindowsOptionalFeature –Online –FeatureName SMB1Protocol
 #SMB v2 Windows 11/10 和 Windows 8.1
 Get-SmbServerConfiguration | Select EnableSMB2Protocol
 ```
+
+# win11
+## 右键菜单栏
+普通配置注册表regedit
+```
+计算机\HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Discardable\PostSetup\ShellNew
+```
+BMP 图像右键删除
+- 注册表搜索```ShellNewDisplayName_Bmp```
+- 双击然后删除值内容
