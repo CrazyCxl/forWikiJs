@@ -2,7 +2,7 @@
 title: Windows配置
 description: 新装系统后的常用配置
 published: true
-date: 2024-07-29T07:15:35.533Z
+date: 2024-07-29T09:17:16.111Z
 tags: win
 editor: markdown
 dateCreated: 2024-02-28T01:45:52.116Z
@@ -31,10 +31,18 @@ Get-SmbServerConfiguration | Select EnableSMB2Protocol
 
 # win11
 ## 右键菜单栏
-普通配置注册表regedit
+### ShellNew
+通过注册表regedit查询有哪些
 ```
 计算机\HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Discardable\PostSetup\ShellNew
 ```
+查询对应后缀或其子项下的shellnew
+```
+计算机\HKEY_CLASSES_ROOT\.mdb
+```
+重命名ShellNew
+
+### BMP 图像
 BMP 图像右键删除
 - 注册表搜索```ShellNewDisplayName_Bmp```
 - 双击然后删除值内容
