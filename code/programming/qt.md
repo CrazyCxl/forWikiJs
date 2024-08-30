@@ -1,8 +1,8 @@
 ---
 title: Qt
-description: A quick summary of Qt
+description: A quick summary of Qt and qml
 published: true
-date: 2024-08-30T03:27:22.687Z
+date: 2024-08-30T03:28:18.255Z
 tags: qt, qml
 editor: markdown
 dateCreated: 2024-02-08T11:01:51.252Z
