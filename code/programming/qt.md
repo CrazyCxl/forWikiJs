@@ -2,7 +2,7 @@
 title: Qt
 description: A quick summary of Qt
 published: true
-date: 2024-06-18T14:23:28.255Z
+date: 2024-08-30T03:25:10.557Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-08T11:01:51.252Z
@@ -72,12 +72,13 @@ Unable to find dependent libraries of C:\ProgramData\anaconda3\Library\bin\Qt5Qu
 ```
 在qtcreator的terminal中运行windeployqt命令
 
-# QML
-## 编辑qml文件时提示错误 “module not found”
-在pro文件中加入QML_IMPORT_PATH地址，改地址为对应qt编译器下的qml目录地址[^qml_import]
-
-示例
->QML_IMPORT_PATH = D:\Qt\5.10.1\msvc2017_64\qml
+# qml
+## QQuickItem 无法获取鼠标事件 mouse Event
+添加以下设置
+```
+setAcceptedMouseButtons(Qt::AllButtons);
+setAcceptHoverEvents(true);
+```
 
 ## MouseArea事件向父层传递[^mouse_area]
 示例代码：
