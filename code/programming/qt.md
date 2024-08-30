@@ -2,8 +2,8 @@
 title: Qt
 description: A quick summary of Qt
 published: true
-date: 2024-08-30T03:25:10.557Z
-tags: 
+date: 2024-08-30T03:27:22.687Z
+tags: qt, qml
 editor: markdown
 dateCreated: 2024-02-08T11:01:51.252Z
 ---
