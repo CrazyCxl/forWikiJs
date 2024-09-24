@@ -2,14 +2,24 @@
 title: Windows
 description: Windows 下的编程问题
 published: true
-date: 2024-02-27T03:06:25.513Z
+date: 2024-09-24T07:24:17.127Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-08T11:02:37.295Z
 ---
 
-# 右键菜单栏
+# 文件资源管理器
+## 右键菜单栏
 右键菜单栏添加vs code 打开 https://www.jianshu.com/p/e8c29211fba9
+
+## 查找指定文件内容
+在右上角的搜索框中输入文件后缀和搜索关键字
+```
+*.txt example
+```
+
+## Win + R 打开启动项目录
+> shell:startup
 
 # 快捷键
 ## 查看快捷键占用
@@ -24,9 +34,7 @@ https://stackoverflow.com/questions/829007/find-out-what-process-registered-a-gl
 消息监听WM_HOTKEY
 然后查看属性
 
-## Win + R
-### 打开启动项目录
-> shell:startup
+
 
 # Powershell
 ## 查看历史
