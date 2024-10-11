@@ -2,7 +2,7 @@
 title: Linux
 description: A quick summary of Linux
 published: true
-date: 2024-07-26T01:28:12.420Z
+date: 2024-10-11T04:03:04.257Z
 tags: ssh
 editor: markdown
 dateCreated: 2024-02-08T11:01:12.705Z
@@ -70,9 +70,12 @@ readelf -d <path-to-elf>
 patchelf --replace-needed ../libsomething1.so /foo/bar/libsomething1.so mysharedobject.so
 ```
 
-重设rpath
+rpath
 ```
+#重设
 patchelf --set-rpath '/home/gpsdk/newlib/:/home/gpsdk/threads/lib/' app
+#添加
+patchelf --add-rpath '/home/gpsdk/newlib/:/home/gpsdk/threads/lib/' app
 ```
 
 ## 修改静态库中的函数名称
