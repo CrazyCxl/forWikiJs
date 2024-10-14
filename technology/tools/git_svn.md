@@ -2,7 +2,7 @@
 title: git_svn
 description: A quick summary of 版本控制
 published: true
-date: 2024-10-14T07:23:07.665Z
+date: 2024-10-14T07:28:14.806Z
 tags: git, svn
 editor: markdown
 dateCreated: 2024-02-08T11:03:59.252Z
@@ -39,6 +39,11 @@ LF will be replaced by CRLF the next time Git touches it
 >git difftool HEAD HEAD^1
 
 ## 常用命令
+### 浅层clone
+```
+git clone --depth 1 <repository-url>
+ ```
+ 
 ### 使用 proxy clone
 ```
 export https_proxy=http://127.0.0.1:28081
