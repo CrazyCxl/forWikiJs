@@ -2,7 +2,7 @@
 title: git_svn
 description: A quick summary of 版本控制
 published: true
-date: 2024-06-03T01:33:27.673Z
+date: 2024-10-14T07:23:07.665Z
 tags: git, svn
 editor: markdown
 dateCreated: 2024-02-08T11:03:59.252Z
@@ -17,9 +17,9 @@ ssh-keygen -t rsa -b 4096 -C "chenxiaolong0001@foxmail.com"
 ```
 
 ## 使用镜像加速
-https://ghproxy.com/
+https://gh-proxy.com/
 示例
-git clone https://ghproxy.com/https://github.com/stilleshan/ServerStatus
+git clone https://gh-proxy.com/https://github.com/stilleshan/ServerStatus
 
 ## 配置
 *~/.gitconfig*
