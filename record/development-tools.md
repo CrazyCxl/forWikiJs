@@ -2,7 +2,7 @@
 title: Development Tools
 description: for新环境搭建
 published: true
-date: 2024-10-17T08:01:00.501Z
+date: 2024-10-17T09:23:13.180Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-08T11:00:58.708Z
@@ -15,6 +15,7 @@ dateCreated: 2024-02-08T11:00:58.708Z
 - v2rayNG
 - tvbox
 - firfox
+- [BinaryEye](https://github.com/markusfisch/BinaryEye) 二维码查看
 
 # Windows
 System Or Office下载：https://msdn.itellyou.cn/
