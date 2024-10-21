@@ -2,7 +2,7 @@
 title: debug
 description: A quick summary of 调试
 published: true
-date: 2024-07-17T01:29:53.451Z
+date: 2024-10-21T05:58:31.916Z
 tags: gdb
 editor: markdown
 dateCreated: 2024-02-08T11:03:09.056Z
@@ -21,22 +21,19 @@ killall -9 systemd-journald
 >journalctl --vacuum-time=2d
 
 # gdb
-# 常用
+## 配置
+配置文件路径```~/.gdbinit```
+### 记录历史
 ```
-# 启用日志记录并指定日志文件名
-set logging on
-set logging file mappings.log
-
-# 获取进程的内存映射信息
-info proc mappings
-
-# 关闭日志记录
-set logging off
-
-# 启用历史
 set history save on
 set history filename ~/.gdb_history
 set history size 1000
+```
+
+## 常用
+```
+# 获取进程的内存映射信息
+info proc mappings
 
 列出断点
 info b
