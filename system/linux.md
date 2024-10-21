@@ -2,7 +2,7 @@
 title: Linux
 description: A quick summary of Linux
 published: true
-date: 2024-10-11T04:03:04.257Z
+date: 2024-10-21T02:53:05.395Z
 tags: ssh
 editor: markdown
 dateCreated: 2024-02-08T11:01:12.705Z
@@ -41,6 +41,9 @@ chown cxl -R dir
 chgrp cxl -R dir
 ```
 
+## 环境变量
+/etc/environment
+
 # shell
 ## 管道过滤
 输出匹配字符串及之后的内容
@@ -53,6 +56,15 @@ awk '{ print $2 }'
 ```
 
 # 库与依赖
+## 查看符号表
+
+nm 命令
+```
+nm -D libName.so | grep symbel symbolName
+#使用c++filt查看函数名称
+echo "_ZN3Ice60Object12ice_dispatchERNS_7RequestESt8functionIFbvEES3_IFb..." | c++filt
+```
+
 ## RUNPATH 与RPATH
 - RUNPATH 是直接运行依赖库路径
 - RPATH   是所有依赖路径
@@ -106,17 +118,19 @@ dd if=/dev/sda1 of=/dev/null bs=800M count=10
 ```
 
 ## 时间戳
+```
 date +%s
 date -d @\`date +%s`
-
-## 库相关
-### 查看符号表
-
-nm 命令
 ```
-nm -D libName.so | grep symbel symbolName
-#使用c++filt查看函数名称
-echo "_ZN3Ice60Object12ice_dispatchERNS_7RequestESt8functionIFbvEES3_IFb..." | c++filt
+
+## makeself 自解压打包
+可以在里面套个压缩包，脚本里解压到指定目录
+```
+添加脚本
+#!/bin/bash tar zxpf nginx.tgz -C /tmp/ cd /tmp/nginx ./configure --prefix=/tmp/nginxtest make make install
+
+运行命令
+makeself --nocomp --needroot nginx nginx.bin nginx ./init.sh
 ```
 
 # 文件
