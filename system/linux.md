@@ -2,7 +2,7 @@
 title: Linux
 description: A quick summary of Linux
 published: true
-date: 2024-10-21T02:53:05.395Z
+date: 2024-11-11T09:43:04.886Z
 tags: ssh
 editor: markdown
 dateCreated: 2024-02-08T11:01:12.705Z
@@ -112,9 +112,12 @@ c++ main.cpp -L. -lcustom_modified
 - stderr 2
 - null /dev/null
 
-## 计算磁盘速度
+## 速度测试
 ```
+# 计算磁盘速度
 dd if=/dev/sda1 of=/dev/null bs=800M count=10
+# 计算内存拷贝速度
+dd if=/dev/zero of=/dev/null bs=1G count=10
 ```
 
 ## 时间戳
