@@ -2,7 +2,7 @@
 title: Linux
 description: A quick summary of Linux
 published: true
-date: 2024-11-11T09:43:04.886Z
+date: 2024-11-13T02:46:05.880Z
 tags: ssh
 editor: markdown
 dateCreated: 2024-02-08T11:01:12.705Z
@@ -140,14 +140,21 @@ makeself --nocomp --needroot nginx nginx.bin nginx ./init.sh
 ## 权限
 **r=4  w=2  x=1**
 
-- rwx 4+2+1=7
-- rw- 4+2=6
-- r-x 4+1=5
+## 使用auditd监控文件变化
+```
+sudo apt install auditd
 
-**umask**
+#目录下的文件被删除规则
+sudo auditctl -w /path/to/your/file_or_dir -p wa -k file_delete
+systemctl restart auditd
+sudo ausearch -k file_delete | grep -i delete
 
-- 跟3位或 `4位（第一位必须为0，表示八进制 ）`数字来设置默认权限
-- 不加参数表示获取默认权限
+#列出规则
+sudo auditctl -l
+
+#清空规则
+sudo auditctl -D
+```
 
 创建并格式化分区
 ===
