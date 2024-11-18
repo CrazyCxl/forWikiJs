@@ -2,10 +2,10 @@
 title: Docker
 description: normal docker cmds
 published: true
-date: 2023-02-08T09:19:07.980Z
+date: 2024-11-18T05:47:48.922Z
 tags: docker, tool
 editor: markdown
-dateCreated: 2020-05-19T03:39:29.551Z
+dateCreated: 2024-02-08T11:03:45.948Z
 ---
 
 # 修改为国内源
@@ -34,6 +34,8 @@ sudo systemctl restart docker
 ```
 docker images 
 docker ps -a
+#查看映射关系等详情
+docker inspect id
 ```
 进入容器
 ```
