@@ -2,7 +2,7 @@
 title: Docker
 description: normal docker cmds
 published: true
-date: 2024-11-18T05:47:48.922Z
+date: 2024-11-18T06:51:46.244Z
 tags: docker, tool
 editor: markdown
 dateCreated: 2024-02-08T11:03:45.948Z
@@ -72,8 +72,8 @@ docker commit --message 'this is version 2 of cxl nginx' 117494e7e7df hi_cxl_ngi
 
 ## 导入导出
 ```
-docker save hi_cxl_nginx > hi_cxl_nginx.tar
-docker load < hi_cxl_nginx.tar
+docker save -o image_name.tar image_name:tag
+docker load -i image_name.tar
 ```
 
 # Container
