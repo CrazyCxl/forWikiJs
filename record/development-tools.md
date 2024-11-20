@@ -2,7 +2,7 @@
 title: Development Tools
 description: for新环境搭建
 published: true
-date: 2024-10-17T09:23:13.180Z
+date: 2024-11-20T03:18:17.038Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-08T11:00:58.708Z
@@ -43,6 +43,7 @@ kvm激活码地址：https://learn.microsoft.com/zh-cn/deployoffice/vlactivation
 - [freefilesync](https://freefilesync.org/download.php) 本地目录同步
 - [musicTag](https://www.cnblogs.com/vinlxc/p/11347744.html) 音乐刮削 百度云有备份
 - [iperf](https://github.com/ar51an/iperf3-win-builds) 测速工具
+- [tabby](https://tabby.sh/) ssh 工具
 - snipaste 取色截图工具
 - QuickLook
 
