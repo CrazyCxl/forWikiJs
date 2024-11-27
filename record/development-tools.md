@@ -2,7 +2,7 @@
 title: Development Tools
 description: for新环境搭建
 published: true
-date: 2024-11-20T03:18:17.038Z
+date: 2024-11-27T08:33:12.433Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-08T11:00:58.708Z
@@ -16,6 +16,7 @@ dateCreated: 2024-02-08T11:00:58.708Z
 - tvbox
 - firfox
 - [BinaryEye](https://github.com/markusfisch/BinaryEye) 二维码查看
+- [Obsidian](https://obsidian.md/download) 笔记软件，支持webdav同步[插件](https://github.com/remotely-save/remotely-save)
 
 # Windows
 System Or Office下载：https://msdn.itellyou.cn/
