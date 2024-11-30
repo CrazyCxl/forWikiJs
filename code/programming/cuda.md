@@ -2,7 +2,7 @@
 title: cuda
 description: 
 published: true
-date: 2024-11-25T08:57:18.627Z
+date: 2024-11-30T03:02:57.054Z
 tags: c++
 editor: markdown
 dateCreated: 2024-05-23T02:51:48.314Z
@@ -61,3 +61,21 @@ cudaMemcpyDeviceToDevice：设备到设备的拷贝。
 8. stream（CUDA 流）
 - 指定用于异步操作的 CUDA 流。
 如果为 0，拷贝操作将在默认流中执行。
+
+## cufftPlanMany
+```
+cufftHandle plan;
+int rank = 1;  // 1D transform
+int n[] = {131072};  // Size of each dimension
+int inembed[] = {0};  // Input data storage dimensions (NULL in this case)
+int istride = 1;  // Distance between successive input elements
+int fftlen = 131072;  // FFT length
+int overlap = 39321;  // Overlap length
+int idist = fftlen - overlap;  // Distance between the first element of two consecutive signals in a batch of the input data
+int onembed[] = {0};  // Output data storage dimensions (NULL in this case)
+int ostride = 1;  // Distance between successive output elements
+int odist = fftlen/2;  // Distance between the first element of two consecutive signals in a batch of the output data for CUFFT_R2C
+int batch = 7;  // Batch size for this transform
+
+cufftPlanMany(&plan, rank, n, inembed, istride, idist, onembed, ostride, odist, CUFFT_R2C, batch);
+```
