@@ -2,7 +2,7 @@
 title: Development Tools
 description: for新环境搭建
 published: true
-date: 2024-11-27T08:33:12.433Z
+date: 2024-12-04T08:11:27.445Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-08T11:00:58.708Z
@@ -64,7 +64,7 @@ kvm激活码地址：https://learn.microsoft.com/zh-cn/deployoffice/vlactivation
 - [git](https://www.git-scm.com/download/) Git官网下载
 - [dependency](http://www.dependencywalker.com/) dll解析工具
 - [graphviz](http://www.graphviz.org/download/) 可视化工具
-- [insomnia](https://insomnia.rest/download) REST调试工具替换postman
+- [bruno](https://www.usebruno.com/) REST调试工具替换postman
 - [postman](https://www.postman.com/downloads/) REST调试工具
 - [inkscape](https://inkscape.org/) svg绘图工具
 
