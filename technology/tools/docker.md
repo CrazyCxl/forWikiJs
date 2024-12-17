@@ -2,13 +2,14 @@
 title: Docker
 description: normal docker cmds
 published: true
-date: 2024-11-18T06:51:46.244Z
+date: 2024-12-17T06:34:27.460Z
 tags: docker, tool
 editor: markdown
 dateCreated: 2024-02-08T11:03:45.948Z
 ---
 
-# 修改为国内源
+# 加速
+## 修改为国内源
 阿里云加速地址获取：
 https://cr.console.aliyun.com/cn-hangzhou/instances/mirrors
 
@@ -27,6 +28,25 @@ https://cr.console.aliyun.com/cn-hangzhou/instances/mirrors
 ```
 sudo systemctl daemon-reload
 sudo systemctl restart docker
+```
+
+## 使用代理
+参考：https://www.lfhacks.com/tech/pull-docker-images-behind-proxy/
+```
+sudo mkdir -p /etc/systemd/system/docker.service.d
+sudo vim /etc/systemd/system/docker.service.d/http-proxy.conf
+```
+输入以下内容
+```
+[Service]
+Environment="HTTP_PROXY=http://proxy.example.com"
+Environment="HTTPS_PROXY=http://proxy.example.com"
+```
+然后重启服务
+```
+sudo systemctl daemon-reload
+sudo systemctl restart docker
+sudo systemctl show --property=Environment docker
 ```
 
 # 常用命令
