@@ -2,7 +2,7 @@
 title: git_svn
 description: A quick summary of 版本控制
 published: true
-date: 2024-10-14T07:28:14.806Z
+date: 2024-12-18T07:32:46.445Z
 tags: git, svn
 editor: markdown
 dateCreated: 2024-02-08T11:03:59.252Z
@@ -80,7 +80,7 @@ git submodule update --init --recursive
 git submodule update --init third_party/re2
   
 #update
-git pull --recurse-submodules
+git submodule update --remote --merge
 ```
   
 ## 远程仓库
