@@ -2,7 +2,7 @@
 title: Docker
 description: normal docker cmds
 published: true
-date: 2024-12-17T06:34:27.460Z
+date: 2025-01-03T06:03:22.893Z
 tags: docker, tool
 editor: markdown
 dateCreated: 2024-02-08T11:03:45.948Z
@@ -36,7 +36,7 @@ sudo systemctl restart docker
 sudo mkdir -p /etc/systemd/system/docker.service.d
 sudo vim /etc/systemd/system/docker.service.d/http-proxy.conf
 ```
-输入以下内容
+输入以下内容，注意代理不要绑定到127.0.0.1
 ```
 [Service]
 Environment="HTTP_PROXY=http://proxy.example.com"
