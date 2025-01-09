@@ -2,7 +2,7 @@
 title: Msvc
 description: A quick summary of Msvc
 published: true
-date: 2024-03-04T01:17:27.131Z
+date: 2025-01-09T03:38:43.027Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-08T11:02:04.064Z
@@ -37,3 +37,7 @@ win7、2008 版下载：https://www.microsoft.com/en-us/download/details.aspx?id
 
 # 版本对应关系
 ![img](https://i.imgur.com/00GKVuO.png)
+
+# 常见问题
+1. ```ctrl + 鼠标左键```无法直接跳转到函数定义
+>IntelliSense 用于提供代码导航功能。如果其缓存损坏，可能会影响跳转，删除```.vs```目录即可
