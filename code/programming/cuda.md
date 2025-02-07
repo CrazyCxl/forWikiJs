@@ -2,11 +2,15 @@
 title: cuda
 description: 
 published: true
-date: 2024-11-30T03:07:45.233Z
+date: 2025-02-07T06:14:59.021Z
 tags: c++
 editor: markdown
 dateCreated: 2024-05-23T02:51:48.314Z
 ---
+
+# 工具
+## 性能分析
+nvvp.exe
 
 # 库
 thrust 数学库
