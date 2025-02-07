@@ -2,7 +2,7 @@
 title: Windows
 description: Windows 下的编程问题
 published: true
-date: 2025-02-07T01:31:40.610Z
+date: 2025-02-07T01:32:05.777Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-08T11:02:37.295Z
@@ -49,6 +49,7 @@ cat (Get-PSReadlineOption).HistorySavePath
 ```
 
 ## 查看文件md5
+也可以安装git后使用md5sum
 ```
 certutil -hashfile .\libtest.1.dylib md5
 Get-Filehash -Path .\libtest.a -Algorithm MD5
