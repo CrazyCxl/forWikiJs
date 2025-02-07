@@ -2,7 +2,7 @@
 title: Windows
 description: Windows 下的编程问题
 published: true
-date: 2024-09-24T07:24:17.127Z
+date: 2025-02-07T01:31:40.610Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-08T11:02:37.295Z
@@ -37,14 +37,22 @@ https://stackoverflow.com/questions/829007/find-out-what-process-registered-a-gl
 
 
 # Powershell
+## 计算程序运行时间
+```
+Measure-Command { <你的命令> }
+```
+
 ## 查看历史
->(Get-PSReadlineOption).HistorySavePath
+```
+(Get-PSReadlineOption).HistorySavePath
 cat (Get-PSReadlineOption).HistorySavePath
+```
 
 ## 查看文件md5
+```
 certutil -hashfile .\libtest.1.dylib md5
 Get-Filehash -Path .\libtest.a -Algorithm MD5
-
+```
 
 # 睡眠模式
 https://www.zhihu.com/question/264893048
