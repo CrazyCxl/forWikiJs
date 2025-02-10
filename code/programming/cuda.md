@@ -2,7 +2,7 @@
 title: cuda
 description: 
 published: true
-date: 2025-02-07T06:14:59.021Z
+date: 2025-02-10T09:02:34.439Z
 tags: c++
 editor: markdown
 dateCreated: 2024-05-23T02:51:48.314Z
@@ -11,6 +11,31 @@ dateCreated: 2024-05-23T02:51:48.314Z
 # 工具
 ## 性能分析
 nvvp.exe
+
+### linux
+可以在linux里生成在windows上查看
+#### Nsight Compute (ncu / ncu-ui / nv-nsight-cu-cli / nv-nsight-cu-ui)
+
+用途：针对 GPU 内核级别的性能分析，收集详细的硬件计数器、资源利用率、内核执行统计数据等。
+使用方式：
+命令行：使用 ncu 或 nv-nsight-cu-cli 来运行分析，例如：
+```bash
+ncu --target-processes all ./your_cuda_app
+```
+图形界面：使用 ncu-ui 或 nv-nsight-cu（通常为 nv-nsight-cu 的符号链接）启动 GUI 分析工具。
+#### Nsight Systems (nsys / nsight-sys / nsys-ui)
+
+用途：面向系统级别的性能分析，适合分析 CPU 与 GPU、OS 调度、内存传输、线程同步等全局运行情况。
+使用方式：
+命令行：
+```bash
+nsys profile -o my_profile ./your_cuda_app
+```
+图形界面：生成的分析文件可以用 nsys-ui 打开，进行详细的时序分析和瓶颈定位。
+#### nvprof / nvvp (Visual Profiler)
+
+用途：传统的 CUDA 命令行和图形界面性能分析工具，用于测量 GPU 内核执行时间、内存拷贝带宽等。
+注意：从 CUDA 11.x 开始，nvprof 和 nvvp 已经逐步被 Nsight Compute 和 Nsight Systems 所取代，未来可能会逐步淘汰。
 
 # 库
 thrust 数学库
