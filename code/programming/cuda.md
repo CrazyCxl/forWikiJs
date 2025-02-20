@@ -2,11 +2,15 @@
 title: cuda
 description: 
 published: true
-date: 2025-02-10T09:02:34.439Z
+date: 2025-02-20T05:40:52.601Z
 tags: c++
 editor: markdown
 dateCreated: 2024-05-23T02:51:48.314Z
 ---
+
+# 错误排查
+以强制CUDA同步执行
+CUDA_LAUNCH_BLOCKING=1
 
 # 工具
 ## 性能分析
