@@ -2,15 +2,14 @@
 title: VsCode
 description: for ide vscode
 published: true
-date: 2025-02-26T06:28:12.850Z
+date: 2025-02-26T06:35:54.867Z
 tags: ide, json
 editor: markdown
 dateCreated: 2024-02-08T11:01:25.815Z
 ---
 
 # 离线安装扩展
-- chrome 安装 [vscode-extension-download](https://chromewebstore.google.com/detail/vscode-extension-download/hkjdjlmpniknglhaobilgigaigleiebd?hl=zh-CN&utm_source=ext_sidebar) 扩展
-- 去 https://marketplace.visualstudio.com/ 下载vsix文件
+- 去 https://open-vsx.org/ 下载vsix文件
 - 点击“Download Extension”按钮，将插件下载到你的计算机上。
 - 找到你的下载目录，将 .vsix 文件复制到你要安装该插件的离线计算机上。
 - 在离线计算机上启动 VS Code。打开“Extensions”视图，然后点击“...”按钮，在下拉菜单中选择“Install from VSIX”。
