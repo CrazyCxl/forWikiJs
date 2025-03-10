@@ -2,7 +2,7 @@
 title: WindowsOfficeActivate
 description: windows 激活
 published: true
-date: 2024-02-19T06:01:01.516Z
+date: 2025-03-10T06:15:08.207Z
 tags: win
 editor: markdown
 dateCreated: 2024-02-19T06:01:01.516Z
@@ -48,6 +48,7 @@ docker run -d -p 1688:1688 --restart=always --name="vlmcsd" mikolatero/vlmcsd
 参考：
 https://zhuanlan.zhihu.com/p/152269085
 https://msguides.com/microsoft-software-products/2-ways-activate-windows-10-free-without-software.html
+企业版key：M7XTQ-FN8P6-TTKYV-9D4CC-J462D ，参考：https://github.com/wangji817/active-win10-EnterpriseEdition-LTSC
 ```
 slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX
 slmgr /skms kms.03k.org
