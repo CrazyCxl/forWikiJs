@@ -2,10 +2,10 @@
 title: Python
 description: A quick summary of Python
 published: true
-date: 2023-12-18T06:40:50.985Z
+date: 2025-04-08T06:42:54.327Z
 tags: 
 editor: markdown
-dateCreated: 2020-03-19T08:38:28.707Z
+dateCreated: 2024-02-08T11:01:44.730Z
 ---
 
 # 环境相关
@@ -21,6 +21,7 @@ https://mirror.baidu.com/pypi/simple 百度（推荐）
 简单使用：
 ```
 sudo pip install -i http://pypi.douban.com/simple/ flask
+pip install -r requirements.txt  -i https://pypi.mirrors.ustc.edu.cn/simple/ --verbose
 ```
 
 # 离线安装包
@@ -35,6 +36,8 @@ pip download -r requirements.txt -d ./pip_reqs --extra-index-url https://pypi.mi
 安装1
 ```
 pip install --no-index --find-links=C:\Users\path\ xxx
+#网络查找依赖
+pip install --find-links=C:\Users\path\ xxx
 ```
 安装2
 ```
@@ -45,27 +48,6 @@ pip install -r requirements.txt --no-index --find-links=/path/to/download/dir
 查看已安装
 ```
 pip freeze
-```
-
-# Anaconda
-界面用法：
->初学 Python 者自学 Anaconda 的正确姿势是什么？ - 猴子的回答 - 知乎
->https://www.zhihu.com/question/58033789/answer/254673663
-
-可以开启terminal后pip install 软件包
-
-修改默认环境路径：
-https://stackoverflow.com/questions/37926940/how-to-specify-new-environment-location-for-conda-create
-
-File->Preferences->Configure Conda（.condarc）
-添加
-```
-envs_dirs:
-  - D:\envs
-```
-等同于
-```
-conda create --prefix=/users/.../yourEnvName python=x.x
 ```
 
 # C++封装
