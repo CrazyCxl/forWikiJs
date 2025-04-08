@@ -2,7 +2,7 @@
 title: Python
 description: A quick summary of Python
 published: true
-date: 2025-04-08T06:49:24.725Z
+date: 2025-04-08T06:52:43.393Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-08T11:01:44.730Z
@@ -27,6 +27,7 @@ pip install -r requirements.txt  -i https://pypi.mirrors.ustc.edu.cn/simple/ --v
 配置默认源
 ```
 pip config set global.index-url http://mirrors.aliyun.com/pypi/simple/
+pip config set global.trusted-host mirrors.aliyun.com
 pip config list
 pip config unset global.index-url
 ```
