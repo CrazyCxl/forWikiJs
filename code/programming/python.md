@@ -2,7 +2,7 @@
 title: Python
 description: A quick summary of Python
 published: true
-date: 2025-04-08T06:45:45.634Z
+date: 2025-04-08T06:49:24.725Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-08T11:01:44.730Z
@@ -22,6 +22,19 @@ https://mirror.baidu.com/pypi/simple 百度（推荐）
 ```
 sudo pip install -i http://pypi.douban.com/simple/ flask
 pip install -r requirements.txt  -i https://pypi.mirrors.ustc.edu.cn/simple/ --verbose
+```
+
+配置默认源
+```
+pip config set global.index-url http://mirrors.aliyun.com/pypi/simple/
+pip config list
+pip config unset global.index-url
+```
+或者设置pip.ini
+```
+[global]
+index-url = https://pypi.tuna.tsinghua.edu.cn/simple
+trusted-host = pypi.tuna.tsinghua.edu.cn
 ```
 
 # 离线安装包
