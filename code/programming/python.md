@@ -2,7 +2,7 @@
 title: Python
 description: A quick summary of Python
 published: true
-date: 2025-04-08T06:42:54.327Z
+date: 2025-04-08T06:45:45.634Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-08T11:01:44.730Z
@@ -38,6 +38,7 @@ pip download -r requirements.txt -d ./pip_reqs --extra-index-url https://pypi.mi
 pip install --no-index --find-links=C:\Users\path\ xxx
 #网络查找依赖
 pip install --find-links=C:\Users\path\ xxx
+pip install -i http://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com --find-links=G:\store\dev_third\pip_offline torch==2.1.2
 ```
 安装2
 ```
