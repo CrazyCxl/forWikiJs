@@ -2,7 +2,7 @@
 title: Windows配置
 description: 新装系统后的常用配置
 published: true
-date: 2025-02-18T09:14:53.860Z
+date: 2025-05-22T07:22:32.607Z
 tags: win
 editor: markdown
 dateCreated: 2024-02-28T01:45:52.116Z
@@ -52,3 +52,9 @@ BMP 图像右键删除
 - 打开浏览器设置页面，点击 隐私和安全，进入 网站设置页面
 - 点击 更多内容设置，展开后点击不安全内容
 -  在允许不安全内容添加网址
+
+## 安全的dns
+```
+https://doh.pub/dns-query
+https://dns.alidns.com/dns-query
+```
