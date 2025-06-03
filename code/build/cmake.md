@@ -2,13 +2,14 @@
 title: Cmake
 description: cmake use record
 published: true
-date: 2025-06-03T02:52:34.806Z
+date: 2025-06-03T03:31:52.110Z
 tags: cmake
 editor: markdown
 dateCreated: 2024-02-08T11:01:19.009Z
 ---
 
 # 语法
+## 用法
 ### 设置relwithdebinfo禁用优化
 ```
 SET(CMAKE_CXX_FLAGS_RELWITHDEBINFO "-Od -Ob0 -ZI")
@@ -42,4 +43,10 @@ target_link_libraries(my_lib
     debug       InternalLib_d      # 内部Debug库（不传递）
     optimized   InternalLib        # 内部Release库（不传递）
 )
+```
+
+## 技巧
+设置main项目输出和lib项目一致
+```
+SET(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/src/")
 ```
