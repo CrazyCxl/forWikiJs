@@ -2,10 +2,10 @@
 title: Cmake
 description: cmake use record
 published: true
-date: 2022-01-18T08:06:11.989Z
+date: 2025-06-03T02:52:34.806Z
 tags: cmake
 editor: markdown
-dateCreated: 2022-01-18T01:28:55.825Z
+dateCreated: 2024-02-08T11:01:19.009Z
 ---
 
 # 语法
@@ -28,4 +28,18 @@ function(assign_source_group)
         source_group("${_source_path_msvc}" FILES "${_source}")
     endforeach()
 endfunction(assign_source_group)
+```
+
+### 传递库
+注意，cmake要求要么都带PUBLIC等关键字，要么都不带
+```
+target_link_libraries(my_lib
+  PUBLIC 
+    debug       Boost::boost_d     # Debug版本Boost（会传递给使用者）
+    optimized   Boost::boost       # Release版本Boost（会传递给使用者）
+    
+  PRIVATE
+    debug       InternalLib_d      # 内部Debug库（不传递）
+    optimized   InternalLib        # 内部Release库（不传递）
+)
 ```
