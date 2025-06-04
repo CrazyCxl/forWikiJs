@@ -2,7 +2,7 @@
 title: Virtual Box
 description: A quick summary of Virtual Box
 published: true
-date: 2024-07-03T03:19:02.615Z
+date: 2025-06-04T03:09:57.167Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-08T11:02:23.993Z
@@ -30,6 +30,8 @@ Q: Win10安装虚拟机后无法ping通？
 Q: 如何进入Mac虚拟机的recovery模式
 >按F12进boot shell，输入`FS2:`后再输入`cd com.apple.recovery.boot`，之后就可以输入`boot.efi`进入Recovery了[^mac_recovery]
 
+Q: 在Windows里创建了多个Host-only虚拟网卡
+>管理 → 工具 → 网络管理器 里删除
 
 [^ping]:https://kb.iu.edu/d/aopy
 [^mac_recovery]:http://anadoxin.org/blog/disabling-system-integrity-protection-from-guest-el-capitan-under-virtualbox-5.html
