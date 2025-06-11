@@ -2,7 +2,7 @@
 title: Windows配置
 description: 新装系统后的常用配置
 published: true
-date: 2025-05-22T07:22:32.607Z
+date: 2025-06-11T13:13:23.137Z
 tags: win
 editor: markdown
 dateCreated: 2024-02-28T01:45:52.116Z
@@ -30,6 +30,13 @@ Get-SmbServerConfiguration | Select EnableSMB2Protocol
 ```
 
 # win11
+## 配置取消更新
+运行，regedit，回车，打开注册表编辑器。然后打开这个注册表路径
+```HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsUpdate\UX\Settings```
+在空白处鼠标右键新建DWORD值，名称是```FlightSettingsMaxPauseDays```
+
+双击这个FlightSettingsMaxPauseDays，修改里面的值为任意比较大的数字（理论上不超过十进制的4294967295都可以，最好别超过十进制的100000，多了也没用），例如十进制的10000，代表可以设置为1万天后继续更新。
+
 ## 右键菜单栏
 ### ShellNew
 通过注册表regedit查询有哪些
