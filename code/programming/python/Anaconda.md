@@ -2,7 +2,7 @@
 title: Anoconda
 description: 
 published: true
-date: 2025-04-08T06:32:52.550Z
+date: 2025-09-23T02:23:36.332Z
 tags: python
 editor: markdown
 dateCreated: 2024-02-29T03:20:42.052Z
@@ -34,4 +34,5 @@ conda create --prefix=/users/.../yourEnvName python=x.x
 conda env list
 conda create -n sd-webui python=3.10 -y
 conda activate sd-webui
+conda remove --name 你的环境名 --all
 ```
