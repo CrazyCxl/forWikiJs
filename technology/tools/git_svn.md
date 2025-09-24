@@ -2,7 +2,7 @@
 title: git_svn
 description: A quick summary of 版本控制
 published: true
-date: 2025-04-02T02:11:51.653Z
+date: 2025-09-24T06:22:29.291Z
 tags: git, svn
 editor: markdown
 dateCreated: 2024-02-08T11:03:59.252Z
@@ -39,6 +39,11 @@ LF will be replaced by CRLF the next time Git touches it
 >git difftool HEAD HEAD^1
 
 ## 常用命令
+### 合并历史几条记录
+- 使用```checkout```，```reset``` 合并
+- 使用```replace``` 替换
+- 使用```filter-branch``` 固化（不推荐，不固化还能恢复）
+
 ### 浅层clone
 ```
 git clone --depth 1 <repository-url>
