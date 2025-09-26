@@ -2,7 +2,7 @@
 title: Windows配置
 description: 新装系统后的常用配置
 published: true
-date: 2025-06-11T13:13:23.137Z
+date: 2025-09-26T01:10:37.815Z
 tags: win
 editor: markdown
 dateCreated: 2024-02-28T01:45:52.116Z
@@ -64,4 +64,10 @@ BMP 图像右键删除
 ```
 https://doh.pub/dns-query
 https://dns.alidns.com/dns-query
+```
+
+## 这些扩展程序不再受支持，因此已停用
+快捷方式目标里加：
+```
+--disable-features=ExtensionManifestV2Unsupported,ExtensionManifestV2Disabled
 ```
