@@ -2,7 +2,7 @@
 title: Development Tools
 description: for新环境搭建
 published: true
-date: 2025-10-11T08:38:38.765Z
+date: 2025-11-25T02:08:31.494Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-08T11:00:58.708Z
@@ -47,6 +47,7 @@ kvm激活码地址：https://learn.microsoft.com/zh-cn/deployoffice/vlactivation
 - [tabby](https://tabby.sh/) ssh 工具
 - [weasel](https://github.com/rime/weasel/releases/tag/0.16.3) 一种rime输入法
 - [pdf-bookmark](https://github.com/ifnoelse/pdf-bookmark/releases) pdf 添加目录工具
+- [pdfsam](https://github.com/torakiki/pdfsam/releases) pdf合并工具，做发票用
 - snipaste 取色截图工具
 - QuickLook
 
