@@ -2,7 +2,7 @@
 title: Ubuntu
 description: A quick summary of Ubuntu
 published: true
-date: 2025-02-14T06:32:49.207Z
+date: 2025-12-05T01:39:15.338Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-08T11:03:27.534Z
@@ -31,7 +31,24 @@ deb http://archive.ubuntu.com/ubuntu focal-backports main restricted universe mu
 - Focal  Ubuntu 20.04 LTS 版本的代号
 - Jammy Ubuntu 22.04 LTS （Jammy Jellyfish）
 
+# 远程
+应该是*Ubuntu 20.04+* 之后的版本支持
+设置（Settings） → Remote Desktop → 开启远程登陆就行了，桌面共享不用开启
+## 可能的问题
+### 黑屏
+关闭 Wayland
+```
+sudo vim /etc/gdm3/custom.conf
+开启
+WaylandEnable=false
+```
 
+### 报错Session already running
+杀掉残留的 “锁死” 会话
+```
+loginctl list-sessions
+sudo loginctl terminate-user <SESSION_ID>
+```
 # 常用命令
 apt相关
 ---
