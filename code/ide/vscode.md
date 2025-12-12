@@ -2,7 +2,7 @@
 title: VsCode
 description: for ide vscode
 published: true
-date: 2025-02-26T06:35:54.867Z
+date: 2025-12-12T06:36:04.187Z
 tags: ide, json
 editor: markdown
 dateCreated: 2024-02-08T11:01:25.815Z
@@ -34,5 +34,49 @@ dateCreated: 2024-02-08T11:01:25.815Z
         "editor.tabSize": 4,
         "editor.insertSpaces": true
     }
+}
+```
+
+# Remote SSH
+## 安装
+- 安装**Remote SSH**插件
+- F1 连接到远程host（离线环境需要在有线环境下载好~/.vscode-server）
+- 离线最好提前下好cpp等插件
+
+百度云里路径：全部文件 >开发 >安装包与插件 >vscode
+## 配置
+std pretty-printing 需要先安装std dbg eg. ```libstdc++6-14-dbg```，launch.json 里的steupCommands 不一定有效，printer.py路径通过以下命令得到：
+```
+find /usr/share -name printers.py | grep libstdcxx
+```
+
+```json
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug",
+            "type": "cppdbg",
+            "request": "launch",
+
+            "program": "${workspaceFolder}/build/app",
+            "cwd": "${workspaceFolder}",
+
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "Load libstdc++ pretty-printers",
+                    "text": "python exec(open('/usr/share/gcc-14/python/libstdcxx/v6/printers.py').read())"
+                }
+            ]
+        }
+    ]
 }
 ```
