@@ -2,7 +2,7 @@
 title: VsCode
 description: for ide vscode
 published: true
-date: 2025-12-12T06:36:04.187Z
+date: 2025-12-13T01:36:44.917Z
 tags: ide, json
 editor: markdown
 dateCreated: 2024-02-08T11:01:25.815Z
@@ -79,4 +79,14 @@ find /usr/share -name printers.py | grep libstdcxx
         }
     ]
 }
+```
+### gdb 以root运行调试
+sudoers里添加
+```
+cxl ALL=(ALL) NOPASSWD: /usr/bin/gdb
+```
+写一个脚本 /home/user/run_sudo_gdb.sh
+```
+#!/bin/bash
+sudo /usr/bin/gdb "$@"
 ```
