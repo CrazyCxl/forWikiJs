@@ -2,7 +2,7 @@
 title: debug
 description: A quick summary of 调试
 published: true
-date: 2024-10-21T05:58:31.916Z
+date: 2025-12-17T02:47:42.066Z
 tags: gdb
 editor: markdown
 dateCreated: 2024-02-08T11:03:09.056Z
@@ -29,7 +29,17 @@ set history save on
 set history filename ~/.gdb_history
 set history size 1000
 ```
-
+## 优化std显示
+安装libstdc++x-xxx-dbg
+如果未生效，手动创建.gdbinit，[参考](https://stackoverflow.com/questions/71258316/c-gdb-pretty-printing-in-ubuntu-18-04-visual-studio-code)
+```
+python
+import sys
+sys.path.insert(0, '/usr/share/gcc/python')
+from libstdcxx.v6.printers import register_libstdcxx_printers
+register_libstdcxx_printers (None)
+end
+```
 ## 常用
 ```
 # 获取进程的内存映射信息
