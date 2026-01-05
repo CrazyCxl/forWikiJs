@@ -2,7 +2,7 @@
 title: Linux
 description: A quick summary of Linux
 published: true
-date: 2024-11-13T02:46:05.880Z
+date: 2026-01-05T01:54:55.711Z
 tags: ssh
 editor: markdown
 dateCreated: 2024-02-08T11:01:12.705Z
@@ -106,6 +106,11 @@ c++ main.cpp -L. -lcustom_modified
 ```
 
 # 通用命令
+## 查看是否为usb3.0
+```
+lsusb -t
+```
+然后再```lsusb```看是否插到usb3.0上
 ## 重定向
 - stdin 0
 - stdout 1
