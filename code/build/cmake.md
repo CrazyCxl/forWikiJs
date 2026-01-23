@@ -2,7 +2,7 @@
 title: Cmake
 description: cmake use record
 published: true
-date: 2026-01-23T01:32:40.230Z
+date: 2026-01-23T08:28:50.911Z
 tags: cmake
 editor: markdown
 dateCreated: 2024-02-08T11:01:19.009Z
@@ -10,6 +10,47 @@ dateCreated: 2024-02-08T11:01:19.009Z
 
 # 语法
 ## 用法
+### ctest运行多个命令
+添加```run.cmake```
+```
+# 顺序执行多个命令
+execute_process(
+    COMMAND ${MY_EXECUTABLE} arg1 arg2
+    RESULT_VARIABLE result1
+    OUTPUT_VARIABLE output1
+    ERROR_VARIABLE error1
+)
+
+if(NOT result1 EQUAL 0)
+    message(FATAL_ERROR "Command 1 failed: ${error1}")
+endif()
+
+execute_process(
+    COMMAND ${ANOTHER_EXECUTABLE} --option value
+    RESULT_VARIABLE result2
+    OUTPUT_VARIABLE output2
+    ERROR_VARIABLE error2
+)
+
+if(NOT result2 EQUAL 0)
+    message(FATAL_ERROR "Command 2 failed: ${error2}")
+endif()
+
+message(STATUS "All commands executed successfully")
+```
+主cmake里添加ctest
+```
+# 添加一个自定义目标来运行多个命令
+enable_testing()
+add_test(
+    NAME MyComplexTest
+    COMMAND ${CMAKE_COMMAND} 
+    	-DTEST_CONFIG=$<CONFIG>
+      -DDATA_PATH=${PATH_VAR}
+    -P ${CMAKE_CURRENT_SOURCE_DIR}/run_test.cmake
+)
+```
+
 ### 同时打包Debug和Release
 对于单配置生成器：https://cmake.org/cmake/help/v4.1/guide/tutorial/Packaging%20Debug%20and%20Release.html
 创建额外的生成配置```MultiCPackConfig.cmake```
