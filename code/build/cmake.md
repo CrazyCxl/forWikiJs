@@ -2,7 +2,7 @@
 title: Cmake
 description: cmake use record
 published: true
-date: 2025-06-03T03:31:52.110Z
+date: 2026-01-23T01:32:40.230Z
 tags: cmake
 editor: markdown
 dateCreated: 2024-02-08T11:01:19.009Z
@@ -10,6 +10,22 @@ dateCreated: 2024-02-08T11:01:19.009Z
 
 # 语法
 ## 用法
+### 同时打包Debug和Release
+对于单配置生成器：https://cmake.org/cmake/help/v4.1/guide/tutorial/Packaging%20Debug%20and%20Release.html
+创建额外的生成配置```MultiCPackConfig.cmake```
+```
+include("release/CPackConfig.cmake")
+
+set(CPACK_INSTALL_CMAKE_PROJECTS
+    "debug;Tutorial;ALL;/"
+    "release;Tutorial;ALL;/"
+    )
+```
+>cpack --config MultiCPackConfig.cmake
+
+对于多配置生成器(vs)
+>cpack -C "Debug;Release"
+
 ### 设置relwithdebinfo禁用优化
 ```
 SET(CMAKE_CXX_FLAGS_RELWITHDEBINFO "-Od -Ob0 -ZI")
