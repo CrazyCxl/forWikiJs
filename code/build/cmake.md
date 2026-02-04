@@ -2,7 +2,7 @@
 title: Cmake
 description: cmake use record
 published: true
-date: 2026-02-04T02:05:20.932Z
+date: 2026-02-04T03:16:44.532Z
 tags: cmake
 editor: markdown
 dateCreated: 2024-02-08T11:01:19.009Z
@@ -105,14 +105,20 @@ target_link_libraries(my_lib
 ```
 # 不把 rpath 裁掉
 set(CMAKE_SKIP_BUILD_RPATH FALSE)
-set(CMAKE_BUILD_WITH_INSTALL_RPATH FALSE)
+set(CMAKE_SKIP_INSTALL_RPATH FALSE)
+set(CMAKE_BUILD_WITH_INSTALL_RPATH TRUE)
 
 # 构建 / 安装 rpath
-set(CMAKE_BUILD_RPATH "$ORIGIN/../lib")
-set(CMAKE_INSTALL_RPATH "$ORIGIN/../lib")
-
-# 自动追加依赖路径
-set(CMAKE_INSTALL_RPATH_USE_LINK_PATH TRUE)
+set_target_properties(myapp PROPERTIES
+    BUILD_RPATH   "$ORIGIN/../lib"
+    INSTALL_RPATH "$ORIGIN/../lib"
+)
+```
+设置测试时的依赖
+```
+set_property(TEST mytest1 mytest2 PROPERTY
+    ENVIRONMENT "LD_LIBRARY_PATH=/path/to/lib"
+)
 ```
 
 ## 技巧
