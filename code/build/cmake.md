@@ -2,7 +2,7 @@
 title: Cmake
 description: cmake use record
 published: true
-date: 2026-01-23T08:28:50.911Z
+date: 2026-02-04T02:05:20.932Z
 tags: cmake
 editor: markdown
 dateCreated: 2024-02-08T11:01:19.009Z
@@ -100,6 +100,19 @@ target_link_libraries(my_lib
     debug       InternalLib_d      # 内部Debug库（不传递）
     optimized   InternalLib        # 内部Release库（不传递）
 )
+```
+### 设置RPATH
+```
+# 不把 rpath 裁掉
+set(CMAKE_SKIP_BUILD_RPATH FALSE)
+set(CMAKE_BUILD_WITH_INSTALL_RPATH FALSE)
+
+# 构建 / 安装 rpath
+set(CMAKE_BUILD_RPATH "$ORIGIN/../lib")
+set(CMAKE_INSTALL_RPATH "$ORIGIN/../lib")
+
+# 自动追加依赖路径
+set(CMAKE_INSTALL_RPATH_USE_LINK_PATH TRUE)
 ```
 
 ## 技巧
