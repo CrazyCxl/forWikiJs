@@ -2,7 +2,7 @@
 title: Cmake
 description: cmake use record
 published: true
-date: 2026-02-04T03:16:44.532Z
+date: 2026-02-06T02:57:55.870Z
 tags: cmake
 editor: markdown
 dateCreated: 2024-02-08T11:01:19.009Z
@@ -50,7 +50,50 @@ add_test(
     -P ${CMAKE_CURRENT_SOURCE_DIR}/run_test.cmake
 )
 ```
+#### 封装函数
+```
+function(run_and_check)
+    set(options)
+    set(oneValueArgs EXEC EXPECT)
+    set(multiValueArgs ARGS)
+    cmake_parse_arguments(RAC "${options}" "${oneValueArgs}" "${multiValueArgs}" ${ARGN})
 
+    execute_process(
+        COMMAND ${RAC_EXEC} ${RAC_ARGS}
+        RESULT_VARIABLE result
+        OUTPUT_VARIABLE output
+        ERROR_VARIABLE error
+        OUTPUT_STRIP_TRAILING_WHITESPACE
+        ERROR_STRIP_TRAILING_WHITESPACE
+    )
+
+    if(NOT result EQUAL 0)
+        message(FATAL_ERROR "Command failed:\n${error}")
+    endif()
+
+    string(FIND "${output}" "${RAC_EXPECT}" pos)
+    if(pos EQUAL -1)
+        message(FATAL_ERROR
+            "Expected string '${RAC_EXPECT}' not found\n"
+            "Output:\n${output}"
+        )
+    endif()
+endfunction()
+```
+eg.
+```
+run_and_check(
+    EXEC ${MY_EXECUTABLE}
+    ARGS arg1 arg2
+    EXPECT "EXPECTED_STRING"
+)
+
+run_and_check(
+    EXEC ${ANOTHER_EXECUTABLE}
+    ARGS --option value
+    EXPECT "DONE"
+)
+```
 ### 同时打包Debug和Release
 对于单配置生成器：https://cmake.org/cmake/help/v4.1/guide/tutorial/Packaging%20Debug%20and%20Release.html
 创建额外的生成配置```MultiCPackConfig.cmake```
@@ -101,6 +144,7 @@ target_link_libraries(my_lib
     optimized   InternalLib        # 内部Release库（不传递）
 )
 ```
+
 ### 设置RPATH
 ```
 # 不把 rpath 裁掉
@@ -120,7 +164,6 @@ set_property(TEST mytest1 mytest2 PROPERTY
     ENVIRONMENT "LD_LIBRARY_PATH=/path/to/lib"
 )
 ```
-
 ## 技巧
 设置main项目输出和lib项目一致
 ```
