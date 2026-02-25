@@ -2,7 +2,7 @@
 title: Development Tools
 description: for新环境搭建
 published: true
-date: 2025-12-04T06:34:49.693Z
+date: 2026-02-25T06:45:07.805Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-08T11:00:58.708Z
@@ -17,6 +17,8 @@ dateCreated: 2024-02-08T11:00:58.708Z
 - firfox
 - [BinaryEye](https://github.com/markusfisch/BinaryEye) 二维码查看
 - [Obsidian](https://obsidian.md/download) 笔记软件，支持webdav同步[插件](https://github.com/remotely-save/remotely-save)
+- [F-Droid](https://comate.baidu.com/zh/page/cy8vd75x1lj) 可以设置[国内源](https://mirrors.tuna.tsinghua.edu.cn/fdroid/repo/?fingerprint=43238D512C1E5EB2D6569F4A3AFBF5523418B82E0A3ED1552770ABB9A9C9CCAB
+)
 
 # Windows
 System Or Office下载：https://msdn.itellyou.cn/
