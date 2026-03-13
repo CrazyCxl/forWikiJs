@@ -2,7 +2,7 @@
 title: Windows
 description: Windows 下的编程问题
 published: true
-date: 2025-02-07T01:32:05.777Z
+date: 2026-03-13T08:12:53.380Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-08T11:02:37.295Z
@@ -95,6 +95,16 @@ Get-WmiObject win32_service | ?{$_.PathName -like '*nssm*'} | select Name, Displ
 
 
 # 库相关
+## 使用 Process Monitor 精准定位缺失的 DLL
+如果问题依旧，建议用 Process Monitor 监控加载过程：
+- 运行 Process Monitor，设置过滤器：
+- Process Name 包含你的 exe 名称
+- Operation 是 Load Image 或 CreateFile
+
+重现加载失败。
+
+观察哪些 DLL 被尝试访问但返回 NAME NOT FOUND，即可知道具体缺失的文件。
+
 ## DLL库信息与依赖查看
 
 dependencywalker 工具：http://www.dependencywalker.com/
