@@ -2,7 +2,7 @@
 title: WindowsOfficeActivate
 description: windows 激活
 published: true
-date: 2025-03-10T06:15:08.207Z
+date: 2026-03-24T07:46:50.872Z
 tags: win
 editor: markdown
 dateCreated: 2024-02-19T06:01:01.516Z
@@ -30,6 +30,9 @@ cd binaries/Linux/intel/static
 
 运行
 ./vlmcsdmulti-x64-musl-static vlmcsd
+
+或者作为服务的命令阻塞运行时
+./vlmcsdmulti-x64-musl-static —D
 ```
 
 Windows *(推荐做成 nssm服务)*
