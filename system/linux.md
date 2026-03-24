@@ -2,14 +2,15 @@
 title: Linux
 description: A quick summary of Linux
 published: true
-date: 2026-01-05T01:54:55.711Z
+date: 2026-03-24T09:47:37.749Z
 tags: ssh
 editor: markdown
 dateCreated: 2024-02-08T11:01:12.705Z
 ---
 
 # 环境搭建
-客户端免密ssh登录:https://blog.csdn.net/jeikerxiao/article/details/84105529
+## 客户端免密ssh登录
+https://blog.csdn.net/jeikerxiao/article/details/84105529
 
 ```
 ssh-keygen -t rsa -b 2048 -C "chenxiaolong"
@@ -23,6 +24,14 @@ mkdir ~/.ssh/
 chmod 700 ~/.ssh  # this is important.
 touch ~/.ssh/authorized_keys
 chmod 600 ~/.ssh/authorized_keys  #this is important.
+```
+
+## 配置bash自动填充历史
+~/.bashrc里添加
+```
+# 上下键按前缀匹配历史命令
+bind '"\e[A": history-search-backward'
+bind '"\e[B": history-search-forward'
 ```
 
 ## 创建用户
