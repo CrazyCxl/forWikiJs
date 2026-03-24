@@ -2,7 +2,7 @@
 title: Msvc
 description: A quick summary of Msvc
 published: true
-date: 2025-06-09T03:34:35.044Z
+date: 2026-03-24T03:21:10.739Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-08T11:02:04.064Z
@@ -34,6 +34,13 @@ https://www.red-gate.com/simple-talk/dotnet/net-development/creating-ccli-wrappe
 ## 调试内存泄漏工具
 appverif
 win7、2008 版下载：https://www.microsoft.com/en-us/download/details.aspx?id=8442
+
+## F11 无法进入函数
+- 查看调试模块pdb是否加载成功
+- 使用dia2dump(源码编译)查看pdb文件格式是否正确包含代码路径
+```
+Dia2Dump.exe -l "你的路径\project.pdb"
+```
 
 # 版本对应关系
 ![img](https://i.imgur.com/00GKVuO.png)
