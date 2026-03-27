@@ -2,7 +2,7 @@
 title: Linux
 description: A quick summary of Linux
 published: true
-date: 2026-03-24T09:47:37.749Z
+date: 2026-03-27T01:46:06.490Z
 tags: ssh
 editor: markdown
 dateCreated: 2024-02-08T11:01:12.705Z
@@ -52,17 +52,6 @@ chgrp cxl -R dir
 
 ## 环境变量
 /etc/environment
-
-# shell
-## 管道过滤
-输出匹配字符串及之后的内容
-```
-grep -o "text.*$"
-```
-输出某一列的内容
-```
-awk '{ print $2 }'
-```
 
 # 库与依赖
 ## 查看符号表
@@ -115,6 +104,10 @@ c++ main.cpp -L. -lcustom_modified
 ```
 
 # 通用命令
+## 在终端里以字符查看图片
+```
+chafa test.bmp
+```
 ## 查看是否为usb3.0
 ```
 lsusb -t
