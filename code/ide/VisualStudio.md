@@ -2,7 +2,7 @@
 title: Msvc
 description: A quick summary of Msvc
 published: true
-date: 2026-03-24T03:21:10.739Z
+date: 2026-05-26T03:12:24.902Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-08T11:02:04.064Z
@@ -41,6 +41,9 @@ win7、2008 版下载：https://www.microsoft.com/en-us/download/details.aspx?id
 ```
 Dia2Dump.exe -l "你的路径\project.pdb"
 ```
+可能原因
+-   **C/C++ → 常规 → 调试信息格式**：选 **程序数据库 (/Zi)** （不要选 `/Z7` 或 `/Zd`）。
+-   **链接器 → 调试 → 生成调试信息**：必须为 **是 (/DEBUG)**。
 
 # 版本对应关系
 ![img](https://i.imgur.com/00GKVuO.png)
