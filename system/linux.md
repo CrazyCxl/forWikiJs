@@ -2,7 +2,7 @@
 title: Linux
 description: A quick summary of Linux
 published: true
-date: 2026-03-27T01:46:06.490Z
+date: 2026-06-02T02:01:48.092Z
 tags: ssh
 editor: markdown
 dateCreated: 2024-02-08T11:01:12.705Z
@@ -104,6 +104,10 @@ c++ main.cpp -L. -lcustom_modified
 ```
 
 # 通用命令
+## 查找指定文件内容
+```
+grep -r --include="*.txt" --include="*.md" "关键词" /path
+```
 ## 在终端里以字符查看图片
 ```
 chafa test.bmp
