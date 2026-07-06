@@ -2,7 +2,7 @@
 title: Windows
 description: Windows 下的编程问题
 published: true
-date: 2026-03-13T08:12:53.380Z
+date: 2026-07-06T01:35:57.181Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-08T11:02:37.295Z
@@ -37,6 +37,25 @@ https://stackoverflow.com/questions/829007/find-out-what-process-registered-a-gl
 
 
 # Powershell
+## 批量改名
+1.  输入命令并回车执行。
+    *   **删除特定文字**（例如删除文件名中的所有“_draft”）:
+        ```powershell
+        Get-ChildItem | Rename-Item -NewName { $_.Name -replace '_draft', '' }
+        ```
+    *   **替换特定文字**（例如将所有“a”替换为“b”）:
+        ```powershell
+        Get-ChildItem | Rename-Item -NewName { $_.Name -replace 'a', 'b' }
+        ```
+    *   **添加前缀**（例如添加“Project_”）:
+        ```powershell
+        Get-ChildItem | Rename-Item -NewName { 'Project_' + $_.Name }
+        ```
+2.  **安全建议**：在命令末尾加上 `-WhatIf` 可以先预览效果而不真正执行。例如：
+    ```powershell
+    Get-ChildItem | Rename-Item -NewName { $_.Name -replace '_draft', '' } -WhatIf
+    ```
+    
 ## 计算程序运行时间
 ```
 Measure-Command { <你的命令> }
