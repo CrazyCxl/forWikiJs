@@ -2,7 +2,7 @@
 title: Linux
 description: A quick summary of Linux
 published: true
-date: 2026-06-02T02:01:48.092Z
+date: 2026-08-10T02:56:06.020Z
 tags: ssh
 editor: markdown
 dateCreated: 2024-02-08T11:01:12.705Z
@@ -26,14 +26,18 @@ touch ~/.ssh/authorized_keys
 chmod 600 ~/.ssh/authorized_keys  #this is important.
 ```
 
-## 配置bash自动填充历史
+## bash 优化
+### 配置bash自动填充历史
 ~/.bashrc里添加
 ```
 # 上下键按前缀匹配历史命令
 bind '"\e[A": history-search-backward'
 bind '"\e[B": history-search-forward'
 ```
-
+### 忽略大小写
+```bash
+echo 'set completion-ignore-case on' >> ~/.inputrc
+```
 ## 创建用户
 ```
 useradd cxl
